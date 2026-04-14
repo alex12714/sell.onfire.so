@@ -1,0 +1,532 @@
+[
+  {
+    "key": "technology",
+    "label": "Technology & IT",
+    "professions": [
+      {"key": "software_developer", "label": "Software Developer"},
+      {"key": "frontend_developer", "label": "Frontend Developer"},
+      {"key": "backend_developer", "label": "Backend Developer"},
+      {"key": "fullstack_developer", "label": "Full-Stack Developer"},
+      {"key": "mobile_developer", "label": "Mobile App Developer"},
+      {"key": "devops_engineer", "label": "DevOps Engineer"},
+      {"key": "cloud_engineer", "label": "Cloud Engineer"},
+      {"key": "system_administrator", "label": "System Administrator"},
+      {"key": "network_engineer", "label": "Network Engineer"},
+      {"key": "database_administrator", "label": "Database Administrator"},
+      {"key": "data_scientist", "label": "Data Scientist"},
+      {"key": "data_analyst", "label": "Data Analyst"},
+      {"key": "data_engineer", "label": "Data Engineer"},
+      {"key": "machine_learning_engineer", "label": "Machine Learning Engineer"},
+      {"key": "ai_specialist", "label": "AI Specialist"},
+      {"key": "qa_engineer", "label": "QA / Test Engineer"},
+      {"key": "cybersecurity_analyst", "label": "Cybersecurity Analyst"},
+      {"key": "information_security_officer", "label": "Information Security Officer"},
+      {"key": "it_support_specialist", "label": "IT Support Specialist"},
+      {"key": "help_desk_technician", "label": "Help Desk Technician"},
+      {"key": "project_manager_it", "label": "IT Project Manager"},
+      {"key": "product_manager", "label": "Product Manager"},
+      {"key": "scrum_master", "label": "Scrum Master"},
+      {"key": "business_analyst_it", "label": "Business Analyst (IT)"},
+      {"key": "ux_ui_designer", "label": "UX/UI Designer"},
+      {"key": "web_designer", "label": "Web Designer"},
+      {"key": "solutions_architect", "label": "Solutions Architect"},
+      {"key": "embedded_systems_engineer", "label": "Embedded Systems Engineer"},
+      {"key": "game_developer", "label": "Game Developer"},
+      {"key": "blockchain_developer", "label": "Blockchain Developer"},
+      {"key": "it_consultant", "label": "IT Consultant"},
+      {"key": "technical_writer_it", "label": "Technical Writer (IT)"},
+      {"key": "erp_specialist", "label": "ERP Specialist"}
+    ]
+  },
+  {
+    "key": "healthcare",
+    "label": "Healthcare & Medical",
+    "professions": [
+      {"key": "doctor_general", "label": "General Practitioner"},
+      {"key": "doctor_specialist", "label": "Medical Specialist"},
+      {"key": "surgeon", "label": "Surgeon"},
+      {"key": "nurse", "label": "Nurse"},
+      {"key": "nurse_practitioner", "label": "Nurse Practitioner"},
+      {"key": "midwife", "label": "Midwife"},
+      {"key": "pharmacist", "label": "Pharmacist"},
+      {"key": "pharmacy_technician", "label": "Pharmacy Technician"},
+      {"key": "dentist", "label": "Dentist"},
+      {"key": "dental_hygienist", "label": "Dental Hygienist"},
+      {"key": "dental_assistant", "label": "Dental Assistant"},
+      {"key": "physiotherapist", "label": "Physiotherapist"},
+      {"key": "occupational_therapist", "label": "Occupational Therapist"},
+      {"key": "speech_therapist", "label": "Speech Therapist"},
+      {"key": "psychologist", "label": "Psychologist"},
+      {"key": "psychiatrist", "label": "Psychiatrist"},
+      {"key": "paramedic", "label": "Paramedic / EMT"},
+      {"key": "radiologist", "label": "Radiologist / Imaging Technician"},
+      {"key": "lab_technician", "label": "Medical Lab Technician"},
+      {"key": "optometrist", "label": "Optometrist"},
+      {"key": "veterinarian", "label": "Veterinarian"},
+      {"key": "vet_technician", "label": "Veterinary Technician"},
+      {"key": "dietitian", "label": "Dietitian / Nutritionist"},
+      {"key": "medical_assistant", "label": "Medical Assistant"},
+      {"key": "home_health_aide", "label": "Home Health Aide"},
+      {"key": "caregiver", "label": "Caregiver / Care Worker"},
+      {"key": "medical_records_clerk", "label": "Medical Records Clerk"},
+      {"key": "hospital_administrator", "label": "Hospital Administrator"}
+    ]
+  },
+  {
+    "key": "finance_accounting",
+    "label": "Finance & Accounting",
+    "professions": [
+      {"key": "accountant", "label": "Accountant"},
+      {"key": "auditor", "label": "Auditor"},
+      {"key": "bookkeeper", "label": "Bookkeeper"},
+      {"key": "financial_analyst", "label": "Financial Analyst"},
+      {"key": "financial_advisor", "label": "Financial Advisor"},
+      {"key": "investment_banker", "label": "Investment Banker"},
+      {"key": "bank_teller", "label": "Bank Teller"},
+      {"key": "loan_officer", "label": "Loan Officer"},
+      {"key": "insurance_agent", "label": "Insurance Agent"},
+      {"key": "insurance_underwriter", "label": "Insurance Underwriter"},
+      {"key": "actuary", "label": "Actuary"},
+      {"key": "tax_specialist", "label": "Tax Specialist"},
+      {"key": "payroll_specialist", "label": "Payroll Specialist"},
+      {"key": "credit_analyst", "label": "Credit Analyst"},
+      {"key": "compliance_officer", "label": "Compliance Officer"},
+      {"key": "treasury_analyst", "label": "Treasury Analyst"},
+      {"key": "collections_specialist", "label": "Collections Specialist"}
+    ]
+  },
+  {
+    "key": "legal",
+    "label": "Legal",
+    "professions": [
+      {"key": "lawyer", "label": "Lawyer / Attorney"},
+      {"key": "paralegal", "label": "Paralegal"},
+      {"key": "legal_assistant", "label": "Legal Assistant"},
+      {"key": "notary", "label": "Notary Public"},
+      {"key": "judge", "label": "Judge / Magistrate"},
+      {"key": "legal_consultant", "label": "Legal Consultant"},
+      {"key": "compliance_specialist", "label": "Compliance Specialist"},
+      {"key": "court_clerk", "label": "Court Clerk"},
+      {"key": "mediator", "label": "Mediator / Arbitrator"},
+      {"key": "patent_agent", "label": "Patent Agent"}
+    ]
+  },
+  {
+    "key": "education",
+    "label": "Education & Training",
+    "professions": [
+      {"key": "preschool_teacher", "label": "Preschool Teacher"},
+      {"key": "primary_teacher", "label": "Primary School Teacher"},
+      {"key": "secondary_teacher", "label": "Secondary School Teacher"},
+      {"key": "university_professor", "label": "University Professor / Lecturer"},
+      {"key": "teaching_assistant", "label": "Teaching Assistant"},
+      {"key": "special_education_teacher", "label": "Special Education Teacher"},
+      {"key": "tutor", "label": "Tutor"},
+      {"key": "language_teacher", "label": "Language Teacher"},
+      {"key": "music_teacher", "label": "Music Teacher"},
+      {"key": "sports_coach", "label": "Sports Coach / Instructor"},
+      {"key": "driving_instructor", "label": "Driving Instructor"},
+      {"key": "corporate_trainer", "label": "Corporate Trainer"},
+      {"key": "school_counselor", "label": "School Counselor"},
+      {"key": "librarian", "label": "Librarian"},
+      {"key": "education_administrator", "label": "Education Administrator"},
+      {"key": "curriculum_developer", "label": "Curriculum Developer"}
+    ]
+  },
+  {
+    "key": "engineering",
+    "label": "Engineering & Architecture",
+    "professions": [
+      {"key": "civil_engineer", "label": "Civil Engineer"},
+      {"key": "mechanical_engineer", "label": "Mechanical Engineer"},
+      {"key": "electrical_engineer", "label": "Electrical Engineer"},
+      {"key": "electronics_engineer", "label": "Electronics Engineer"},
+      {"key": "chemical_engineer", "label": "Chemical Engineer"},
+      {"key": "industrial_engineer", "label": "Industrial Engineer"},
+      {"key": "environmental_engineer", "label": "Environmental Engineer"},
+      {"key": "structural_engineer", "label": "Structural Engineer"},
+      {"key": "aerospace_engineer", "label": "Aerospace Engineer"},
+      {"key": "biomedical_engineer", "label": "Biomedical Engineer"},
+      {"key": "architect", "label": "Architect"},
+      {"key": "landscape_architect", "label": "Landscape Architect"},
+      {"key": "interior_designer", "label": "Interior Designer"},
+      {"key": "urban_planner", "label": "Urban Planner"},
+      {"key": "surveyor", "label": "Surveyor"},
+      {"key": "drafter", "label": "Drafter / CAD Technician"},
+      {"key": "quality_engineer", "label": "Quality Engineer"},
+      {"key": "project_engineer", "label": "Project Engineer"},
+      {"key": "energy_engineer", "label": "Energy Engineer"}
+    ]
+  },
+  {
+    "key": "sales_marketing",
+    "label": "Sales & Marketing",
+    "professions": [
+      {"key": "sales_representative", "label": "Sales Representative"},
+      {"key": "sales_manager", "label": "Sales Manager"},
+      {"key": "account_manager", "label": "Account Manager"},
+      {"key": "business_development", "label": "Business Development Manager"},
+      {"key": "marketing_manager", "label": "Marketing Manager"},
+      {"key": "digital_marketing_specialist", "label": "Digital Marketing Specialist"},
+      {"key": "seo_specialist", "label": "SEO Specialist"},
+      {"key": "social_media_manager", "label": "Social Media Manager"},
+      {"key": "content_marketing", "label": "Content Marketing Specialist"},
+      {"key": "brand_manager", "label": "Brand Manager"},
+      {"key": "public_relations", "label": "Public Relations Specialist"},
+      {"key": "advertising_manager", "label": "Advertising Manager"},
+      {"key": "market_research_analyst", "label": "Market Research Analyst"},
+      {"key": "copywriter", "label": "Copywriter"},
+      {"key": "merchandiser", "label": "Merchandiser"},
+      {"key": "retail_manager", "label": "Retail Manager"},
+      {"key": "retail_sales_associate", "label": "Retail Sales Associate"},
+      {"key": "cashier", "label": "Cashier"},
+      {"key": "telemarketer", "label": "Telemarketer"},
+      {"key": "real_estate_agent", "label": "Real Estate Agent"},
+      {"key": "ecommerce_manager", "label": "E-Commerce Manager"}
+    ]
+  },
+  {
+    "key": "administrative",
+    "label": "Administrative & Office",
+    "professions": [
+      {"key": "receptionist", "label": "Receptionist"},
+      {"key": "office_manager", "label": "Office Manager"},
+      {"key": "executive_assistant", "label": "Executive Assistant"},
+      {"key": "administrative_assistant", "label": "Administrative Assistant"},
+      {"key": "secretary", "label": "Secretary"},
+      {"key": "data_entry_clerk", "label": "Data Entry Clerk"},
+      {"key": "office_clerk", "label": "Office Clerk"},
+      {"key": "hr_specialist", "label": "HR Specialist"},
+      {"key": "hr_manager", "label": "HR Manager"},
+      {"key": "recruiter", "label": "Recruiter"},
+      {"key": "procurement_specialist", "label": "Procurement Specialist"},
+      {"key": "supply_chain_manager", "label": "Supply Chain Manager"},
+      {"key": "translator_interpreter", "label": "Translator / Interpreter"},
+      {"key": "archivist", "label": "Archivist / Records Manager"}
+    ]
+  },
+  {
+    "key": "hospitality_food",
+    "label": "Hospitality & Food Service",
+    "professions": [
+      {"key": "chef", "label": "Chef / Head Cook"},
+      {"key": "sous_chef", "label": "Sous Chef"},
+      {"key": "line_cook", "label": "Line Cook"},
+      {"key": "pastry_chef", "label": "Pastry Chef / Baker"},
+      {"key": "bartender", "label": "Bartender"},
+      {"key": "barista", "label": "Barista"},
+      {"key": "waiter", "label": "Waiter / Waitress"},
+      {"key": "host_hostess", "label": "Host / Hostess"},
+      {"key": "restaurant_manager", "label": "Restaurant Manager"},
+      {"key": "hotel_manager", "label": "Hotel Manager"},
+      {"key": "hotel_receptionist", "label": "Hotel Receptionist"},
+      {"key": "concierge", "label": "Concierge"},
+      {"key": "housekeeper", "label": "Housekeeper (Hotel)"},
+      {"key": "sommelier", "label": "Sommelier"},
+      {"key": "event_planner", "label": "Event Planner / Coordinator"},
+      {"key": "tour_guide", "label": "Tour Guide"},
+      {"key": "travel_agent", "label": "Travel Agent"},
+      {"key": "kitchen_helper", "label": "Kitchen Helper"},
+      {"key": "food_delivery_driver", "label": "Food Delivery Driver"}
+    ]
+  },
+  {
+    "key": "construction_trades",
+    "label": "Construction & Trades",
+    "professions": [
+      {"key": "electrician", "label": "Electrician"},
+      {"key": "plumber", "label": "Plumber"},
+      {"key": "carpenter", "label": "Carpenter"},
+      {"key": "welder", "label": "Welder"},
+      {"key": "painter", "label": "Painter / Decorator"},
+      {"key": "mason", "label": "Mason / Bricklayer"},
+      {"key": "roofer", "label": "Roofer"},
+      {"key": "tiler", "label": "Tiler"},
+      {"key": "plasterer", "label": "Plasterer"},
+      {"key": "glazier", "label": "Glazier"},
+      {"key": "hvac_technician", "label": "HVAC Technician"},
+      {"key": "locksmith", "label": "Locksmith"},
+      {"key": "construction_worker", "label": "Construction Worker / Laborer"},
+      {"key": "construction_manager", "label": "Construction Manager"},
+      {"key": "site_supervisor", "label": "Site Supervisor / Foreman"},
+      {"key": "crane_operator", "label": "Crane Operator"},
+      {"key": "heavy_equipment_operator", "label": "Heavy Equipment Operator"},
+      {"key": "flooring_installer", "label": "Flooring Installer"},
+      {"key": "insulation_worker", "label": "Insulation Worker"},
+      {"key": "scaffolder", "label": "Scaffolder"},
+      {"key": "demolition_worker", "label": "Demolition Worker"},
+      {"key": "ironworker", "label": "Ironworker / Steelworker"}
+    ]
+  },
+  {
+    "key": "transport_logistics",
+    "label": "Transport & Logistics",
+    "professions": [
+      {"key": "truck_driver", "label": "Truck Driver"},
+      {"key": "delivery_driver", "label": "Delivery Driver / Courier"},
+      {"key": "bus_driver", "label": "Bus Driver"},
+      {"key": "taxi_driver", "label": "Taxi / Rideshare Driver"},
+      {"key": "pilot", "label": "Pilot"},
+      {"key": "flight_attendant", "label": "Flight Attendant"},
+      {"key": "ship_captain", "label": "Ship Captain / Marine Officer"},
+      {"key": "sailor", "label": "Sailor / Deckhand"},
+      {"key": "train_driver", "label": "Train Driver"},
+      {"key": "forklift_operator", "label": "Forklift Operator"},
+      {"key": "warehouse_worker", "label": "Warehouse Worker"},
+      {"key": "warehouse_manager", "label": "Warehouse Manager"},
+      {"key": "logistics_coordinator", "label": "Logistics Coordinator"},
+      {"key": "dispatcher", "label": "Dispatcher"},
+      {"key": "customs_broker", "label": "Customs Broker"},
+      {"key": "freight_agent", "label": "Freight Agent"},
+      {"key": "air_traffic_controller", "label": "Air Traffic Controller"},
+      {"key": "auto_mechanic", "label": "Auto Mechanic"},
+      {"key": "aircraft_mechanic", "label": "Aircraft Mechanic"}
+    ]
+  },
+  {
+    "key": "creative_media",
+    "label": "Creative & Media",
+    "professions": [
+      {"key": "graphic_designer", "label": "Graphic Designer"},
+      {"key": "photographer", "label": "Photographer"},
+      {"key": "videographer", "label": "Videographer / Video Editor"},
+      {"key": "journalist", "label": "Journalist / Reporter"},
+      {"key": "editor", "label": "Editor"},
+      {"key": "writer_author", "label": "Writer / Author"},
+      {"key": "animator", "label": "Animator / Motion Designer"},
+      {"key": "illustrator", "label": "Illustrator"},
+      {"key": "sound_engineer", "label": "Sound Engineer / Audio Technician"},
+      {"key": "musician", "label": "Musician / Performer"},
+      {"key": "actor", "label": "Actor / Actress"},
+      {"key": "film_director", "label": "Film Director / Producer"},
+      {"key": "broadcast_technician", "label": "Broadcast Technician"},
+      {"key": "radio_presenter", "label": "Radio Presenter / DJ"},
+      {"key": "art_director", "label": "Art Director"},
+      {"key": "creative_director", "label": "Creative Director"},
+      {"key": "fashion_designer", "label": "Fashion Designer"},
+      {"key": "content_creator", "label": "Content Creator / Influencer"},
+      {"key": "translator_literary", "label": "Translator (Literary / Media)"},
+      {"key": "3d_modeler", "label": "3D Modeler / VFX Artist"}
+    ]
+  },
+  {
+    "key": "customer_service",
+    "label": "Customer Service & Support",
+    "professions": [
+      {"key": "customer_service_rep", "label": "Customer Service Representative"},
+      {"key": "call_center_agent", "label": "Call Center Agent"},
+      {"key": "call_center_manager", "label": "Call Center Manager"},
+      {"key": "technical_support", "label": "Technical Support Specialist"},
+      {"key": "client_relations", "label": "Client Relations Manager"},
+      {"key": "complaints_handler", "label": "Complaints Handler"}
+    ]
+  },
+  {
+    "key": "manufacturing",
+    "label": "Manufacturing & Production",
+    "professions": [
+      {"key": "machine_operator", "label": "Machine Operator"},
+      {"key": "cnc_operator", "label": "CNC Operator"},
+      {"key": "assembly_worker", "label": "Assembly Line Worker"},
+      {"key": "production_manager", "label": "Production Manager"},
+      {"key": "plant_manager", "label": "Plant Manager"},
+      {"key": "quality_inspector", "label": "Quality Control Inspector"},
+      {"key": "maintenance_technician", "label": "Maintenance Technician"},
+      {"key": "tool_die_maker", "label": "Tool & Die Maker"},
+      {"key": "packaging_operator", "label": "Packaging Operator"},
+      {"key": "textile_worker", "label": "Textile Worker"},
+      {"key": "food_processing_worker", "label": "Food Processing Worker"},
+      {"key": "print_technician", "label": "Print Technician / Press Operator"},
+      {"key": "industrial_mechanic", "label": "Industrial Mechanic"}
+    ]
+  },
+  {
+    "key": "agriculture",
+    "label": "Agriculture & Farming",
+    "professions": [
+      {"key": "farmer", "label": "Farmer"},
+      {"key": "agricultural_worker", "label": "Agricultural Worker"},
+      {"key": "agronomist", "label": "Agronomist"},
+      {"key": "horticulturist", "label": "Horticulturist"},
+      {"key": "forester", "label": "Forester"},
+      {"key": "fisherman", "label": "Fisherman"},
+      {"key": "aquaculture_worker", "label": "Aquaculture Worker"},
+      {"key": "animal_breeder", "label": "Animal Breeder"},
+      {"key": "dairy_farmer", "label": "Dairy Farmer"},
+      {"key": "vineyard_worker", "label": "Vineyard Worker / Viticulturist"},
+      {"key": "beekeeper", "label": "Beekeeper"},
+      {"key": "landscaper", "label": "Landscaper / Groundskeeper"},
+      {"key": "garden_center_worker", "label": "Garden Center Worker"}
+    ]
+  },
+  {
+    "key": "security_law_enforcement",
+    "label": "Security & Law Enforcement",
+    "professions": [
+      {"key": "police_officer", "label": "Police Officer"},
+      {"key": "detective", "label": "Detective / Investigator"},
+      {"key": "security_guard", "label": "Security Guard"},
+      {"key": "security_manager", "label": "Security Manager"},
+      {"key": "bodyguard", "label": "Bodyguard / Close Protection"},
+      {"key": "prison_officer", "label": "Prison Officer"},
+      {"key": "firefighter", "label": "Firefighter"},
+      {"key": "lifeguard", "label": "Lifeguard"},
+      {"key": "border_agent", "label": "Border Agent / Customs Officer"},
+      {"key": "private_investigator", "label": "Private Investigator"},
+      {"key": "loss_prevention", "label": "Loss Prevention Specialist"},
+      {"key": "security_systems_installer", "label": "Security Systems Installer"}
+    ]
+  },
+  {
+    "key": "science_research",
+    "label": "Science & Research",
+    "professions": [
+      {"key": "research_scientist", "label": "Research Scientist"},
+      {"key": "biologist", "label": "Biologist"},
+      {"key": "chemist", "label": "Chemist"},
+      {"key": "physicist", "label": "Physicist"},
+      {"key": "geologist", "label": "Geologist"},
+      {"key": "environmental_scientist", "label": "Environmental Scientist"},
+      {"key": "lab_researcher", "label": "Laboratory Researcher"},
+      {"key": "biotechnologist", "label": "Biotechnologist"},
+      {"key": "statistician", "label": "Statistician"},
+      {"key": "meteorologist", "label": "Meteorologist"},
+      {"key": "archaeologist", "label": "Archaeologist"},
+      {"key": "food_scientist", "label": "Food Scientist"}
+    ]
+  },
+  {
+    "key": "real_estate",
+    "label": "Real Estate",
+    "professions": [
+      {"key": "real_estate_broker", "label": "Real Estate Broker"},
+      {"key": "property_manager", "label": "Property Manager"},
+      {"key": "real_estate_appraiser", "label": "Real Estate Appraiser"},
+      {"key": "mortgage_broker", "label": "Mortgage Broker"},
+      {"key": "leasing_agent", "label": "Leasing Agent"},
+      {"key": "building_inspector", "label": "Building Inspector"},
+      {"key": "property_developer", "label": "Property Developer"},
+      {"key": "facilities_manager", "label": "Facilities Manager"}
+    ]
+  },
+  {
+    "key": "beauty_wellness",
+    "label": "Beauty & Wellness",
+    "professions": [
+      {"key": "hairdresser", "label": "Hairdresser / Stylist"},
+      {"key": "barber", "label": "Barber"},
+      {"key": "cosmetologist", "label": "Cosmetologist"},
+      {"key": "esthetician", "label": "Esthetician / Skin Care Specialist"},
+      {"key": "nail_technician", "label": "Nail Technician"},
+      {"key": "makeup_artist", "label": "Makeup Artist"},
+      {"key": "massage_therapist", "label": "Massage Therapist"},
+      {"key": "fitness_trainer", "label": "Fitness Trainer / Personal Trainer"},
+      {"key": "yoga_instructor", "label": "Yoga / Pilates Instructor"},
+      {"key": "spa_manager", "label": "Spa Manager"},
+      {"key": "tattoo_artist", "label": "Tattoo Artist"},
+      {"key": "piercing_specialist", "label": "Piercing Specialist"}
+    ]
+  },
+  {
+    "key": "cleaning_maintenance",
+    "label": "Cleaning & Maintenance",
+    "professions": [
+      {"key": "cleaner", "label": "Cleaner"},
+      {"key": "janitor", "label": "Janitor / Custodian"},
+      {"key": "window_cleaner", "label": "Window Cleaner"},
+      {"key": "carpet_cleaner", "label": "Carpet / Upholstery Cleaner"},
+      {"key": "laundry_worker", "label": "Laundry Worker / Dry Cleaner"},
+      {"key": "pest_control", "label": "Pest Control Technician"},
+      {"key": "pool_maintenance", "label": "Pool Maintenance Technician"},
+      {"key": "building_maintenance", "label": "Building Maintenance Worker"},
+      {"key": "handyman", "label": "Handyman / General Repair"},
+      {"key": "waste_collector", "label": "Waste Collector / Sanitation Worker"}
+    ]
+  },
+  {
+    "key": "childcare_domestic",
+    "label": "Childcare & Domestic",
+    "professions": [
+      {"key": "nanny", "label": "Nanny"},
+      {"key": "babysitter", "label": "Babysitter"},
+      {"key": "au_pair", "label": "Au Pair"},
+      {"key": "daycare_worker", "label": "Daycare Worker"},
+      {"key": "housekeeper_domestic", "label": "Housekeeper (Domestic)"},
+      {"key": "personal_assistant_domestic", "label": "Personal Assistant (Domestic)"},
+      {"key": "elder_care", "label": "Elder Care Worker"},
+      {"key": "pet_sitter", "label": "Pet Sitter / Dog Walker"},
+      {"key": "personal_chef", "label": "Personal Chef"},
+      {"key": "butler", "label": "Butler / House Manager"}
+    ]
+  },
+  {
+    "key": "government_public",
+    "label": "Government & Public Sector",
+    "professions": [
+      {"key": "civil_servant", "label": "Civil Servant"},
+      {"key": "diplomat", "label": "Diplomat"},
+      {"key": "policy_analyst", "label": "Policy Analyst"},
+      {"key": "city_planner", "label": "City Planner"},
+      {"key": "tax_collector", "label": "Tax Collector / Revenue Officer"},
+      {"key": "postal_worker", "label": "Postal Worker / Mail Carrier"},
+      {"key": "military_officer", "label": "Military Officer"},
+      {"key": "military_enlisted", "label": "Military (Enlisted)"},
+      {"key": "park_ranger", "label": "Park Ranger"},
+      {"key": "government_inspector", "label": "Government Inspector / Regulator"}
+    ]
+  },
+  {
+    "key": "nonprofit_social",
+    "label": "Non-Profit & Social Work",
+    "professions": [
+      {"key": "social_worker", "label": "Social Worker"},
+      {"key": "counselor", "label": "Counselor / Therapist"},
+      {"key": "community_organizer", "label": "Community Organizer"},
+      {"key": "fundraiser", "label": "Fundraiser / Development Officer"},
+      {"key": "program_coordinator", "label": "Program Coordinator (NGO)"},
+      {"key": "humanitarian_worker", "label": "Humanitarian / Aid Worker"},
+      {"key": "volunteer_coordinator", "label": "Volunteer Coordinator"},
+      {"key": "religious_leader", "label": "Religious Leader / Clergy"},
+      {"key": "substance_abuse_counselor", "label": "Substance Abuse Counselor"}
+    ]
+  },
+  {
+    "key": "energy_utilities",
+    "label": "Energy & Utilities",
+    "professions": [
+      {"key": "power_plant_operator", "label": "Power Plant Operator"},
+      {"key": "electrician_utility", "label": "Utility Electrician / Lineworker"},
+      {"key": "gas_technician", "label": "Gas Technician"},
+      {"key": "water_treatment_operator", "label": "Water Treatment Operator"},
+      {"key": "solar_installer", "label": "Solar Panel Installer"},
+      {"key": "wind_turbine_technician", "label": "Wind Turbine Technician"},
+      {"key": "oil_gas_worker", "label": "Oil & Gas Worker"},
+      {"key": "mining_engineer", "label": "Mining Engineer"},
+      {"key": "miner", "label": "Miner"},
+      {"key": "drilling_operator", "label": "Drilling Operator"}
+    ]
+  },
+  {
+    "key": "telecommunications",
+    "label": "Telecommunications",
+    "professions": [
+      {"key": "telecom_technician", "label": "Telecom Technician"},
+      {"key": "network_installer", "label": "Network / Cable Installer"},
+      {"key": "tower_technician", "label": "Cell Tower Technician"},
+      {"key": "telecom_engineer", "label": "Telecommunications Engineer"},
+      {"key": "fiber_optic_technician", "label": "Fiber Optic Technician"}
+    ]
+  },
+  {
+    "key": "other",
+    "label": "Other",
+    "professions": [
+      {"key": "general_worker", "label": "General Worker"},
+      {"key": "intern", "label": "Intern / Apprentice"},
+      {"key": "freelancer", "label": "Freelancer"},
+      {"key": "seasonal_worker", "label": "Seasonal Worker"},
+      {"key": "volunteer", "label": "Volunteer"},
+      {"key": "other_profession", "label": "Other"}
+    ]
+  }
+]

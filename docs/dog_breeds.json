@@ -1,0 +1,1698 @@
+[
+  {
+    "key": "affenpinscher",
+    "label": "Affenpinscher"
+  },
+  {
+    "key": "afghan_hound",
+    "label": "Afghan Hound"
+  },
+  {
+    "key": "africanis",
+    "label": "Africanis"
+  },
+  {
+    "key": "aidi",
+    "label": "Aidi"
+  },
+  {
+    "key": "airedale_terrier",
+    "label": "Airedale Terrier"
+  },
+  {
+    "key": "akbash_dog",
+    "label": "Akbash Dog"
+  },
+  {
+    "key": "akita",
+    "label": "Akita"
+  },
+  {
+    "key": "alano_espanol",
+    "label": "Alano Español"
+  },
+  {
+    "key": "alapaha_blue_blood_bulldog",
+    "label": "Alapaha Blue Blood Bulldog"
+  },
+  {
+    "key": "alaskan_klee_kai",
+    "label": "Alaskan Klee Kai"
+  },
+  {
+    "key": "alaskan_malamute",
+    "label": "Alaskan Malamute"
+  },
+  {
+    "key": "alpine_dachsbracke",
+    "label": "Alpine Dachsbracke"
+  },
+  {
+    "key": "american_akita",
+    "label": "American Akita"
+  },
+  {
+    "key": "american_bulldog",
+    "label": "American Bulldog"
+  },
+  {
+    "key": "american_bully",
+    "label": "American Bully"
+  },
+  {
+    "key": "american_cocker_spaniel",
+    "label": "American Cocker Spaniel"
+  },
+  {
+    "key": "american_english_coonhound",
+    "label": "American English Coonhound"
+  },
+  {
+    "key": "american_eskimo_dog",
+    "label": "American Eskimo Dog"
+  },
+  {
+    "key": "american_foxhound",
+    "label": "American Foxhound"
+  },
+  {
+    "key": "american_hairless_terrier",
+    "label": "American Hairless Terrier"
+  },
+  {
+    "key": "american_leopard_hound",
+    "label": "American Leopard Hound"
+  },
+  {
+    "key": "american_pit_bull_terrier",
+    "label": "American Pit Bull Terrier"
+  },
+  {
+    "key": "american_staffordshire_terrier",
+    "label": "American Staffordshire Terrier"
+  },
+  {
+    "key": "american_water_spaniel",
+    "label": "American Water Spaniel"
+  },
+  {
+    "key": "anatolian_shepherd_dog",
+    "label": "Anatolian Shepherd Dog"
+  },
+  {
+    "key": "anglo_francais_de_petite_venerie",
+    "label": "Anglo-Français de Petite Vénerie"
+  },
+  {
+    "key": "appenzeller_sennenhund",
+    "label": "Appenzeller Sennenhund"
+  },
+  {
+    "key": "argentine_dogo",
+    "label": "Argentine Dogo (Dogo Argentino)"
+  },
+  {
+    "key": "ariegeois",
+    "label": "Ariégeois"
+  },
+  {
+    "key": "armant",
+    "label": "Armant"
+  },
+  {
+    "key": "artois_hound",
+    "label": "Artois Hound"
+  },
+  {
+    "key": "aussiedoodle",
+    "label": "Aussiedoodle (Australian Shepherd + Poodle)"
+  },
+  {
+    "key": "australian_bulldog",
+    "label": "Australian Bulldog"
+  },
+  {
+    "key": "australian_cattle_dog",
+    "label": "Australian Cattle Dog"
+  },
+  {
+    "key": "australian_kelpie",
+    "label": "Australian Kelpie"
+  },
+  {
+    "key": "australian_shepherd",
+    "label": "Australian Shepherd"
+  },
+  {
+    "key": "australian_silky_terrier",
+    "label": "Australian Silky Terrier"
+  },
+  {
+    "key": "australian_stumpy_tail_cattle_dog",
+    "label": "Australian Stumpy Tail Cattle Dog"
+  },
+  {
+    "key": "australian_terrier",
+    "label": "Australian Terrier"
+  },
+  {
+    "key": "austrian_black_and_tan_hound",
+    "label": "Austrian Black and Tan Hound"
+  },
+  {
+    "key": "austrian_pinscher",
+    "label": "Austrian Pinscher"
+  },
+  {
+    "key": "azawakh",
+    "label": "Azawakh"
+  },
+  {
+    "key": "barbado_da_terceira",
+    "label": "Barbado da Terceira"
+  },
+  {
+    "key": "barbet",
+    "label": "Barbet"
+  },
+  {
+    "key": "basenji",
+    "label": "Basenji"
+  },
+  {
+    "key": "basque_shepherd_dog",
+    "label": "Basque Shepherd Dog"
+  },
+  {
+    "key": "basset_artesien_normand",
+    "label": "Basset Artésien Normand"
+  },
+  {
+    "key": "basset_bleu_de_gascogne",
+    "label": "Basset Bleu de Gascogne"
+  },
+  {
+    "key": "basset_fauve_de_bretagne",
+    "label": "Basset Fauve de Bretagne"
+  },
+  {
+    "key": "basset_hound",
+    "label": "Basset Hound"
+  },
+  {
+    "key": "bavarian_mountain_scent_hound",
+    "label": "Bavarian Mountain Scent Hound"
+  },
+  {
+    "key": "beagle",
+    "label": "Beagle"
+  },
+  {
+    "key": "beagle_harrier",
+    "label": "Beagle-Harrier"
+  },
+  {
+    "key": "bearded_collie",
+    "label": "Bearded Collie"
+  },
+  {
+    "key": "beauceron",
+    "label": "Beauceron"
+  },
+  {
+    "key": "bedlington_terrier",
+    "label": "Bedlington Terrier"
+  },
+  {
+    "key": "belgian_laekenois",
+    "label": "Belgian Laekenois"
+  },
+  {
+    "key": "belgian_malinois",
+    "label": "Belgian Malinois"
+  },
+  {
+    "key": "belgian_sheepdog",
+    "label": "Belgian Sheepdog (Groenendael)"
+  },
+  {
+    "key": "belgian_tervuren",
+    "label": "Belgian Tervuren"
+  },
+  {
+    "key": "bergamasco_sheepdog",
+    "label": "Bergamasco Sheepdog"
+  },
+  {
+    "key": "berger_blanc_suisse",
+    "label": "Berger Blanc Suisse (White Swiss Shepherd)"
+  },
+  {
+    "key": "berger_picard",
+    "label": "Berger Picard"
+  },
+  {
+    "key": "bernedoodle",
+    "label": "Bernedoodle (Bernese Mountain Dog + Poodle)"
+  },
+  {
+    "key": "bernese_mountain_dog",
+    "label": "Bernese Mountain Dog"
+  },
+  {
+    "key": "bichon_frise",
+    "label": "Bichon Frise"
+  },
+  {
+    "key": "biewer_terrier",
+    "label": "Biewer Terrier"
+  },
+  {
+    "key": "billy",
+    "label": "Billy"
+  },
+  {
+    "key": "black_and_tan_coonhound",
+    "label": "Black and Tan Coonhound"
+  },
+  {
+    "key": "black_mouth_cur",
+    "label": "Black Mouth Cur"
+  },
+  {
+    "key": "black_norwegian_elkhound",
+    "label": "Black Norwegian Elkhound"
+  },
+  {
+    "key": "black_russian_terrier",
+    "label": "Black Russian Terrier"
+  },
+  {
+    "key": "bloodhound",
+    "label": "Bloodhound"
+  },
+  {
+    "key": "blue_lacy",
+    "label": "Blue Lacy"
+  },
+  {
+    "key": "blue_picardy_spaniel",
+    "label": "Blue Picardy Spaniel"
+  },
+  {
+    "key": "bluetick_coonhound",
+    "label": "Bluetick Coonhound"
+  },
+  {
+    "key": "boerboel",
+    "label": "Boerboel"
+  },
+  {
+    "key": "bohemian_shepherd",
+    "label": "Bohemian Shepherd"
+  },
+  {
+    "key": "bolognese",
+    "label": "Bolognese"
+  },
+  {
+    "key": "border_collie",
+    "label": "Border Collie"
+  },
+  {
+    "key": "border_terrier",
+    "label": "Border Terrier"
+  },
+  {
+    "key": "borzoi",
+    "label": "Borzoi"
+  },
+  {
+    "key": "bosnian_coarse_haired_hound",
+    "label": "Bosnian Coarse-Haired Hound"
+  },
+  {
+    "key": "boston_terrier",
+    "label": "Boston Terrier"
+  },
+  {
+    "key": "bouvier_des_ardennes",
+    "label": "Bouvier des Ardennes"
+  },
+  {
+    "key": "bouvier_des_flandres",
+    "label": "Bouvier des Flandres"
+  },
+  {
+    "key": "boxer",
+    "label": "Boxer"
+  },
+  {
+    "key": "boykin_spaniel",
+    "label": "Boykin Spaniel"
+  },
+  {
+    "key": "bracco_italiano",
+    "label": "Bracco Italiano"
+  },
+  {
+    "key": "braque_dauvergne",
+    "label": "Braque d'Auvergne"
+  },
+  {
+    "key": "braque_du_bourbonnais",
+    "label": "Braque du Bourbonnais"
+  },
+  {
+    "key": "braque_francais_pyrenean",
+    "label": "Braque Français Pyrénéen"
+  },
+  {
+    "key": "braque_saint_germain",
+    "label": "Braque Saint-Germain"
+  },
+  {
+    "key": "brazilian_terrier",
+    "label": "Brazilian Terrier"
+  },
+  {
+    "key": "briard",
+    "label": "Briard"
+  },
+  {
+    "key": "briquet_griffon_vendeen",
+    "label": "Briquet Griffon Vendéen"
+  },
+  {
+    "key": "brittany",
+    "label": "Brittany"
+  },
+  {
+    "key": "broholmer",
+    "label": "Broholmer"
+  },
+  {
+    "key": "brussels_griffon",
+    "label": "Brussels Griffon"
+  },
+  {
+    "key": "bucovina_shepherd_dog",
+    "label": "Bucovina Shepherd Dog"
+  },
+  {
+    "key": "buggle",
+    "label": "Buggle (Bulldog + Beagle)"
+  },
+  {
+    "key": "bull_terrier",
+    "label": "Bull Terrier"
+  },
+  {
+    "key": "bulldog",
+    "label": "Bulldog (English Bulldog)"
+  },
+  {
+    "key": "bullmastiff",
+    "label": "Bullmastiff"
+  },
+  {
+    "key": "cairn_terrier",
+    "label": "Cairn Terrier"
+  },
+  {
+    "key": "calupoh",
+    "label": "Calupoh"
+  },
+  {
+    "key": "canaan_dog",
+    "label": "Canaan Dog"
+  },
+  {
+    "key": "canadian_eskimo_dog",
+    "label": "Canadian Eskimo Dog"
+  },
+  {
+    "key": "cane_corso",
+    "label": "Cane Corso"
+  },
+  {
+    "key": "cao_da_serra_de_aires",
+    "label": "Cão da Serra de Aires"
+  },
+  {
+    "key": "cao_de_castro_laboreiro",
+    "label": "Cão de Castro Laboreiro"
+  },
+  {
+    "key": "cao_fila_de_sao_miguel",
+    "label": "Cão Fila de São Miguel"
+  },
+  {
+    "key": "cardigan_welsh_corgi",
+    "label": "Cardigan Welsh Corgi"
+  },
+  {
+    "key": "carolina_dog",
+    "label": "Carolina Dog"
+  },
+  {
+    "key": "carpathian_shepherd_dog",
+    "label": "Carpathian Shepherd Dog"
+  },
+  {
+    "key": "catahoula_leopard_dog",
+    "label": "Catahoula Leopard Dog"
+  },
+  {
+    "key": "catalan_sheepdog",
+    "label": "Catalan Sheepdog"
+  },
+  {
+    "key": "caucasian_shepherd_dog",
+    "label": "Caucasian Shepherd Dog"
+  },
+  {
+    "key": "cavachon",
+    "label": "Cavachon (Cavalier King Charles Spaniel + Bichon Frise)"
+  },
+  {
+    "key": "cavalier_king_charles_spaniel",
+    "label": "Cavalier King Charles Spaniel"
+  },
+  {
+    "key": "cavapoo",
+    "label": "Cavapoo (Cavalier King Charles Spaniel + Poodle)"
+  },
+  {
+    "key": "central_asian_shepherd_dog",
+    "label": "Central Asian Shepherd Dog"
+  },
+  {
+    "key": "cesky_fousek",
+    "label": "Cesky Fousek"
+  },
+  {
+    "key": "cesky_terrier",
+    "label": "Cesky Terrier"
+  },
+  {
+    "key": "chesapeake_bay_retriever",
+    "label": "Chesapeake Bay Retriever"
+  },
+  {
+    "key": "chi_poo",
+    "label": "Chi-Poo (Chihuahua + Poodle)"
+  },
+  {
+    "key": "chihuahua",
+    "label": "Chihuahua"
+  },
+  {
+    "key": "chinese_crested",
+    "label": "Chinese Crested"
+  },
+  {
+    "key": "chinese_shar_pei",
+    "label": "Chinese Shar-Pei"
+  },
+  {
+    "key": "chinook",
+    "label": "Chinook"
+  },
+  {
+    "key": "chorkie",
+    "label": "Chorkie (Chihuahua + Yorkshire Terrier)"
+  },
+  {
+    "key": "chow_chow",
+    "label": "Chow Chow"
+  },
+  {
+    "key": "chusky",
+    "label": "Chusky (Chow Chow + Husky)"
+  },
+  {
+    "key": "cimarron_uruguayo",
+    "label": "Cimarrón Uruguayo"
+  },
+  {
+    "key": "cirneco_dell_etna",
+    "label": "Cirneco dell'Etna"
+  },
+  {
+    "key": "clumber_spaniel",
+    "label": "Clumber Spaniel"
+  },
+  {
+    "key": "cockapoo",
+    "label": "Cockapoo (Cocker Spaniel + Poodle)"
+  },
+  {
+    "key": "cocker_spaniel",
+    "label": "Cocker Spaniel"
+  },
+  {
+    "key": "collie_rough",
+    "label": "Collie (Rough)"
+  },
+  {
+    "key": "collie_smooth",
+    "label": "Collie (Smooth)"
+  },
+  {
+    "key": "coton_de_tulear",
+    "label": "Coton de Tulear"
+  },
+  {
+    "key": "croatian_sheepdog",
+    "label": "Croatian Sheepdog"
+  },
+  {
+    "key": "curly_coated_retriever",
+    "label": "Curly-Coated Retriever"
+  },
+  {
+    "key": "czechoslovakian_vlciak",
+    "label": "Czechoslovakian Vlciak (Wolfdog)"
+  },
+  {
+    "key": "dachshund",
+    "label": "Dachshund"
+  },
+  {
+    "key": "dalmatian",
+    "label": "Dalmatian"
+  },
+  {
+    "key": "dandie_dinmont_terrier",
+    "label": "Dandie Dinmont Terrier"
+  },
+  {
+    "key": "danish_swedish_farmdog",
+    "label": "Danish-Swedish Farmdog"
+  },
+  {
+    "key": "deutscher_wachtelhund",
+    "label": "Deutscher Wachtelhund"
+  },
+  {
+    "key": "doberman_pinscher",
+    "label": "Doberman Pinscher"
+  },
+  {
+    "key": "dogo_argentino",
+    "label": "Dogo Argentino"
+  },
+  {
+    "key": "dogue_de_bordeaux",
+    "label": "Dogue de Bordeaux"
+  },
+  {
+    "key": "doxiepoo",
+    "label": "Doxiepoo (Dachshund + Poodle)"
+  },
+  {
+    "key": "drentsche_patrijshond",
+    "label": "Drentsche Patrijshond"
+  },
+  {
+    "key": "drever",
+    "label": "Drever"
+  },
+  {
+    "key": "dunker",
+    "label": "Dunker"
+  },
+  {
+    "key": "dutch_shepherd",
+    "label": "Dutch Shepherd"
+  },
+  {
+    "key": "dutch_smoushond",
+    "label": "Dutch Smoushond"
+  },
+  {
+    "key": "east_european_shepherd",
+    "label": "East European Shepherd"
+  },
+  {
+    "key": "east_siberian_laika",
+    "label": "East Siberian Laika"
+  },
+  {
+    "key": "english_cocker_spaniel",
+    "label": "English Cocker Spaniel"
+  },
+  {
+    "key": "english_coonhound",
+    "label": "English Coonhound"
+  },
+  {
+    "key": "english_foxhound",
+    "label": "English Foxhound"
+  },
+  {
+    "key": "english_mastiff",
+    "label": "English Mastiff"
+  },
+  {
+    "key": "english_setter",
+    "label": "English Setter"
+  },
+  {
+    "key": "english_shepherd",
+    "label": "English Shepherd"
+  },
+  {
+    "key": "english_springer_spaniel",
+    "label": "English Springer Spaniel"
+  },
+  {
+    "key": "english_toy_spaniel",
+    "label": "English Toy Spaniel"
+  },
+  {
+    "key": "english_toy_terrier",
+    "label": "English Toy Terrier (Black & Tan)"
+  },
+  {
+    "key": "entlebucher_mountain_dog",
+    "label": "Entlebucher Mountain Dog"
+  },
+  {
+    "key": "estonian_hound",
+    "label": "Estonian Hound"
+  },
+  {
+    "key": "estrela_mountain_dog",
+    "label": "Estrela Mountain Dog"
+  },
+  {
+    "key": "eurasier",
+    "label": "Eurasier"
+  },
+  {
+    "key": "field_spaniel",
+    "label": "Field Spaniel"
+  },
+  {
+    "key": "fila_brasileiro",
+    "label": "Fila Brasileiro"
+  },
+  {
+    "key": "finnish_hound",
+    "label": "Finnish Hound"
+  },
+  {
+    "key": "finnish_lapphund",
+    "label": "Finnish Lapphund"
+  },
+  {
+    "key": "finnish_spitz",
+    "label": "Finnish Spitz"
+  },
+  {
+    "key": "flat_coated_retriever",
+    "label": "Flat-Coated Retriever"
+  },
+  {
+    "key": "fox_terrier_smooth",
+    "label": "Fox Terrier (Smooth)"
+  },
+  {
+    "key": "fox_terrier_wire",
+    "label": "Fox Terrier (Wire)"
+  },
+  {
+    "key": "french_bulldog",
+    "label": "French Bulldog"
+  },
+  {
+    "key": "french_spaniel",
+    "label": "French Spaniel"
+  },
+  {
+    "key": "galgo_espanol",
+    "label": "Galgo Español"
+  },
+  {
+    "key": "german_longhaired_pointer",
+    "label": "German Longhaired Pointer"
+  },
+  {
+    "key": "german_pinscher",
+    "label": "German Pinscher"
+  },
+  {
+    "key": "german_shepherd_dog",
+    "label": "German Shepherd Dog"
+  },
+  {
+    "key": "german_shorthaired_pointer",
+    "label": "German Shorthaired Pointer"
+  },
+  {
+    "key": "german_spaniel",
+    "label": "German Spaniel (Deutscher Wachtelhund)"
+  },
+  {
+    "key": "german_spitz",
+    "label": "German Spitz"
+  },
+  {
+    "key": "german_wirehaired_pointer",
+    "label": "German Wirehaired Pointer"
+  },
+  {
+    "key": "giant_schnauzer",
+    "label": "Giant Schnauzer"
+  },
+  {
+    "key": "glen_of_imaal_terrier",
+    "label": "Glen of Imaal Terrier"
+  },
+  {
+    "key": "goberian",
+    "label": "Goberian (Golden Retriever + Husky)"
+  },
+  {
+    "key": "goldador",
+    "label": "Goldador (Golden Retriever + Labrador Retriever)"
+  },
+  {
+    "key": "golden_retriever",
+    "label": "Golden Retriever"
+  },
+  {
+    "key": "goldendoodle",
+    "label": "Goldendoodle (Golden Retriever + Poodle)"
+  },
+  {
+    "key": "gordon_setter",
+    "label": "Gordon Setter"
+  },
+  {
+    "key": "grand_anglo_francais",
+    "label": "Grand Anglo-Français"
+  },
+  {
+    "key": "grand_basset_griffon_vendeen",
+    "label": "Grand Basset Griffon Vendéen"
+  },
+  {
+    "key": "grand_bleu_de_gascogne",
+    "label": "Grand Bleu de Gascogne"
+  },
+  {
+    "key": "grand_griffon_vendeen",
+    "label": "Grand Griffon Vendéen"
+  },
+  {
+    "key": "great_dane",
+    "label": "Great Dane"
+  },
+  {
+    "key": "great_pyrenees",
+    "label": "Great Pyrenees"
+  },
+  {
+    "key": "greater_swiss_mountain_dog",
+    "label": "Greater Swiss Mountain Dog"
+  },
+  {
+    "key": "greenland_dog",
+    "label": "Greenland Dog"
+  },
+  {
+    "key": "greyhound",
+    "label": "Greyhound"
+  },
+  {
+    "key": "griffon_bruxellois",
+    "label": "Griffon Bruxellois (Brussels Griffon)"
+  },
+  {
+    "key": "griffon_fauve_de_bretagne",
+    "label": "Griffon Fauve de Bretagne"
+  },
+  {
+    "key": "griffon_nivernais",
+    "label": "Griffon Nivernais"
+  },
+  {
+    "key": "hamiltonstovare",
+    "label": "Hamiltonstövare"
+  },
+  {
+    "key": "hanoverian_scenthound",
+    "label": "Hanoverian Scenthound"
+  },
+  {
+    "key": "harrier",
+    "label": "Harrier"
+  },
+  {
+    "key": "havanese",
+    "label": "Havanese"
+  },
+  {
+    "key": "havapoo",
+    "label": "Havapoo (Havanese + Poodle)"
+  },
+  {
+    "key": "hokkaido",
+    "label": "Hokkaido"
+  },
+  {
+    "key": "hovawart",
+    "label": "Hovawart"
+  },
+  {
+    "key": "hungarian_hound",
+    "label": "Hungarian Hound (Erdélyi Kopó)"
+  },
+  {
+    "key": "hygenhund",
+    "label": "Hygenhund"
+  },
+  {
+    "key": "ibizan_hound",
+    "label": "Ibizan Hound"
+  },
+  {
+    "key": "icelandic_sheepdog",
+    "label": "Icelandic Sheepdog"
+  },
+  {
+    "key": "irish_red_and_white_setter",
+    "label": "Irish Red and White Setter"
+  },
+  {
+    "key": "irish_setter",
+    "label": "Irish Setter"
+  },
+  {
+    "key": "irish_terrier",
+    "label": "Irish Terrier"
+  },
+  {
+    "key": "irish_water_spaniel",
+    "label": "Irish Water Spaniel"
+  },
+  {
+    "key": "irish_wolfhound",
+    "label": "Irish Wolfhound"
+  },
+  {
+    "key": "istrian_coarse_haired_hound",
+    "label": "Istrian Coarse-Haired Hound"
+  },
+  {
+    "key": "istrian_shorthaired_hound",
+    "label": "Istrian Shorthaired Hound"
+  },
+  {
+    "key": "italian_greyhound",
+    "label": "Italian Greyhound"
+  },
+  {
+    "key": "jack_russell_terrier",
+    "label": "Jack Russell Terrier"
+  },
+  {
+    "key": "jagdterrier",
+    "label": "Jagdterrier"
+  },
+  {
+    "key": "jamthund",
+    "label": "Jämthund (Swedish Elkhound)"
+  },
+  {
+    "key": "japanese_akitainu",
+    "label": "Japanese Akitainu"
+  },
+  {
+    "key": "japanese_chin",
+    "label": "Japanese Chin"
+  },
+  {
+    "key": "japanese_spitz",
+    "label": "Japanese Spitz"
+  },
+  {
+    "key": "japanese_terrier",
+    "label": "Japanese Terrier"
+  },
+  {
+    "key": "kai_ken",
+    "label": "Kai Ken"
+  },
+  {
+    "key": "kangal_dog",
+    "label": "Kangal Dog"
+  },
+  {
+    "key": "karakachan_dog",
+    "label": "Karakachan Dog"
+  },
+  {
+    "key": "karelian_bear_dog",
+    "label": "Karelian Bear Dog"
+  },
+  {
+    "key": "karst_shepherd",
+    "label": "Karst Shepherd"
+  },
+  {
+    "key": "keeshond",
+    "label": "Keeshond"
+  },
+  {
+    "key": "kerry_blue_terrier",
+    "label": "Kerry Blue Terrier"
+  },
+  {
+    "key": "king_charles_spaniel",
+    "label": "King Charles Spaniel"
+  },
+  {
+    "key": "kishu_ken",
+    "label": "Kishu Ken"
+  },
+  {
+    "key": "komondor",
+    "label": "Komondor"
+  },
+  {
+    "key": "korean_jindo",
+    "label": "Korean Jindo"
+  },
+  {
+    "key": "kromfohrlander",
+    "label": "Kromfohrländer"
+  },
+  {
+    "key": "kuvasz",
+    "label": "Kuvasz"
+  },
+  {
+    "key": "labradoodle",
+    "label": "Labradoodle (Labrador Retriever + Poodle)"
+  },
+  {
+    "key": "labrador_retriever",
+    "label": "Labrador Retriever"
+  },
+  {
+    "key": "lagotto_romagnolo",
+    "label": "Lagotto Romagnolo"
+  },
+  {
+    "key": "lakeland_terrier",
+    "label": "Lakeland Terrier"
+  },
+  {
+    "key": "lancashire_heeler",
+    "label": "Lancashire Heeler"
+  },
+  {
+    "key": "landseer",
+    "label": "Landseer"
+  },
+  {
+    "key": "lapponian_herder",
+    "label": "Lapponian Herder"
+  },
+  {
+    "key": "large_munsterlander",
+    "label": "Large Münsterländer"
+  },
+  {
+    "key": "leonberger",
+    "label": "Leonberger"
+  },
+  {
+    "key": "lhasa_apso",
+    "label": "Lhasa Apso"
+  },
+  {
+    "key": "lithuanian_hound",
+    "label": "Lithuanian Hound"
+  },
+  {
+    "key": "lowchen",
+    "label": "Löwchen"
+  },
+  {
+    "key": "magyar_agar",
+    "label": "Magyar Agár"
+  },
+  {
+    "key": "maltese",
+    "label": "Maltese"
+  },
+  {
+    "key": "maltipoo",
+    "label": "Maltipoo (Maltese + Poodle)"
+  },
+  {
+    "key": "manchester_terrier",
+    "label": "Manchester Terrier"
+  },
+  {
+    "key": "maremma_sheepdog",
+    "label": "Maremma Sheepdog"
+  },
+  {
+    "key": "mastiff",
+    "label": "Mastiff"
+  },
+  {
+    "key": "miniature_american_shepherd",
+    "label": "Miniature American Shepherd"
+  },
+  {
+    "key": "miniature_bull_terrier",
+    "label": "Miniature Bull Terrier"
+  },
+  {
+    "key": "miniature_pinscher",
+    "label": "Miniature Pinscher"
+  },
+  {
+    "key": "miniature_schnauzer",
+    "label": "Miniature Schnauzer"
+  },
+  {
+    "key": "montenegrin_mountain_hound",
+    "label": "Montenegrin Mountain Hound"
+  },
+  {
+    "key": "morkie",
+    "label": "Morkie (Maltese + Yorkshire Terrier)"
+  },
+  {
+    "key": "moscow_watchdog",
+    "label": "Moscow Watchdog"
+  },
+  {
+    "key": "mountain_cur",
+    "label": "Mountain Cur"
+  },
+  {
+    "key": "mudi",
+    "label": "Mudi"
+  },
+  {
+    "key": "neapolitan_mastiff",
+    "label": "Neapolitan Mastiff"
+  },
+  {
+    "key": "nederlandse_kooikerhondje",
+    "label": "Nederlandse Kooikerhondje"
+  },
+  {
+    "key": "new_guinea_singing_dog",
+    "label": "New Guinea Singing Dog"
+  },
+  {
+    "key": "newfoundland",
+    "label": "Newfoundland"
+  },
+  {
+    "key": "norfolk_terrier",
+    "label": "Norfolk Terrier"
+  },
+  {
+    "key": "norrbottenspets",
+    "label": "Norrbottenspets"
+  },
+  {
+    "key": "northern_inuit_dog",
+    "label": "Northern Inuit Dog"
+  },
+  {
+    "key": "norwegian_buhund",
+    "label": "Norwegian Buhund"
+  },
+  {
+    "key": "norwegian_elkhound",
+    "label": "Norwegian Elkhound"
+  },
+  {
+    "key": "norwegian_lundehund",
+    "label": "Norwegian Lundehund"
+  },
+  {
+    "key": "norwich_terrier",
+    "label": "Norwich Terrier"
+  },
+  {
+    "key": "nova_scotia_duck_tolling_retriever",
+    "label": "Nova Scotia Duck Tolling Retriever"
+  },
+  {
+    "key": "old_danish_pointer",
+    "label": "Old Danish Pointer"
+  },
+  {
+    "key": "old_english_sheepdog",
+    "label": "Old English Sheepdog"
+  },
+  {
+    "key": "olde_english_bulldogge",
+    "label": "Olde English Bulldogge"
+  },
+  {
+    "key": "otterhound",
+    "label": "Otterhound"
+  },
+  {
+    "key": "papillon",
+    "label": "Papillon"
+  },
+  {
+    "key": "parson_russell_terrier",
+    "label": "Parson Russell Terrier"
+  },
+  {
+    "key": "patterdale_terrier",
+    "label": "Patterdale Terrier"
+  },
+  {
+    "key": "peekapoo",
+    "label": "Peekapoo (Pekingese + Poodle)"
+  },
+  {
+    "key": "pekingese",
+    "label": "Pekingese"
+  },
+  {
+    "key": "pembroke_welsh_corgi",
+    "label": "Pembroke Welsh Corgi"
+  },
+  {
+    "key": "perro_de_presa_canario",
+    "label": "Perro de Presa Canario"
+  },
+  {
+    "key": "peruvian_inca_orchid",
+    "label": "Peruvian Inca Orchid (Hairless)"
+  },
+  {
+    "key": "petit_basset_griffon_vendeen",
+    "label": "Petit Basset Griffon Vendéen"
+  },
+  {
+    "key": "petit_bleu_de_gascogne",
+    "label": "Petit Bleu de Gascogne"
+  },
+  {
+    "key": "pharaoh_hound",
+    "label": "Pharaoh Hound"
+  },
+  {
+    "key": "picardy_spaniel",
+    "label": "Picardy Spaniel"
+  },
+  {
+    "key": "plott_hound",
+    "label": "Plott Hound"
+  },
+  {
+    "key": "podenco_canario",
+    "label": "Podenco Canario"
+  },
+  {
+    "key": "pointer",
+    "label": "Pointer (English Pointer)"
+  },
+  {
+    "key": "polish_greyhound",
+    "label": "Polish Greyhound (Chart Polski)"
+  },
+  {
+    "key": "polish_hound",
+    "label": "Polish Hound"
+  },
+  {
+    "key": "polish_lowland_sheepdog",
+    "label": "Polish Lowland Sheepdog"
+  },
+  {
+    "key": "polish_tatra_sheepdog",
+    "label": "Polish Tatra Sheepdog"
+  },
+  {
+    "key": "pomapoo",
+    "label": "Pomapoo (Pomeranian + Poodle)"
+  },
+  {
+    "key": "pomeranian",
+    "label": "Pomeranian"
+  },
+  {
+    "key": "pomsky",
+    "label": "Pomsky (Pomeranian + Husky)"
+  },
+  {
+    "key": "pont_audemer_spaniel",
+    "label": "Pont-Audemer Spaniel"
+  },
+  {
+    "key": "poodle_miniature",
+    "label": "Poodle (Miniature)"
+  },
+  {
+    "key": "poodle_standard",
+    "label": "Poodle (Standard)"
+  },
+  {
+    "key": "poodle_toy",
+    "label": "Poodle (Toy)"
+  },
+  {
+    "key": "porcelaine",
+    "label": "Porcelaine"
+  },
+  {
+    "key": "portuguese_podengo",
+    "label": "Portuguese Podengo"
+  },
+  {
+    "key": "portuguese_podengo_pequeno",
+    "label": "Portuguese Podengo Pequeno"
+  },
+  {
+    "key": "portuguese_pointer",
+    "label": "Portuguese Pointer"
+  },
+  {
+    "key": "portuguese_sheepdog",
+    "label": "Portuguese Sheepdog"
+  },
+  {
+    "key": "portuguese_water_dog",
+    "label": "Portuguese Water Dog"
+  },
+  {
+    "key": "prague_ratter",
+    "label": "Prague Ratter (Pražský Krysařík)"
+  },
+  {
+    "key": "pudelpointer",
+    "label": "Pudelpointer"
+  },
+  {
+    "key": "pug",
+    "label": "Pug"
+  },
+  {
+    "key": "puggle",
+    "label": "Puggle (Pug + Beagle)"
+  },
+  {
+    "key": "puli",
+    "label": "Puli"
+  },
+  {
+    "key": "pumi",
+    "label": "Pumi"
+  },
+  {
+    "key": "pyrenean_mastiff",
+    "label": "Pyrenean Mastiff"
+  },
+  {
+    "key": "pyrenean_shepherd",
+    "label": "Pyrenean Shepherd"
+  },
+  {
+    "key": "rafeiro_do_alentejo",
+    "label": "Rafeiro do Alentejo"
+  },
+  {
+    "key": "rat_terrier",
+    "label": "Rat Terrier"
+  },
+  {
+    "key": "redbone_coonhound",
+    "label": "Redbone Coonhound"
+  },
+  {
+    "key": "rhodesian_ridgeback",
+    "label": "Rhodesian Ridgeback"
+  },
+  {
+    "key": "romanian_carpathian_shepherd",
+    "label": "Romanian Carpathian Shepherd"
+  },
+  {
+    "key": "romanian_mioritic_shepherd",
+    "label": "Romanian Mioritic Shepherd Dog"
+  },
+  {
+    "key": "rottweiler",
+    "label": "Rottweiler"
+  },
+  {
+    "key": "russell_terrier",
+    "label": "Russell Terrier"
+  },
+  {
+    "key": "russian_spaniel",
+    "label": "Russian Spaniel"
+  },
+  {
+    "key": "russian_toy",
+    "label": "Russian Toy"
+  },
+  {
+    "key": "russian_tsvetnaya_bolonka",
+    "label": "Russian Tsvetnaya Bolonka"
+  },
+  {
+    "key": "russo_european_laika",
+    "label": "Russo-European Laika"
+  },
+  {
+    "key": "saarlooswolfhond",
+    "label": "Saarloos Wolfdog"
+  },
+  {
+    "key": "saint_bernard",
+    "label": "Saint Bernard"
+  },
+  {
+    "key": "saluki",
+    "label": "Saluki"
+  },
+  {
+    "key": "samoyed",
+    "label": "Samoyed"
+  },
+  {
+    "key": "sarplaninac",
+    "label": "Šarplaninac"
+  },
+  {
+    "key": "schapendoes",
+    "label": "Schapendoes"
+  },
+  {
+    "key": "schillerstovare",
+    "label": "Schillerstövare"
+  },
+  {
+    "key": "schipperke",
+    "label": "Schipperke"
+  },
+  {
+    "key": "schnoodle",
+    "label": "Schnoodle (Schnauzer + Poodle)"
+  },
+  {
+    "key": "scottish_deerhound",
+    "label": "Scottish Deerhound"
+  },
+  {
+    "key": "scottish_terrier",
+    "label": "Scottish Terrier"
+  },
+  {
+    "key": "sealyham_terrier",
+    "label": "Sealyham Terrier"
+  },
+  {
+    "key": "segugio_italiano",
+    "label": "Segugio Italiano"
+  },
+  {
+    "key": "serbian_hound",
+    "label": "Serbian Hound"
+  },
+  {
+    "key": "serbian_tricolour_hound",
+    "label": "Serbian Tricolour Hound"
+  },
+  {
+    "key": "sheepadoodle",
+    "label": "Sheepadoodle (Old English Sheepdog + Poodle)"
+  },
+  {
+    "key": "shetland_sheepdog",
+    "label": "Shetland Sheepdog"
+  },
+  {
+    "key": "shiba_inu",
+    "label": "Shiba Inu"
+  },
+  {
+    "key": "shih_tzu",
+    "label": "Shih Tzu"
+  },
+  {
+    "key": "shih_poo",
+    "label": "Shih-Poo (Shih Tzu + Poodle)"
+  },
+  {
+    "key": "shikoku",
+    "label": "Shikoku"
+  },
+  {
+    "key": "shiloh_shepherd",
+    "label": "Shiloh Shepherd"
+  },
+  {
+    "key": "shorkie",
+    "label": "Shorkie (Shih Tzu + Yorkshire Terrier)"
+  },
+  {
+    "key": "siberian_husky",
+    "label": "Siberian Husky"
+  },
+  {
+    "key": "silken_windhound",
+    "label": "Silken Windhound"
+  },
+  {
+    "key": "skye_terrier",
+    "label": "Skye Terrier"
+  },
+  {
+    "key": "sloughi",
+    "label": "Sloughi"
+  },
+  {
+    "key": "slovakian_wirehaired_pointer",
+    "label": "Slovakian Wirehaired Pointer"
+  },
+  {
+    "key": "slovensky_cuvac",
+    "label": "Slovensky Cuvac"
+  },
+  {
+    "key": "slovensky_kopov",
+    "label": "Slovensky Kopov (Black Forest Hound)"
+  },
+  {
+    "key": "smalandsstovare",
+    "label": "Smålandsstövare"
+  },
+  {
+    "key": "small_munsterlander",
+    "label": "Small Münsterländer"
+  },
+  {
+    "key": "soft_coated_wheaten_terrier",
+    "label": "Soft Coated Wheaten Terrier"
+  },
+  {
+    "key": "south_russian_ovcharka",
+    "label": "South Russian Ovcharka"
+  },
+  {
+    "key": "spanish_mastiff",
+    "label": "Spanish Mastiff"
+  },
+  {
+    "key": "spanish_water_dog",
+    "label": "Spanish Water Dog"
+  },
+  {
+    "key": "spinone_italiano",
+    "label": "Spinone Italiano"
+  },
+  {
+    "key": "springerdoodle",
+    "label": "Springerdoodle (English Springer Spaniel + Poodle)"
+  },
+  {
+    "key": "sprocker_spaniel",
+    "label": "Sprocker Spaniel (Springer + Cocker Spaniel)"
+  },
+  {
+    "key": "stabyhoun",
+    "label": "Stabyhoun"
+  },
+  {
+    "key": "staffordshire_bull_terrier",
+    "label": "Staffordshire Bull Terrier"
+  },
+  {
+    "key": "standard_schnauzer",
+    "label": "Standard Schnauzer"
+  },
+  {
+    "key": "styrian_coarse_haired_hound",
+    "label": "Styrian Coarse-Haired Hound"
+  },
+  {
+    "key": "sussex_spaniel",
+    "label": "Sussex Spaniel"
+  },
+  {
+    "key": "swedish_lapphund",
+    "label": "Swedish Lapphund"
+  },
+  {
+    "key": "swedish_vallhund",
+    "label": "Swedish Vallhund"
+  },
+  {
+    "key": "taiwan_dog",
+    "label": "Taiwan Dog"
+  },
+  {
+    "key": "teddy_roosevelt_terrier",
+    "label": "Teddy Roosevelt Terrier"
+  },
+  {
+    "key": "thai_bangkaew",
+    "label": "Thai Bangkaew"
+  },
+  {
+    "key": "thai_ridgeback",
+    "label": "Thai Ridgeback"
+  },
+  {
+    "key": "tibetan_mastiff",
+    "label": "Tibetan Mastiff"
+  },
+  {
+    "key": "tibetan_spaniel",
+    "label": "Tibetan Spaniel"
+  },
+  {
+    "key": "tibetan_terrier",
+    "label": "Tibetan Terrier"
+  },
+  {
+    "key": "tornjak",
+    "label": "Tornjak"
+  },
+  {
+    "key": "tosa",
+    "label": "Tosa"
+  },
+  {
+    "key": "toy_fox_terrier",
+    "label": "Toy Fox Terrier"
+  },
+  {
+    "key": "transylvanian_hound",
+    "label": "Transylvanian Hound"
+  },
+  {
+    "key": "treeing_tennessee_brindle",
+    "label": "Treeing Tennessee Brindle"
+  },
+  {
+    "key": "treeing_walker_coonhound",
+    "label": "Treeing Walker Coonhound"
+  },
+  {
+    "key": "tyrolean_hound",
+    "label": "Tyrolean Hound"
+  },
+  {
+    "key": "vizsla",
+    "label": "Vizsla"
+  },
+  {
+    "key": "volpino_italiano",
+    "label": "Volpino Italiano"
+  },
+  {
+    "key": "weimaraner",
+    "label": "Weimaraner"
+  },
+  {
+    "key": "welsh_sheepdog",
+    "label": "Welsh Sheepdog"
+  },
+  {
+    "key": "welsh_springer_spaniel",
+    "label": "Welsh Springer Spaniel"
+  },
+  {
+    "key": "welsh_terrier",
+    "label": "Welsh Terrier"
+  },
+  {
+    "key": "west_highland_white_terrier",
+    "label": "West Highland White Terrier"
+  },
+  {
+    "key": "west_siberian_laika",
+    "label": "West Siberian Laika"
+  },
+  {
+    "key": "westphalian_dachsbracke",
+    "label": "Westphalian Dachsbracke"
+  },
+  {
+    "key": "wetterhoun",
+    "label": "Wetterhoun"
+  },
+  {
+    "key": "whippet",
+    "label": "Whippet"
+  },
+  {
+    "key": "whoodle",
+    "label": "Whoodle (Soft Coated Wheaten Terrier + Poodle)"
+  },
+  {
+    "key": "wirehaired_pointing_griffon",
+    "label": "Wirehaired Pointing Griffon"
+  },
+  {
+    "key": "wirehaired_vizsla",
+    "label": "Wirehaired Vizsla"
+  },
+  {
+    "key": "xoloitzcuintli",
+    "label": "Xoloitzcuintli (Mexican Hairless Dog)"
+  },
+  {
+    "key": "yakutian_laika",
+    "label": "Yakutian Laika"
+  },
+  {
+    "key": "yorkipoo",
+    "label": "Yorkipoo (Yorkshire Terrier + Poodle)"
+  },
+  {
+    "key": "yorkshire_terrier",
+    "label": "Yorkshire Terrier"
+  },
+  {
+    "key": "mixed_breed",
+    "label": "Mixed Breed / Mutt"
+  },
+  {
+    "key": "unknown_breed",
+    "label": "Unknown Breed"
+  }
+]

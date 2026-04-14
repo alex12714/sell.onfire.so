@@ -1,0 +1,237 @@
+[
+  {
+    "key": "honda",
+    "label": "Honda",
+    "models": ["Africa Twin", "CB125R", "CB300R", "CB500F", "CB500X", "CB650R", "CB750 Hornet", "CB1000R", "CBR300R", "CBR500R", "CBR600RR", "CBR650R", "CBR1000RR-R Fireblade", "CL300", "CL500", "CMX500 Rebel", "CMX1100 Rebel", "CRF250L", "CRF300L", "CRF300 Rally", "CRF450L", "CRF1100L Africa Twin", "Forza 125", "Forza 350", "Fury", "Gold Wing", "Gold Wing Tour", "Grom", "Monkey", "MSX125 Grom", "NC750X", "Navi", "NT1100", "PCX", "Rebel 300", "Rebel 500", "Rebel 1100", "SH125i", "SH150i", "SH350i", "Shadow Aero", "Super Cub C125", "Trail 125", "Transalp", "Vario 125", "Vario 160", "X-ADV", "XL750 Transalp"]
+  },
+  {
+    "key": "yamaha",
+    "label": "Yamaha",
+    "models": ["Bolt", "Bolt R-Spec", "FJR1300", "FZ-X", "MT-03", "MT-07", "MT-09", "MT-09 SP", "MT-10", "MT-10 SP", "MT-15", "MT-25", "NMAX", "R15", "R3", "R6", "R7", "R1", "R1M", "Tenere 700", "Tenere 700 Rally", "Tracer 7", "Tracer 9", "Tracer 9 GT", "TMAX", "TW200", "V Star 250", "VMAX", "XMax", "XSR125", "XSR155", "XSR700", "XSR900", "XT250", "YZF-R1", "YZF-R1M", "YZF-R3", "YZF-R7", "Zuma 125"]
+  },
+  {
+    "key": "kawasaki",
+    "label": "Kawasaki",
+    "models": ["Concours 14", "Eliminator", "Eliminator SE", "ER-6n", "KLR650", "KLX230", "KLX230S", "KLX300", "KLX300SM", "Ninja 400", "Ninja 500", "Ninja 650", "Ninja 1000SX", "Ninja 1100SX", "Ninja H2", "Ninja H2 Carbon", "Ninja H2 SX SE", "Ninja ZX-4R", "Ninja ZX-4RR", "Ninja ZX-6R", "Ninja ZX-10R", "Ninja ZX-10RR", "Ninja ZX-14R", "Versys 650", "Versys 1000", "Versys 1100 SE", "Versys-X 300", "Vulcan 900 Classic", "Vulcan 900 Custom", "Vulcan S", "W230", "W800", "Z125 Pro", "Z400", "Z500", "Z650", "Z650RS", "Z900", "Z900RS", "Z H2", "Z H2 SE"]
+  },
+  {
+    "key": "suzuki",
+    "label": "Suzuki",
+    "models": ["Address 110", "Avenis 125", "Burgman 200", "Burgman 400", "DR-Z400S", "DR-Z400SM", "DR650S", "GSX-8R", "GSX-8S", "GSX-R600", "GSX-R750", "GSX-R1000", "GSX-R1000R", "GSX-S750", "GSX-S1000", "GSX-S1000GT", "GSX-S1000GX", "Hayabusa", "Katana", "SV650", "SV650X", "V-Strom 250", "V-Strom 650", "V-Strom 800", "V-Strom 800DE", "V-Strom 1050", "V-Strom 1050DE"]
+  },
+  {
+    "key": "harley-davidson",
+    "label": "Harley-Davidson",
+    "models": ["Breakout", "CVO Road Glide", "CVO Street Glide", "Electra Glide Highway King", "Fat Bob", "Fat Boy", "Freewheeler", "Heritage Classic", "Iron 883", "Low Rider", "Low Rider El Diablo", "Low Rider S", "Low Rider ST", "Night Rod Special", "Nightster", "Nightster Special", "Pan America 1250", "Pan America 1250 Special", "Road Glide", "Road Glide Limited", "Road Glide Special", "Road King", "Road King Special", "Softail Slim", "Softail Standard", "Sport Glide", "Sportster S", "Street Bob", "Street Glide", "Street Glide Special", "Tri Glide Ultra", "Ultra Limited"]
+  },
+  {
+    "key": "bmw",
+    "label": "BMW Motorrad",
+    "models": ["C 400 GT", "C 400 X", "CE 02", "CE 04", "F 750 GS", "F 800 GS", "F 900 GS", "F 900 GS Adventure", "F 900 R", "F 900 XR", "G 310 GS", "G 310 R", "K 1600 B", "K 1600 Grand America", "K 1600 GT", "K 1600 GTL", "M 1000 R", "M 1000 RR", "M 1000 XR", "R 1250 GS", "R 1250 GS Adventure", "R 1250 RS", "R 1250 RT", "R 12", "R 12 nineT", "R 1300 GS", "R 1300 GS Adventure", "R 18", "R 18 B", "R 18 Classic", "R 18 Transcontinental", "S 1000 R", "S 1000 RR", "S 1000 XR"]
+  },
+  {
+    "key": "ducati",
+    "label": "Ducati",
+    "models": ["DesertX", "DesertX Discovery", "DesertX Rally", "Diavel V4", "Hypermotard 698 Mono", "Hypermotard 950", "Hypermotard 950 SP", "Monster", "Monster SP", "Multistrada V2", "Multistrada V2 S", "Multistrada V4", "Multistrada V4 S", "Multistrada V4 Pikes Peak", "Multistrada V4 Rally", "Panigale V2", "Panigale V4", "Panigale V4 S", "Panigale V4 R", "Panigale V4 SP2", "Scrambler Full Throttle", "Scrambler Icon", "Scrambler Nightshift", "Streetfighter V2", "Streetfighter V4", "Streetfighter V4 S", "Streetfighter V4 SP2", "Superleggera V4", "XDiavel"]
+  },
+  {
+    "key": "ktm",
+    "label": "KTM",
+    "models": ["125 Duke", "200 Duke", "250 Duke", "390 Duke", "690 SMC R", "790 Duke", "890 Duke R", "990 Duke", "1290 Super Duke R", "1390 Super Duke R", "1390 Super Duke R Evo", "125 RC", "390 RC", "RC 8C", "390 Adventure", "790 Adventure", "890 Adventure", "890 Adventure R", "890 Adventure R Rally", "1290 Super Adventure R", "1290 Super Adventure S", "1390 Super Adventure S", "250 EXC-F", "300 EXC", "350 EXC-F", "450 EXC-F", "500 EXC-F", "Freeride E-XC"]
+  },
+  {
+    "key": "triumph",
+    "label": "Triumph",
+    "models": ["Bonneville Bobber", "Bonneville Speedmaster", "Bonneville T100", "Bonneville T120", "Daytona 660", "Rocket 3 GT", "Rocket 3 R", "Scrambler 900", "Scrambler 1200 X", "Scrambler 1200 XE", "Speed 400", "Speed Triple 1200 RS", "Speed Triple 1200 RR", "Speed Twin 900", "Speed Twin 1200", "Street Scrambler", "Street Triple 765 R", "Street Triple 765 RS", "Street Triple Moto2 Edition", "Thruxton RS", "TF 250-X", "TF 450-X", "Tiger 660 Sport", "Tiger 850 Sport", "Tiger 900", "Tiger 900 Rally", "Tiger 900 GT", "Tiger 1200 Rally", "Tiger 1200 GT", "Trident 660"]
+  },
+  {
+    "key": "aprilia",
+    "label": "Aprilia",
+    "models": ["Dorsoduro 900", "RS 125", "RS 457", "RS 660", "RS 660 Factory", "RSV4", "RSV4 Factory", "RSV4 RF", "RX 125", "Shiver 900", "SR GT 125", "SR GT 200", "SX 125", "SXR 125", "SXR 160", "Tuareg 660", "Tuareg 660 Rally", "Tuono 125", "Tuono 457", "Tuono 660", "Tuono 660 Factory", "Tuono V4", "Tuono V4 Factory"]
+  },
+  {
+    "key": "indian",
+    "label": "Indian Motorcycle",
+    "models": ["Challenger", "Challenger Dark Horse", "Challenger Elite", "Challenger Limited", "Chief", "Chief Bobber", "Chief Bobber Dark Horse", "Chief Dark Horse", "Chieftain", "Chieftain Dark Horse", "Chieftain Elite", "Chieftain Limited", "FTR", "FTR Rally", "FTR S", "FTR Sport", "FTR x 100% R Carbon", "Pursuit", "Pursuit Dark Horse", "Pursuit Elite", "Roadmaster", "Roadmaster Dark Horse", "Roadmaster Elite", "Roadmaster Limited", "Scout", "Scout Bobber", "Scout Classic", "Scout Sixty", "Sport Scout", "Springfield", "Springfield Dark Horse", "Super Scout"]
+  },
+  {
+    "key": "royal-enfield",
+    "label": "Royal Enfield",
+    "models": ["Bullet 350", "Classic 350", "Continental GT 650", "Guerrilla 450", "Himalayan", "Himalayan 450", "Hunter 350", "INT 650", "Interceptor 650", "Meteor 350", "Scram 411", "Shotgun 650", "Super Meteor 650"]
+  },
+  {
+    "key": "moto-guzzi",
+    "label": "Moto Guzzi",
+    "models": ["Stelvio", "V100 Mandello", "V100 Mandello S", "V7 Special", "V7 Sport", "V7 Stone", "V85 TT", "V85 TT Travel", "V9 Bobber", "V9 Roamer"]
+  },
+  {
+    "key": "mv-agusta",
+    "label": "MV Agusta",
+    "models": ["Brutale 800", "Brutale 1000 RR", "Brutale 1000 RS", "Dragster", "Dragster RR SCS", "Enduro Veloce", "F3 800", "F3 Rosso", "LXP Orioli", "Lucky Explorer 5.5", "Lucky Explorer 9.5", "Rivale 800", "Superveloce", "Superveloce S", "Turismo Veloce 800"]
+  },
+  {
+    "key": "husqvarna",
+    "label": "Husqvarna",
+    "models": ["Norden 901", "Norden 901 Expedition", "Svartpilen 125", "Svartpilen 200", "Svartpilen 401", "Svartpilen 801", "Vitpilen 125", "Vitpilen 401", "Vitpilen 801", "FE 350", "FE 501", "TE 150i", "TE 250i", "TE 300i"]
+  },
+  {
+    "key": "zero",
+    "label": "Zero Motorcycles",
+    "models": ["DSR", "DSR/X", "FX", "FXE", "S", "SR", "SR/F", "SR/S"]
+  },
+  {
+    "key": "cfmoto",
+    "label": "CFMoto",
+    "models": ["150NK", "250NK", "250SR", "300NK", "300SR", "300SS", "450NK", "450SR", "450SS", "650GT", "650NK", "700CL-X Adventure", "700CL-X Heritage", "700CL-X Sport", "800MT", "800MT Explore", "800NK", "1250TR-G"]
+  },
+  {
+    "key": "benelli",
+    "label": "Benelli",
+    "models": ["180S", "302R", "302S", "502C", "752S", "BN 125", "BN 251", "Imperiale 400", "Leoncino 250", "Leoncino 500", "Leoncino 800", "TNT 125", "TNT 135", "TNT 300", "TNT 600", "TNT 899", "TRK 251", "TRK 502", "TRK 502 X", "TRK 702", "TRK 802"]
+  },
+  {
+    "key": "vespa",
+    "label": "Vespa",
+    "models": ["Elettrica", "GTS 125", "GTS 300", "GTS 300 Super", "GTS 300 SuperTech", "GTV 300 Sei Giorni", "Primavera 50", "Primavera 125", "Primavera 150", "Sprint 50", "Sprint 125", "Sprint 150"]
+  },
+  {
+    "key": "piaggio",
+    "label": "Piaggio",
+    "models": ["Beverly 300", "Beverly 400", "Liberty 50", "Liberty 125", "Liberty 150", "Medley 125", "Medley 150", "MP3 300", "MP3 400", "MP3 530"]
+  },
+  {
+    "key": "can-am",
+    "label": "Can-Am",
+    "models": ["Origin", "Pulse", "Ryker", "Ryker 600", "Ryker 900", "Ryker Rally", "Ryker Sport", "Spyder F3", "Spyder F3-S", "Spyder F3-T", "Spyder RT", "Spyder RT Limited", "Spyder RT Sea-to-Sky"]
+  },
+  {
+    "key": "polaris",
+    "label": "Polaris",
+    "models": ["Slingshot", "Slingshot R", "Slingshot S", "Slingshot SL", "Slingshot Roush Edition"]
+  },
+  {
+    "key": "energica",
+    "label": "Energica",
+    "models": ["Ego", "Ego+", "Ego+ RS", "Eva EsseEsse9", "Eva EsseEsse9+", "Eva Ribelle", "Eva Ribelle RS", "Experia"]
+  },
+  {
+    "key": "livewire",
+    "label": "LiveWire",
+    "models": ["LiveWire One", "S2 Del Mar", "S2 Alpinista", "S2 Mulholland"]
+  },
+  {
+    "key": "cake",
+    "label": "CAKE",
+    "models": ["Bukk", "Kalk", "Kalk INK", "Kalk OR", "Makka", "Osa", "Osa Flex", "Osa Lite"]
+  },
+  {
+    "key": "sur-ron",
+    "label": "Sur-Ron",
+    "models": ["Light Bee", "Light Bee S", "Light Bee X", "Storm Bee", "Ultra Bee"]
+  },
+  {
+    "key": "sym",
+    "label": "SYM",
+    "models": ["Citycom 300i", "Cruisym 125", "Cruisym 300", "Fiddle 125", "HD 200", "Jet 14 125", "Jet X 125", "Joymax Z 125", "Joymax Z 300", "Joyride 200", "Maxsym 400", "Maxsym TL 500", "NH-T 125", "NH-T 200", "Orbit 50", "Symphony 125"]
+  },
+  {
+    "key": "kymco",
+    "label": "Kymco",
+    "models": ["AK 550", "Agility 125", "Agility 50", "CV3", "Downtown 350i", "DTX 125", "DTX 360", "Like 125", "Like 150i", "People S 125", "People S 150", "RevoNEX", "Super 8 50", "Xciting S 400", "X-Town CT 300i"]
+  },
+  {
+    "key": "ural",
+    "label": "Ural",
+    "models": ["CT", "Gear Up", "Gear Up Sahara", "Sportsman", "Tourist"]
+  },
+  {
+    "key": "jawa",
+    "label": "Jawa",
+    "models": ["42", "42 Bobber", "350", "Perak", "Yezdi Adventure", "Yezdi Scrambler", "Yezdi Roadster"]
+  },
+  {
+    "key": "zontes",
+    "label": "Zontes",
+    "models": ["125-G1", "125-U", "155-U", "310-R", "310-T", "310-V", "310-X", "350-D", "350-E", "350-GK", "350-T", "800-T"]
+  },
+  {
+    "key": "qj-motor",
+    "label": "QJ Motor",
+    "models": ["SRK 400", "SRK 700", "SRG 400", "SRG 700", "SRT 800", "SRT 800 X", "SVT 650"]
+  },
+  {
+    "key": "gas-gas",
+    "label": "GasGas",
+    "models": ["EC 250", "EC 300", "EC 350F", "ES 700", "MC 125", "MC 250F", "MC 350F", "MC 450F", "SM 700"]
+  },
+  {
+    "key": "beta",
+    "label": "Beta",
+    "models": ["RR 125", "RR 200", "RR 250", "RR 300", "RR 350", "RR 390", "RR 430", "RR 480", "Xtrainer 250", "Xtrainer 300"]
+  },
+  {
+    "key": "sherco",
+    "label": "Sherco",
+    "models": ["SE 125 Factory", "SE 250 Factory", "SE 300 Factory", "SE 450 Factory", "SE 500 Factory", "SEF 250 Factory", "SEF 300 Factory", "SEF 450 Factory", "SEF 500 Factory"]
+  },
+  {
+    "key": "bajaj",
+    "label": "Bajaj",
+    "models": ["Avenger 160", "Avenger 220", "Chetak", "Dominar 250", "Dominar 400", "Pulsar 125", "Pulsar 150", "Pulsar N160", "Pulsar N250", "Pulsar NS200", "Pulsar NS400", "Pulsar RS200"]
+  },
+  {
+    "key": "hero",
+    "label": "Hero MotoCorp",
+    "models": ["Destini 125", "Glamour", "HF Deluxe", "Karizma XMR", "Maestro Edge 125", "Mavrick 440", "Pleasure Plus", "Splendor Plus", "Super Splendor", "XPulse 200", "XPulse 200 4V", "Xtreme 125R", "Xtreme 160R"]
+  },
+  {
+    "key": "tvs",
+    "label": "TVS Motor",
+    "models": ["Apache RR 310", "Apache RTR 160 4V", "Apache RTR 200 4V", "Apache RTR 310", "iQube", "Jupiter 110", "Jupiter 125", "NTORQ 125", "Raider 125", "Ronin", "Sport"]
+  },
+  {
+    "key": "peugeot",
+    "label": "Peugeot Motocycles",
+    "models": ["Belville 125", "Belville 200", "Django 125", "Django 150", "Kisbee 50", "Pulsion 125", "Speedfight 50", "Speedfight 125", "Tweet 125", "XP 400"]
+  },
+  {
+    "key": "voge",
+    "label": "Voge",
+    "models": ["300AC", "300R", "300RR", "500DS", "500R", "525DSX", "650DS", "900DS"]
+  },
+  {
+    "key": "brixton",
+    "label": "Brixton",
+    "models": ["Cromwell 125", "Cromwell 250", "Crossfire 125", "Crossfire 500", "Felsberg 125", "Felsberg 250", "Sunray 125", "Sunray 250"]
+  },
+  {
+    "key": "norton",
+    "label": "Norton",
+    "models": ["Commando 961", "V4CR", "V4SV"]
+  },
+  {
+    "key": "bimota",
+    "label": "Bimota",
+    "models": ["KB4", "KB4 RC", "Tesi H2"]
+  },
+  {
+    "key": "buell",
+    "label": "Buell",
+    "models": ["Hammerhead 1190RX", "Super Cruiser"]
+  },
+  {
+    "key": "swm",
+    "label": "SWM",
+    "models": ["Gran Milano 440", "Gran Turismo 440", "RS 125 R", "RS 300 R", "RS 500 R", "Silver Vase 440", "Superdual 600"]
+  },
+  {
+    "key": "fantic",
+    "label": "Fantic",
+    "models": ["Caballero 125", "Caballero 500", "Rally 500", "XE 125", "XEF 250", "XEF 450"]
+  },
+  {
+    "key": "mondial",
+    "label": "FB Mondial",
+    "models": ["Flat Track 125", "HPS 125", "HPS 300", "Pagani 125", "Pagani 300"]
+  }
+]
