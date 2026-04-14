@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="OnFire Marketplace - Buy and sell products and services locally. Browse electronics, fashion, home goods, services, and more.">
+  <meta name="theme-color" content="#f97316">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+  <title>sell.onfire.so - OnFire Marketplace</title>
+  <link rel="canonical" href="https://sell.onfire.so">
+  <meta property="og:site_name" content="OnFire Marketplace">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sell.onfire.so">
+  <meta property="og:title" content="OnFire Marketplace - Buy & Sell Products and Services">
+  <meta property="og:description" content="Browse electronics, fashion, home goods, services and more on OnFire Marketplace.">
+  <meta property="og:image" content="https://sell.onfire.so/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json" id="json-ld"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#/" class="header__logo">
+        <svg class="header__logo-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+        <span class="header__logo-text">OnFire</span>
+        <span class="header__logo-badge">Marketplace</span>
+      </a>
+
+      <nav class="header__nav" id="nav-menu">
+        <div class="header__nav-item header__nav-item--dropdown" id="categories-dropdown">
+          <button class="header__nav-link" aria-expanded="false" aria-haspopup="true">
+            Categories
+            <svg class="header__chevron" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="dropdown-menu" id="categories-dropdown-menu"></div>
+        </div>
+        <a href="#/search" class="header__nav-link">Search</a>
+      </nav>
+
+      <div class="header__actions">
+        <a href="https://admin.onfire.so" class="btn btn--outline-white btn--sm" target="_blank" rel="noopener">Post Ad</a>
+        <a href="https://admin.onfire.so" class="btn btn--white btn--sm" target="_blank" rel="noopener">Login</a>
+      </div>
+
+      <button class="header__mobile-toggle" id="mobile-toggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="mobile-menu__overlay" id="mobile-overlay"></div>
+    <div class="mobile-menu__panel">
+      <div class="mobile-menu__header">
+        <span class="mobile-menu__title">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+          OnFire
+        </span>
+        <button class="mobile-menu__close" id="mobile-close" aria-label="Close menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <nav class="mobile-menu__nav">
+        <a href="#/" class="mobile-menu__link">Home</a>
+        <div class="mobile-menu__section">
+          <span class="mobile-menu__section-title">Categories</span>
+          <div id="mobile-categories"></div>
+        </div>
+        <a href="#/search" class="mobile-menu__link">Search</a>
+      </nav>
+      <div class="mobile-menu__actions">
+        <a href="https://admin.onfire.so" class="btn btn--primary btn--block" target="_blank" rel="noopener">Post Ad</a>
+        <a href="https://admin.onfire.so" class="btn btn--outline btn--block" target="_blank" rel="noopener">Login</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="main" id="app"></main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col">
+          <h3 class="footer__heading">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:-3px;margin-right:4px"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+            About OnFire
+          </h3>
+          <p class="footer__text">OnFire is a modern marketplace for buying and selling products and services. Connect with local sellers, discover great deals, and find everything you need.</p>
+          <div class="footer__app-links">
+            <span class="footer__app-label">Download the App:</span>
+            <a href="#" class="footer__app-link">App Store</a>
+            <a href="#" class="footer__app-link">Google Play</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__heading">Categories</h3>
+          <ul class="footer__list" id="footer-categories"></ul>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__heading">Contact</h3>
+          <ul class="footer__list">
+            <li><a href="mailto:support@onfire.so">support@onfire.so</a></li>
+            <li><a href="https://onfire.so" target="_blank" rel="noopener">onfire.so</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 OnFire. All rights reserved.</span>
+        <div class="footer__bottom-links">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
