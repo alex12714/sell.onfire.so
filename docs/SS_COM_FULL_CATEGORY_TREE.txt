@@ -1,0 +1,3269 @@
+
+======================================================================
+1. Job and business
+======================================================================
+   1.1. Are required
+      1.1.1. Accountant
+      1.1.2. Actor
+      1.1.3. Adjuster
+      1.1.4. Administrator
+      1.1.5. Advertising agent
+      1.1.6. Advertising manager
+      1.1.7. Agent
+      1.1.8. Agronomist
+      1.1.9. Ameliorator
+      1.1.10. Analyst
+      1.1.11. Animator
+      1.1.12. Apparatus operator
+      1.1.13. Appraiser
+      1.1.14. Architect
+      1.1.15. Archivist
+      1.1.16. Armature fitter
+      1.1.17. Artist
+      1.1.18. Assembler
+      1.1.19. Assistant
+      1.1.20. Assistant
+      1.1.21. Attorney
+      1.1.22. Autocrane operator
+      1.1.23. Autoelectrician
+      1.1.24. Automechanic
+      1.1.25. Autotinman
+      1.1.26. Autowasherman
+      1.1.27. Aviation specialist
+      1.1.28. Baker
+      1.1.29. Barman
+      1.1.30. Bartender
+      1.1.31. Bathhouse attendant
+      1.1.32. Blacksmith
+      1.1.33. Breadborder
+      1.1.34. Breeder
+      1.1.35. Broker
+      1.1.36. Builder
+      1.1.37. Bulldozer driver
+      1.1.38. Butcher
+      1.1.39. Captain
+      1.1.40. Car mechanician
+      1.1.41. Car painter
+      1.1.42. Car service master
+      1.1.43. Carpenter
+      1.1.44. Cashier
+      1.1.45. Chief - cook
+      1.1.46. Chimney sweep
+      1.1.47. Cleaner
+      1.1.48. Clerk
+      1.1.49. Climber
+      1.1.50. Collector
+      1.1.51. Commodity researcher
+      1.1.52. Computer technician
+      1.1.53. Concreter
+      1.1.54. Confectioner
+      1.1.55. Construction foreman
+      1.1.56. Constructor
+      1.1.57. Consultant
+      1.1.58. Controller
+      1.1.59. Cook
+      1.1.60. Copywriter
+      1.1.61. Corrector
+      1.1.62. Cosmetician
+      1.1.63. Courier
+      1.1.64. Crane operator
+      1.1.65. Croupier
+      1.1.66. Dancer
+      1.1.67. Dancer
+      1.1.68. Data protection specialist
+      1.1.69. Declarant
+      1.1.70. Designer
+      1.1.71. Designer
+      1.1.72. Director
+      1.1.73. Disciple
+      1.1.74. Dishwasher
+      1.1.75. Dispatcher
+      1.1.76. Docker
+      1.1.77. Doctor
+      1.1.78. Doctor assistant
+      1.1.79. Driver
+      1.1.80. Economist
+      1.1.81. Editor
+      1.1.82. Educator
+      1.1.83. Electric welder
+      1.1.84. Electrician
+      1.1.85. Electromechanics
+      1.1.86. Engineer
+      1.1.87. Estimator
+      1.1.88. Event host
+      1.1.89. Excavator operator
+      1.1.90. Financial analyst
+      1.1.91. Fish processor
+      1.1.92. Fisherman
+      1.1.93. Florist
+      1.1.94. Foreman
+      1.1.95. Forwarder
+      1.1.96. Furniture maker
+      1.1.97. Gardener
+      1.1.98. Glazier
+      1.1.99. Guide
+      1.1.100. Hairdresser
+      1.1.101. Handyman
+      1.1.102. Head
+      1.1.103. Housekeeper
+      1.1.104. Instructor
+      1.1.105. Insurance agent
+      1.1.106. Janitor
+      1.1.107. Jeweler
+      1.1.108. Joiner
+      1.1.109. Journalist
+      1.1.110. Knitter
+      1.1.111. Laboratory assistant
+      1.1.112. Lawyer
+      1.1.113. Loader
+      1.1.114. Locksmith
+      1.1.115. Logistician
+      1.1.116. Manager
+      1.1.117. Manager by staff
+      1.1.118. Manicurist
+      1.1.119. Mason
+      1.1.120. Masseur
+      1.1.121. Mechanic
+      1.1.122. Milkmaid
+      1.1.123. Milling-machine operator
+      1.1.124. Model
+      1.1.125. Musician
+      1.1.126. Nanny
+      1.1.127. Network administrator
+      1.1.128. Nurse
+      1.1.129. Operator
+      1.1.130. Packer
+      1.1.131. Packer
+      1.1.132. Painter
+      1.1.133. Parlourmaid
+      1.1.134. Paver
+      1.1.135. Person on duty
+      1.1.136. Pharmacist
+      1.1.137. Philologist
+      1.1.138. Photographer
+      1.1.139. Photomodel
+      1.1.140. Picker
+      1.1.141. Plasterer
+      1.1.142. Postman
+      1.1.143. Printing worker
+      1.1.144. Programmer
+      1.1.145. Provider
+      1.1.146. Psychologist
+      1.1.147. Radio engineer
+      1.1.148. Real estate agent
+      1.1.149. Receptionist, doorman
+      1.1.150. Referent
+      1.1.151. Roofer
+      1.1.152. Sailor
+      1.1.153. Sanitary technician
+      1.1.154. Sawyer
+      1.1.155. Seaman
+      1.1.156. Seamstress
+      1.1.157. Secretary
+      1.1.158. Security guard
+      1.1.159. Seller
+      1.1.160. Shoemaker
+      1.1.161. Sick-nurse
+      1.1.162. Silkscreen operator
+      1.1.163. Social worker
+      1.1.164. Sorter
+      1.1.165. Specialist
+      1.1.166. Steward
+      1.1.167. Stomatologist
+      1.1.168. Storekeeper
+      1.1.169. Stovemaker
+      1.1.170. Stripper
+      1.1.171. Student
+      1.1.172. Surveyor
+      1.1.173. Tailor
+      1.1.174. Teacher
+      1.1.175. Teacher
+      1.1.176. Technician
+      1.1.177. Technologist
+      1.1.178. Tester
+      1.1.179. Tiler
+      1.1.180. Tinsmith
+      1.1.181. Tire worker
+      1.1.182. Tour operator
+      1.1.183. Tractor driver
+      1.1.184. Train driver
+      1.1.185. Trainer
+      1.1.186. Translator
+      1.1.187. Turner
+      1.1.188. Typesetter
+      1.1.189. Varnisher
+      1.1.190. Veterinary
+      1.1.191. Visagiste
+      1.1.192. Vocalist
+      1.1.193. Waiter
+      1.1.194. Washerman
+      1.1.195. Welder
+      1.1.196. Windows master
+      1.1.197. Woodcutter
+      1.1.198. Worker
+      1.1.199. Linux admin
+      1.1.200. Web designer
+      1.1.201. Other professions
+   1.2. Job search
+      1.2.1. Accountant
+      1.2.2. Actor
+      1.2.3. Adjuster
+      1.2.4. Administrator
+      1.2.5. Advertising agent
+      1.2.6. Advertising manager
+      1.2.7. Agent
+      1.2.8. Agronomist
+      1.2.9. Ameliorator
+      1.2.10. Analyst
+      1.2.11. Animator
+      1.2.12. Apparatus operator
+      1.2.13. Appraiser
+      1.2.14. Architect
+      1.2.15. Archivist
+      1.2.16. Armature fitter
+      1.2.17. Artist
+      1.2.18. Assembler
+      1.2.19. Assistant
+      1.2.20. Assistant
+      1.2.21. Attorney
+      1.2.22. Autocrane operator
+      1.2.23. Autoelectrician
+      1.2.24. Automechanic
+      1.2.25. Autotinman
+      1.2.26. Autowasherman
+      1.2.27. Aviation specialist
+      1.2.28. Baker
+      1.2.29. Barman
+      1.2.30. Bartender
+      1.2.31. Bathhouse attendant
+      1.2.32. Blacksmith
+      1.2.33. Breadborder
+      1.2.34. Breeder
+      1.2.35. Broker
+      1.2.36. Builder
+      1.2.37. Bulldozer driver
+      1.2.38. Bus driver
+      1.2.39. Butcher
+      1.2.40. Captain
+      1.2.41. Car driver
+      1.2.42. Car mechanician
+      1.2.43. Car painter
+      1.2.44. Car service master
+      1.2.45. Carpenter
+      1.2.46. Cashier
+      1.2.47. Chief - cook
+      1.2.48. Chimney sweep
+      1.2.49. Cleaner
+      1.2.50. Clerk
+      1.2.51. Climber
+      1.2.52. Collector
+      1.2.53. Commodity researcher
+      1.2.54. Computer technician
+      1.2.55. Concreter
+      1.2.56. Confectioner
+      1.2.57. Construction foreman
+      1.2.58. Constructor
+      1.2.59. Consultant
+      1.2.60. Controller
+      1.2.61. Cook
+      1.2.62. Copywriter
+      1.2.63. Corrector
+      1.2.64. Cosmetician
+      1.2.65. Courier
+      1.2.66. Crane operator
+      1.2.67. Croupier
+      1.2.68. Dancer
+      1.2.69. Dancer
+      1.2.70. Data protection specialist
+      1.2.71. Declarant
+      1.2.72. Designer
+      1.2.73. Designer
+      1.2.74. Director
+      1.2.75. Disciple
+      1.2.76. Dishwasher
+      1.2.77. Dispatcher
+      1.2.78. Docker
+      1.2.79. Doctor
+      1.2.80. Doctor assistant
+      1.2.81. Editor
+      1.2.82. Educator
+      1.2.83. Electric welder
+      1.2.84. Electrician
+      1.2.85. Electromechanics
+      1.2.86. Engineer
+      1.2.87. Estimator
+      1.2.88. Event host
+      1.2.89. Excavator operator
+      1.2.90. Financial analyst
+      1.2.91. Fish processor
+      1.2.92. Fisherman
+      1.2.93. Florist
+      1.2.94. Foreman
+      1.2.95. Forklift truck driver
+      1.2.96. Forwarder
+      1.2.97. Furniture maker
+      1.2.98. Gardener
+      1.2.99. Glazier
+      1.2.100. Guide
+      1.2.101. Hairdresser
+      1.2.102. Handyman
+      1.2.103. Head
+      1.2.104. Housekeeper
+      1.2.105. Instructor
+      1.2.106. Insurance agent
+      1.2.107. Janitor
+      1.2.108. Jeweler
+      1.2.109. Joiner
+      1.2.110. Journalist
+      1.2.111. Knitter
+      1.2.112. Laboratory assistant
+      1.2.113. Lawyer
+      1.2.114. Loader
+      1.2.115. Locksmith
+      1.2.116. Logistician
+      1.2.117. Long-distance truck driver
+      1.2.118. Manager
+      1.2.119. Manager by staff
+      1.2.120. Manicurist
+      1.2.121. Mason
+      1.2.122. Masseur
+      1.2.123. Mechanic
+      1.2.124. Milkmaid
+      1.2.125. Milling-machine operator
+      1.2.126. Model
+      1.2.127. Musician
+      1.2.128. Nanny
+      1.2.129. Network administrator
+      1.2.130. Nurse
+      1.2.131. Operator
+      1.2.132. Packer
+      1.2.133. Packer
+      1.2.134. Painter
+      1.2.135. Parlourmaid
+      1.2.136. Paver
+      1.2.137. Person on duty
+      1.2.138. Pharmacist
+      1.2.139. Philologist
+      1.2.140. Photographer
+      1.2.141. Photomodel
+      1.2.142. Picker
+      1.2.143. Plasterer
+      1.2.144. Postman
+      1.2.145. Printing worker
+      1.2.146. Programmer
+      1.2.147. Provider
+      1.2.148. Psychologist
+      1.2.149. Radio engineer
+      1.2.150. Real estate agent
+      1.2.151. Receptionist, doorman
+      1.2.152. Referent
+      1.2.153. Roofer
+      1.2.154. Sailor
+      1.2.155. Sanitary technician
+      1.2.156. Sawyer
+      1.2.157. Seaman
+      1.2.158. Seamstress
+      1.2.159. Secretary
+      1.2.160. Security guard
+      1.2.161. Seller
+      1.2.162. Shoemaker
+      1.2.163. Sick-nurse
+      1.2.164. Silkscreen operator
+      1.2.165. Social worker
+      1.2.166. Sorter
+      1.2.167. Specialist
+      1.2.168. Steward
+      1.2.169. Stomatologist
+      1.2.170. Storekeeper
+      1.2.171. Stovemaker
+      1.2.172. Stripper
+      1.2.173. Student
+      1.2.174. Surveyor
+      1.2.175. Tailor
+      1.2.176. Taxi driver
+      1.2.177. Teacher
+      1.2.178. Teacher
+      1.2.179. Technician
+      1.2.180. Technologist
+      1.2.181. Tester
+      1.2.182. Tiler
+      1.2.183. Timber truck driver
+      1.2.184. Tinsmith
+      1.2.185. Tire worker
+      1.2.186. Tour operator
+      1.2.187. Tractor driver
+      1.2.188. Train driver
+      1.2.189. Trainer
+      1.2.190. Translator
+      1.2.191. Truck driver
+      1.2.192. Turner
+      1.2.193. Typesetter
+      1.2.194. Varnisher
+      1.2.195. Veterinary
+      1.2.196. Visagiste
+      1.2.197. Vocalist
+      1.2.198. Waiter
+      1.2.199. Washerman
+      1.2.200. Welder
+      1.2.201. Windows master
+      1.2.202. Woodcutter
+      1.2.203. Worker
+      1.2.204. Linux admin
+      1.2.205. Web designer
+      1.2.206. Other
+   1.3. Courses, education
+      1.3.1. Accountants courses
+      1.3.2. Actor tehnique courses
+      1.3.3. Advanced training
+      1.3.4. Computer courses
+      1.3.5. Cooking and confectioner courses
+      1.3.6. Courses for pilots
+      1.3.7. Courses of makeup artists, stylists
+      1.3.8. Courses of nannies, housekeepers
+      1.3.9. Dancing
+      1.3.10. Driving Courses
+      1.3.11. Florist Courses
+      1.3.12. Guards courses
+      1.3.13. Hairdresser courses
+      1.3.14. Interior designer courses
+      1.3.15. Landscape design courses
+      1.3.16. Language courses
+         1.3.16.1. Danish
+         1.3.16.2. English
+         1.3.16.3. Estonian
+         1.3.16.4. Finnish
+         1.3.16.5. French
+         1.3.16.6. German
+         1.3.16.7. Italian
+         1.3.16.8. Latvian
+         1.3.16.9. Lithuanian
+         1.3.16.10. Norwegian
+         1.3.16.11. Polish
+         1.3.16.12. Russian
+         1.3.16.13. Spanish
+         1.3.16.14. Swedish
+         1.3.16.15. Other
+      1.3.17. Manicure, pedicure courses
+      1.3.18. Musical education and singing
+         1.3.18.1. Accordion
+         1.3.18.2. Flute
+         1.3.18.3. Guitar
+         1.3.18.4. Piano
+         1.3.18.5. Bowed
+         1.3.18.6. Wind
+         1.3.18.7. Choral singing
+         1.3.18.8. Vocal singing
+         1.3.18.9. Other
+      1.3.19. Professional courses
+      1.3.20. Psychology courses
+      1.3.21. Seminars and trainings
+      1.3.22. Sewing and needlework courses
+      1.3.23. Sports training
+      1.3.24. Study abroad
+      1.3.25. Other
+      1.3.26. Coaching
+         1.3.26.1. Primary school subjects
+         1.3.26.2. Secondary school subjects
+         1.3.26.3. Help for students
+         1.3.26.4. Other
+      1.3.27. Coursework, essays, diplomas
+         1.3.27.1. Abstracts
+         1.3.27.2. Business plans
+         1.3.27.3. Coursework
+         1.3.27.4. Diplomas
+         1.3.27.5. Drawing
+         1.3.27.6. Homeworks
+         1.3.27.7. Laboratory works
+         1.3.27.8. Practice reports
+         1.3.27.9. Tasks solution
+         1.3.27.10. Other
+      1.3.28. For children
+      1.3.29. Sport
+   1.4. Business contacts
+      1.4.1. Advertisiment
+      1.4.2. Calling cards, souvenirs, stickers
+      1.4.3. Expertises and valuation
+      1.4.4. Holding auctions
+      1.4.5. Official company announcements
+      1.4.6. Partners\' search
+      1.4.7. Polygraphy and press
+      1.4.8. Searching of dilers, retail distributors
+      1.4.9. Searching of distributors
+      1.4.10. Searching of investor
+      1.4.11. Selling of business and companies
+      1.4.12. Stamps, punches, leads
+      1.4.13. Other
+      1.4.14. Accounting services
+      1.4.15. Registration of firms
+      1.4.16. Return of debts
+      1.4.17. Сonstruction
+   1.5. Legal services
+      1.5.1. Accounting services
+      1.5.2. Administrative affairs
+      1.5.3. Civil affairs
+      1.5.4. Criminal proceedings
+      1.5.5. Expertises and valuation
+      1.5.6. Firms\' legal service
+      1.5.7. Notaries
+      1.5.8. Registration of visas and documents
+      1.5.9. Registration of firms
+      1.5.10. Return of debts
+      1.5.11. Support of transactions
+      1.5.12. The family right
+      1.5.13. Other
+   1.6. Financial services
+      1.6.1. Accounting services
+      1.6.2. Audit, valuation of assets.
+      1.6.3. Credits and leasing
+         1.6.3.1. Auto leasing
+         1.6.3.2. Leasing for household appliances
+         1.6.3.3. Leasing other
+         1.6.3.4. Credits under pledge of land
+         1.6.3.5. Credits under pledge house
+         1.6.3.6. Credits under pledge of flat
+         1.6.3.7. Credits under pledge of other realty
+         1.6.3.8. Credits under pledge of transport
+         1.6.3.9. Credits under pledge of other property
+         1.6.3.10. Credit required
+         1.6.3.11. Pawnshop services
+         1.6.3.12. Other
+      1.6.4. Insurance
+      1.6.5. Tax and financial advices
+      1.6.6. Other
+   1.7. Texts translations
+      1.7.1. Danish
+      1.7.2. English
+      1.7.3. Estonian
+      1.7.4. Finnish
+      1.7.5. French
+      1.7.6. German
+      1.7.7. Italian
+      1.7.8. Latvian
+      1.7.9. Lithuanian
+      1.7.10. Norwegian
+      1.7.11. Polish
+      1.7.12. Russian
+      1.7.13. Spanish
+      1.7.14. Swedish
+      1.7.15. Other languages
+      1.7.16. Spellchecking
+      1.7.17. Other
+   1.8. Internet services
+      1.8.1. Administration
+      1.8.2. Connection to the Internet
+      1.8.3. Domain sale
+      1.8.4. Domains registration
+      1.8.5. Hosting
+      1.8.6. Web-design and sites creation
+      1.8.7. Other
+   1.9. Other
+
+======================================================================
+2. Transport
+======================================================================
+   2.1. Cars
+      2.1.1. Electric cars
+      2.1.2. Exclusive cars
+      2.1.3. Retro cars
+      2.1.4. Sport cars
+      2.1.5. Tuned cars
+      2.1.6. Auto evacuation
+      2.1.7. Car rent
+      2.1.8. Car repair and service
+      2.1.9. Cars with defects or after crash
+      2.1.10. Spare parts and accessories
+      2.1.11. Trailers
+      2.1.12. Transport for invalids
+      2.1.13. Trunks, wheels
+      2.1.14. Tuning
+      2.1.15. Alfa Romeo
+      2.1.16. Audi
+      2.1.17. BMW
+      2.1.18. Cadillac
+      2.1.19. Chevrolet
+      2.1.20. Chrysler
+      2.1.21. Citroen
+      2.1.22. Cupra
+      2.1.23. Dacia
+      2.1.24. Daewoo
+      2.1.25. Daihatsu
+      2.1.26. Dodge
+      2.1.27. Fiat
+      2.1.28. Ford
+      2.1.29. Honda
+      2.1.30. Hummer
+      2.1.31. Hyundai
+      2.1.32. Infiniti
+      2.1.33. Isuzu
+      2.1.34. Jaguar
+      2.1.35. Jeep
+      2.1.36. Kia
+      2.1.37. Lancia
+      2.1.38. Land Rover
+      2.1.39. Lexus
+      2.1.40. Lincoln
+      2.1.41. Mazda
+      2.1.42. Mercedes
+      2.1.43. Mini
+      2.1.44. Mitsubishi
+      2.1.45. Nissan
+      2.1.46. Opel
+      2.1.47. Peugeot
+      2.1.48. Pontiac
+      2.1.49. Porsche
+      2.1.50. Renault
+      2.1.51. Rover
+      2.1.52. Saab
+      2.1.53. Seat
+      2.1.54. Skoda
+      2.1.55. Smart
+      2.1.56. SsangYong
+      2.1.57. Subaru
+      2.1.58. Suzuki
+      2.1.59. Tesla
+      2.1.60. Toyota
+      2.1.61. Volkswagen
+      2.1.62. Volvo
+      2.1.63. Gaz
+      2.1.64. Iz
+      2.1.65. Moskvich
+      2.1.66. Uaz
+      2.1.67. Vaz
+      2.1.68. Zaz
+      2.1.69. Others
+   2.2. Cargo cars
+      2.2.1. Asphalt pavers
+      2.2.2. Autocars
+      2.2.3. Bulldozer
+      2.2.4. Busses
+      2.2.5. Campings
+      2.2.6. Car lifts
+      2.2.7. Car towers
+      2.2.8. Car transporters
+      2.2.9. Cement trucks
+      2.2.10. Concrete mixers
+      2.2.11. Concrete stacker
+      2.2.12. Container trucks
+      2.2.13. Crane trucks
+      2.2.14. Cranes
+      2.2.15. Dump trucks
+      2.2.16. Evacuators
+      2.2.17. Excavators crawler
+      2.2.18. Excavators wheeled
+      2.2.19. Forklift trucks
+      2.2.20. Garbage trucks
+      2.2.21. Gas trucks
+      2.2.22. Grader
+      2.2.23. Loaders front
+      2.2.24. Milk trucks
+      2.2.25. Mini loaders
+      2.2.26. Minibuses
+      2.2.27. Off road vehicle
+      2.2.28. Petrol fillers
+      2.2.29. Refrigerators
+      2.2.30. Road construction equipment
+      2.2.31. Road trains
+      2.2.32. Scrapers
+      2.2.33. Tankers
+      2.2.34. Taxi
+      2.2.35. Towers
+      2.2.36. Tractor units
+      2.2.37. Tractors (mini tractors)
+      2.2.38. Tractors crawler
+      2.2.39. Tractors wheeled
+      2.2.40. Trailers
+      2.2.41. Trailers
+      2.2.42. Tree trucks
+      2.2.43. Trucks
+      2.2.44. Vans
+      2.2.45. Another
+      2.2.46. Auto evacuation
+      2.2.47. Car rent
+      2.2.48. Car repair and service
+      2.2.49. Spare parts and accessories
+      2.2.50. Agricultural machinery
+   2.3. Moto transport
+      2.3.1. Motorcycles
+      2.3.2. Motor scooters
+      2.3.3. Quadrocycles
+      2.3.4. Snow-mobiles
+      2.3.5. Equipment
+      2.3.6. Other
+      2.3.7. Motorcycles rent
+      2.3.8. Repair service
+      2.3.9. Spare parts and accessories
+   2.4. Bicycles, scooters
+      2.4.1. Children
+      2.4.2. Children\'s for tots
+      2.4.3. Teenage
+      2.4.4. BMX
+      2.4.5. Classic
+      2.4.6. Female
+      2.4.7. Folding
+      2.4.8. Highway sports
+      2.4.9. Hybrid (electrical)
+      2.4.10. Mountain
+      2.4.11. Scooters
+      2.4.12. Segways
+      2.4.13. Tandem
+      2.4.14. Another
+      2.4.15. Spare parts and accessories
+      2.4.16. Bicycle rent
+      2.4.17. Other
+   2.5. Car exchange
+   2.6. Repair and spare parts
+      2.6.1. Body works and painting
+      2.6.2. Brake pads replacement
+      2.6.3. Brake system, repair
+      2.6.4. Bumpers, repair
+      2.6.5. Car light, installation and repair
+      2.6.6. Car washes, salons\' cleaning
+      2.6.7. Cars\' electricy, repair and regulation
+      2.6.8. Cars\' gas, installation, adjustment
+      2.6.9. Cars\' glasses, repair, tinting
+      2.6.10. Chassis
+      2.6.11. Conditioners, filling and repair
+      2.6.12. Engines, repair, CO regulation
+      2.6.13. Gear clusters, repair
+      2.6.14. Installation of towbars
+      2.6.15. Installation of signal systems
+      2.6.16. Leather\'s cording, salon\'s repair
+      2.6.17. Maintenance service
+      2.6.18. Music\'s installation
+      2.6.19. Oil and filters, replacement
+      2.6.20. Preparations pefore selling
+      2.6.21. Transportation and evacuation
+      2.6.22. Trunks\' arrangement, wheels\', discs\' repair
+      2.6.23. Tuning
+      2.6.24. Turbochargers, repair
+      2.6.25. Wheel alignment
+      2.6.26. Car service equipment
+      2.6.27. Expertise and evaluation
+      2.6.28. Spare parts and accessories
+      2.6.29. Tractor and agricultural technics\' repair
+      2.6.30. Other
+   2.7. Spare parts and accessories
+      2.7.1. Trunks, wheels
+      2.7.2. Accumulators
+      2.7.3. Audio/Video
+         2.7.3.1. Amplifiers
+         2.7.3.2. Antennas
+         2.7.3.3. Changers
+         2.7.3.4. DVD players
+         2.7.3.5. Dynamics
+         2.7.3.6. Monitors
+         2.7.3.7. Radio sets
+         2.7.3.8. Reseivers
+         2.7.3.9. Subwoofer
+         2.7.3.10. Tape recorders
+         2.7.3.11. Transmitters
+         2.7.3.12. Other
+      2.7.4. Chargers
+      2.7.5. Alarms
+      2.7.6. Candles, wires
+      2.7.7. Rear view cameras
+      2.7.8. Video recorders
+      2.7.9. Crankcase protection
+      2.7.10. Radars
+      2.7.11. Spare parts from one auto
+      2.7.12. Air filters
+      2.7.13. Air-conditioners
+      2.7.14. Airbags
+      2.7.15. Allocators
+      2.7.16. Anthers
+      2.7.17. Axles back
+      2.7.18. Axles front
+      2.7.19. Ball joints
+      2.7.20. Ballasts
+      2.7.21. Bearings
+      2.7.22. Bearings of hub
+      2.7.23. Belts
+      2.7.24. Blocks
+      2.7.25. Bodies
+      2.7.26. Boots
+      2.7.27. Brake discs, back
+      2.7.28. Brake discs, front
+      2.7.29. Brake pads, back
+      2.7.30. Brake pads, front
+      2.7.31. Bumpers back
+      2.7.32. Bumpers front
+      2.7.33. Bushes
+      2.7.34. Cabins
+      2.7.35. Caps of  tank
+      2.7.36. Carburetors
+      2.7.37. Cardans
+      2.7.38. Catalysts
+      2.7.39. Clappers
+      2.7.40. Clutches
+      2.7.41. Coils for ignition
+      2.7.42. Commutators
+      2.7.43. Compressors
+      2.7.44. Computers
+      2.7.45. Covers, moldings
+      2.7.46. Dampers of hood
+      2.7.47. Dampers of luggage rack
+      2.7.48. Dashboards
+      2.7.49. Detectors
+      2.7.50. Disks
+      2.7.51. Door glasses
+      2.7.52. Door handles
+      2.7.53. Door locks
+      2.7.54. Doors lefts, back
+      2.7.55. Doors lefts, front
+      2.7.56. Doors rights, back
+      2.7.57. Doors rights, front
+      2.7.58. Electronics
+      2.7.59. Emblems
+      2.7.60. Engines
+      2.7.61. Fans for radiator
+      2.7.62. Fans for salon
+      2.7.63. Filters
+      2.7.64. Fog lights
+      2.7.65. Front grates
+      2.7.66. Fuel filters
+      2.7.67. Fuel pumps
+      2.7.68. Fuel tanks
+      2.7.69. Gear clusters
+      2.7.70. Generators
+      2.7.71. Glass hoists
+      2.7.72. Glasses back
+      2.7.73. Hatches
+      2.7.74. Headlights
+      2.7.75. Heaters
+      2.7.76. Hinges
+      2.7.77. Hoods
+      2.7.78. Hubs
+      2.7.79. Hydraulic pumps
+      2.7.80. Hydro amplifier
+      2.7.81. Idling regulators
+      2.7.82. Ignition distributors
+      2.7.83. Ignition locks
+      2.7.84. Lambda sensors
+      2.7.85. Laths
+      2.7.86. Levers
+      2.7.87. Light sensors
+      2.7.88. Lights, Xenon
+      2.7.89. Lines
+      2.7.90. Linings
+      2.7.91. Locks of luggage rack
+      2.7.92. Mirrors left (only glass)
+      2.7.93. Mirrors left in complete
+      2.7.94. Mirrors rearview
+      2.7.95. Mirrors right (only glass)
+      2.7.96. Mirrors right in complete
+      2.7.97. Navigation systems
+      2.7.98. Oil filters
+      2.7.99. Parking sensors
+      2.7.100. Pillows engine
+      2.7.101. Pistons
+      2.7.102. Probes
+      2.7.103. Pumps
+      2.7.104. Pumps the brake
+      2.7.105. Pusasis
+      2.7.106. Racks back
+      2.7.107. Racks front
+      2.7.108. Radiators
+      2.7.109. Radiators cooling system
+      2.7.110. Radiators cooling of oil
+      2.7.111. Radiators of conditioner
+      2.7.112. Radiators of intercooler
+      2.7.113. Radiators of stove
+      2.7.114. Rain sensors
+      2.7.115. Reducers
+      2.7.116. Relings
+      2.7.117. Rests
+      2.7.118. Reversing lights
+      2.7.119. Rings
+      2.7.120. Roof racks
+      2.7.121. Ropes
+      2.7.122. Rudders
+      2.7.123. Seatbelts
+      2.7.124. Seats back
+      2.7.125. Seats front
+      2.7.126. Sensors
+      2.7.127. Sensors ABS
+      2.7.128. Shaft joints
+      2.7.129. Shafts
+      2.7.130. Shock absorbers back
+      2.7.131. Shock absorbers front
+      2.7.132. Silencers
+      2.7.133. Splash aprons
+      2.7.134. Spoilers
+      2.7.135. Sprayers
+      2.7.136. Sprays
+      2.7.137. Springs shock-absorber, back
+      2.7.138. Springs shock-absorber, front
+      2.7.139. Starters
+      2.7.140. Steering mechanisms
+      2.7.141. Tachographs
+      2.7.142. Tanks brake liquid
+      2.7.143. Tanks cooling liquid
+      2.7.144. Thermostats
+      2.7.145. Thresholds
+      2.7.146. Tire pressure sensors
+      2.7.147. Towbars
+      2.7.148. Tractions
+      2.7.149. Trafficators back
+      2.7.150. Trafficators front
+      2.7.151. Trunks
+      2.7.152. Trunks, wheels
+      2.7.153. Tubes
+      2.7.154. Turbines
+      2.7.155. Turn signals
+      2.7.156. Underwings back, right  Airbags
+      2.7.157. Underwings back, left
+      2.7.158. Underwings front, left
+      2.7.159. Underwings front, right
+      2.7.160. Washer pumps
+      2.7.161. Washer tanks
+      2.7.162. Winches
+      2.7.163. Windshield wipers, brushes
+      2.7.164. Windshields
+      2.7.165. Wings back, left
+      2.7.166. Wings back, right
+      2.7.167. Wings front, left
+      2.7.168. Wings front, right
+      2.7.169. Other parts
+      2.7.170. Others
+      2.7.171. Car repair and service
+      2.7.172. Cars with defects or after crash
+   2.8. Transportation of goods and people
+      2.8.1. Passanger traffic
+      2.8.2. Animals transportation
+      2.8.3. Building materials and constructions
+      2.8.4. Courier delivery
+      2.8.5. Dangerous and inflammable goods
+      2.8.6. Delivery of fragile and delicate goods
+      2.8.7. Forest transportation and loading
+      2.8.8. Furniture transportation
+      2.8.9. Home appliances, belongings
+      2.8.10. International transportation TIR
+      2.8.11. Large-size goods transportation
+      2.8.12. Liquid goods
+      2.8.13. Loose goods
+      2.8.14. Rail transportation
+      2.8.15. Sea transportations
+      2.8.16. Avia transportation
+      2.8.17. Auto evacuation
+      2.8.18. Removal of household waste
+      2.8.19. Garbage removal ( in containers)
+      2.8.20. Removal of snows and leaves
+      2.8.21. Wastewater pits
+      2.8.22. Logistics
+      2.8.23. Other
+   2.9. Transport\'s rent
+      2.9.1. Cars
+      2.9.2. Minibuses
+      2.9.3. Busses
+      2.9.4. Jeep
+      2.9.5. Freight cars
+      2.9.6. Trailers
+      2.9.7. For weddings and celebrations
+      2.9.8. Lux class cars and limousines
+      2.9.9. Motorcycles
+      2.9.10. Bicycles
+      2.9.11. Freight of water transport
+      2.9.12. Avio charters
+      2.9.13. Autocampings
+      2.9.14. Another
+      2.9.15. Cars for sale
+   2.10. Other...
+      2.10.1. Buggies
+      2.10.2. Cartings
+      2.10.3. Gliders
+      2.10.4. Helicopters
+      2.10.5. Landrowers and amphibias
+      2.10.6. Moto hang-gliders
+      2.10.7. Paraplanes
+      2.10.8. Planes
+      2.10.9. Water transport
+         2.10.9.1. Amphibias
+         2.10.9.2. Barges
+         2.10.9.3. Boats for rest
+         2.10.9.4. Canoes
+         2.10.9.5. Catamarans
+         2.10.9.6. Cutters
+         2.10.9.7. Engines
+         2.10.9.8. Fishing boats
+         2.10.9.9. Fishing transport
+         2.10.9.10. Kayaks
+         2.10.9.11. Motorboats
+         2.10.9.12. Sailing yachts
+         2.10.9.13. Oars
+         2.10.9.14. On air-bag
+         2.10.9.15. Rafts
+         2.10.9.16. Rubber boats
+         2.10.9.17. Sea transport
+         2.10.9.18. Tourism boats
+         2.10.9.19. Water motorcycles
+         2.10.9.20. Other water transport
+         2.10.9.21. Berth equipment
+         2.10.9.22. Equipment and accessories
+         2.10.9.23. Repair, service
+         2.10.9.24. Teaching and specification
+         2.10.9.25. Transportation trailers
+         2.10.9.26. Kaitserfing
+         2.10.9.27. Wakeboard, Water skiing
+         2.10.9.28. Windsurfing
+         2.10.9.29. Other
+      2.10.10. Other vehicles
+      2.10.11. Cans, tanks
+      2.10.12. Car exchange
+      2.10.13. Oils, chemicals
+      2.10.14. Trailers
+      2.10.15. Transport for invalids
+      2.10.16. Transport with defects or after crash
+      2.10.17. Other
+
+======================================================================
+3. Real estate
+======================================================================
+   3.1. Flats
+      3.1.1. Riga
+      3.1.2. Jurmala
+      3.1.3. Riga region
+      3.1.4. Aizkraukle and reg.
+      3.1.5. Aluksne and reg.
+      3.1.6. Balvi and reg.
+      3.1.7. Bauska and reg.
+      3.1.8. Cesis and reg.
+      3.1.9. Daugavpils and reg.
+      3.1.10. Dobele and reg.
+      3.1.11. Gulbene and reg.
+      3.1.12. Jekabpils and reg.
+      3.1.13. Jelgava and reg.
+      3.1.14. Kraslava and reg.
+      3.1.15. Kuldiga and reg.
+      3.1.16. Liepaja and reg.
+      3.1.17. Limbazi and reg.
+      3.1.18. Ludza and reg.
+      3.1.19. Madona and reg.
+      3.1.20. Ogre and reg.
+      3.1.21. Preili and reg.
+      3.1.22. Rezekne and reg.
+      3.1.23. Saldus and reg.
+      3.1.24. Talsi and reg.
+      3.1.25. Tukums and reg.
+      3.1.26. Valka and reg.
+      3.1.27. Valmiera and reg.
+      3.1.28. Ventspils and reg.
+      3.1.29. Other
+      3.1.30. Flats abroad Latvia
+   3.2. Houses, cottages
+      3.2.1. Riga
+      3.2.2. Jurmala
+      3.2.3. Riga region
+      3.2.4. Aizkraukle and reg.
+      3.2.5. Aluksne and reg.
+      3.2.6. Balvi and reg.
+      3.2.7. Bauska and reg.
+      3.2.8. Cesis and reg.
+      3.2.9. Daugavpils and reg.
+      3.2.10. Dobele and reg.
+      3.2.11. Gulbene and reg.
+      3.2.12. Jekabpils and reg.
+      3.2.13. Jelgava and reg.
+      3.2.14. Kraslava and reg.
+      3.2.15. Kuldiga and reg.
+      3.2.16. Liepaja and reg.
+      3.2.17. Limbazi and reg.
+      3.2.18. Ludza and reg.
+      3.2.19. Madona and reg.
+      3.2.20. Ogre and reg.
+      3.2.21. Preili and reg.
+      3.2.22. Rezekne and reg.
+      3.2.23. Saldus and reg.
+      3.2.24. Talsi and reg.
+      3.2.25. Tukums and reg.
+      3.2.26. Valka and reg.
+      3.2.27. Valmiera and reg.
+      3.2.28. Ventspils and reg.
+      3.2.29. Other
+      3.2.30. Flats abroad Latvia
+   3.3. Farms, estates
+      3.3.1. Riga region
+      3.3.2. Aizkraukle and reg.
+      3.3.3. Aluksne and reg.
+      3.3.4. Balvi and reg.
+      3.3.5. Bauska and reg.
+      3.3.6. Cesis and reg.
+      3.3.7. Daugavpils and reg.
+      3.3.8. Dobele and reg.
+      3.3.9. Gulbene and reg.
+      3.3.10. Jekabpils and reg.
+      3.3.11. Jelgava and reg.
+      3.3.12. Kraslava and reg.
+      3.3.13. Kuldiga and reg.
+      3.3.14. Liepaja and reg.
+      3.3.15. Limbazi and reg.
+      3.3.16. Ludza and reg.
+      3.3.17. Madona and reg.
+      3.3.18. Ogre and reg.
+      3.3.19. Preili and reg.
+      3.3.20. Rezekne and reg.
+      3.3.21. Saldus and reg.
+      3.3.22. Talsi and reg.
+      3.3.23. Tukums and reg.
+      3.3.24. Valka and reg.
+      3.3.25. Valmiera and reg.
+      3.3.26. Ventspils and reg.
+      3.3.27. Other
+   3.4. Premises
+      3.4.1. Basements and semi-basements
+      3.4.2. Bathhouses
+      3.4.3. Buildings and complexes
+      3.4.4. Cabins
+      3.4.5. Garages
+      3.4.6. Garrets
+      3.4.7. Hangars
+      3.4.8. Household buildings
+      3.4.9. Offices
+      3.4.10. Penthouses
+      3.4.11. Playing halls
+      3.4.12. Premises for service centers
+      3.4.13. Production facilities
+      3.4.14. Restaurants, cafe, dining halls
+      3.4.15. Shops
+      3.4.16. Storehouses and storages
+      3.4.17. Training halls
+      3.4.18. Workshops
+      3.4.19. Other
+         3.4.19.1. Advertising area
+         3.4.19.2. Gardens
+         3.4.19.3. Mobile houses
+         3.4.19.4. Modular houses
+         3.4.19.5. Parkings
+         3.4.19.6. Places for picnics and rest
+         3.4.19.7. Sport grounds
+         3.4.19.8. Auctions
+         3.4.19.9. Housekeeping management
+         3.4.19.10. Construction
+         3.4.19.11. Other
+   3.5. Offices
+      3.5.1. Riga
+      3.5.2. Jurmala
+      3.5.3. Riga region
+      3.5.4. Aizkraukle and reg.
+      3.5.5. Aluksne and reg.
+      3.5.6. Balvi and reg.
+      3.5.7. Bauska and reg.
+      3.5.8. Cesis and reg.
+      3.5.9. Daugavpils and reg.
+      3.5.10. Dobele and reg.
+      3.5.11. Gulbene and reg.
+      3.5.12. Jekabpils and reg.
+      3.5.13. Jelgava and reg.
+      3.5.14. Kraslava and reg.
+      3.5.15. Kuldiga and reg.
+      3.5.16. Liepaja and reg.
+      3.5.17. Limbazi and reg.
+      3.5.18. Ludza and reg.
+      3.5.19. Madona and reg.
+      3.5.20. Ogre and reg.
+      3.5.21. Preili and reg.
+      3.5.22. Rezekne and reg.
+      3.5.23. Saldus and reg.
+      3.5.24. Talsi and reg.
+      3.5.25. Tukums and reg.
+      3.5.26. Valka and reg.
+      3.5.27. Valmiera and reg.
+      3.5.28. Ventspils and reg.
+      3.5.29. Other
+   3.6. Land and plots
+      3.6.1. Riga
+      3.6.2. Jurmala
+      3.6.3. Riga region
+      3.6.4. Aizkraukle and reg.
+      3.6.5. Aluksne and reg.
+      3.6.6. Balvi and reg.
+      3.6.7. Bauska and reg.
+      3.6.8. Cesis and reg.
+      3.6.9. Daugavpils and reg.
+      3.6.10. Dobele and reg.
+      3.6.11. Gulbene and reg.
+      3.6.12. Jekabpils and reg.
+      3.6.13. Jelgava and reg.
+      3.6.14. Kraslava and reg.
+      3.6.15. Kuldiga and reg.
+      3.6.16. Liepaja and reg.
+      3.6.17. Limbazi and reg.
+      3.6.18. Ludza and reg.
+      3.6.19. Madona and reg.
+      3.6.20. Ogre and reg.
+      3.6.21. Preili and reg.
+      3.6.22. Rezekne and reg.
+      3.6.23. Saldus and reg.
+      3.6.24. Talsi and reg.
+      3.6.25. Tukums and reg.
+      3.6.26. Valka and reg.
+      3.6.27. Valmiera and reg.
+      3.6.28. Ventspils and reg.
+      3.6.29. Other
+   3.7. Forest
+      3.7.1. Riga region
+      3.7.2. Aizkraukle and reg.
+      3.7.3. Aluksne and reg.
+      3.7.4. Balvi and reg.
+      3.7.5. Bauska and reg.
+      3.7.6. Cesis and reg.
+      3.7.7. Daugavpils and reg.
+      3.7.8. Dobele and reg.
+      3.7.9. Gulbene and reg.
+      3.7.10. Jekabpils and reg.
+      3.7.11. Jelgava and reg.
+      3.7.12. Kraslava and reg.
+      3.7.13. Kuldiga and reg.
+      3.7.14. Liepaja and reg.
+      3.7.15. Limbazi and reg.
+      3.7.16. Ludza and reg.
+      3.7.17. Madona and reg.
+      3.7.18. Ogre and reg.
+      3.7.19. Preili and reg.
+      3.7.20. Rezekne and reg.
+      3.7.21. Saldus and reg.
+      3.7.22. Talsi and reg.
+      3.7.23. Tukums and reg.
+      3.7.24. Valka and reg.
+      3.7.25. Valmiera and reg.
+      3.7.26. Ventspils and reg.
+      3.7.27. Other
+   3.8. Brokers services
+   3.9. Other...
+      3.9.1. Advertising area
+      3.9.2. Bathhouses
+      3.9.3. Garages
+      3.9.4. Gardens
+      3.9.5. Grounds
+      3.9.6. Hangars
+      3.9.7. Household buildings
+      3.9.8. Housekeeping management
+      3.9.9. Mobile houses
+      3.9.10. Modular houses
+      3.9.11. Parkings
+      3.9.12. Places for picnics and rest
+      3.9.13. Sport grounds
+      3.9.14. Unfinished and emergency facilities
+      3.9.15. Auctions
+      3.9.16. Сonstruction
+      3.9.17. Other
+
+======================================================================
+4. Сonstruction
+======================================================================
+   4.1. Building materials
+      4.1.1. Brick, stone, pavers
+         4.1.1.1. Brick
+         4.1.1.2. Brick decorative
+         4.1.1.3. Brick refractory
+         4.1.1.4. Brick silicate
+         4.1.1.5. Granite
+         4.1.1.6. Pavers
+         4.1.1.7. Stone
+         4.1.1.8. Stone decorative
+         4.1.1.9. Stone field
+         4.1.1.10. Other
+      4.1.2. Doors, windows, stairs, fences, castles
+         4.1.2.1. Doors, door knots
+         4.1.2.2. Gates
+         4.1.2.3. Fences, walls
+         4.1.2.4. Glass
+         4.1.2.5. Locks, handles, hinges
+         4.1.2.6. Stairs, steps, railings
+         4.1.2.7. Windows, double-glazed windows
+         4.1.2.8. Other
+      4.1.3. Finishing materials
+         4.1.3.1. Baffles, plinths
+         4.1.3.2. Carpet covering
+         4.1.3.3. Cork covering
+         4.1.3.4. Decorative elements
+         4.1.3.5. False ceilings
+         4.1.3.6. Laminate
+         4.1.3.7. Linoleum
+         4.1.3.8. Paints, lacquers, plastulas
+         4.1.3.9. Parquet
+         4.1.3.10. Plastic
+         4.1.3.11. Profils for gypscardboard
+         4.1.3.12. Raised floor
+         4.1.3.13. Regypsum
+         4.1.3.14. Tiles
+         4.1.3.15. Vinyl, vinyl floors
+         4.1.3.16. Wallpaper
+         4.1.3.17. Fabric
+         4.1.3.18. Other
+      4.1.4. Sand, grant, crushed stone, black earth, dolomite
+         4.1.4.1. Black earth
+         4.1.4.2. Crushed stone
+         4.1.4.3. Dolomite
+         4.1.4.4. Grant, gravel
+         4.1.4.5. Pebble
+         4.1.4.6. Sand
+         4.1.4.7. Other
+      4.1.5. Wood materials
+         4.1.5.1. Balks
+         4.1.5.2. Boards
+         4.1.5.3. Deal boards
+         4.1.5.4. DWC
+         4.1.5.5. Logs
+         4.1.5.6. Veneer
+         4.1.5.7. CLT-panels
+         4.1.5.8. Other
+      4.1.6. Adapters, drivers, controllers
+      4.1.7. Armature, metal constructions
+      4.1.8. Bulbs
+      4.1.9. Cement, lime
+      4.1.10. Chemical raw material
+      4.1.11. Columns, towers
+      4.1.12. Concrete, ready-made mortar
+      4.1.13. Coverings, beams
+      4.1.14. Drainage system
+      4.1.15. Electricity
+      4.1.16. Facade materials
+      4.1.17. Foundation blocks
+      4.1.18. Gazobeton, haydite
+      4.1.19. Heat isolation
+      4.1.20. LED profiles and strips
+      4.1.21. Metal ware
+      4.1.22. Oils, chemicals
+      4.1.23. Profils for gypscardboard
+      4.1.24. Regypsum
+      4.1.25. Scrap metal
+      4.1.26. Sewerage rings, drains, sewers
+      4.1.27. Slate, tiles
+      4.1.28. Soft roof
+      4.1.29. Ventilating
+      4.1.30. Waterproofing materials
+      4.1.31. Other
+   4.2. Construction works
+      4.2.1. Finishing, domestic work
+         4.2.1.1. Cleaning of premises
+         4.2.1.2. Decorative plaster
+         4.2.1.3. Electricity installation
+         4.2.1.4. Heating systems
+         4.2.1.5. Installation of air conditioners
+         4.2.1.6. Laying linoleum and carpet
+         4.2.1.7. Laying parquet and laminate
+         4.2.1.8. Laying tiles
+         4.2.1.9. Leveling floors
+         4.2.1.10. Modeling, moldings
+         4.2.1.11. Painting works
+         4.2.1.12. Plastering work
+         4.2.1.13. Plumbing work
+         4.2.1.14. Stretch ceilings
+         4.2.1.15. Ventilating
+         4.2.1.16. Wall-papers pasting
+         4.2.1.17. Works with cardboard-gypsum
+         4.2.1.18. Other
+      4.2.2. Construction work, projects
+         4.2.2.1. Apartment houses low-rise
+         4.2.2.2. Apartment houses multistory
+         4.2.2.3. Asphalt laying
+         4.2.2.4. Bathhouses
+         4.2.2.5. Bricklaying, foundations
+         4.2.2.6. Bridges, crossings
+         4.2.2.7. Concrete works
+         4.2.2.8. Construction of roads
+         4.2.2.9. Construction of commercial premises
+         4.2.2.10. Cottages and summer houses
+         4.2.2.11. Development of territories
+         4.2.2.12. Dismantling works
+         4.2.2.13. Drilling of wells
+         4.2.2.14. Frames
+         4.2.2.15. Front works
+         4.2.2.16. Gas connection, service
+         4.2.2.17. Grasses
+         4.2.2.18. Hangars, storehouses
+         4.2.2.19. High-altitude work, mountaineering
+         4.2.2.20. High-rise buildings
+         4.2.2.21. Joiner's works
+         4.2.2.22. Lining of communications
+         4.2.2.23. Measuring and calculation works
+         4.2.2.24. Mobile houses
+         4.2.2.25. Offices
+         4.2.2.26. Paperwork
+         4.2.2.27. Planning works
+         4.2.2.28. Playgrounds
+         4.2.2.29. Restoration works
+         4.2.2.30. Road tile paving
+         4.2.2.31. Roof jobs
+         4.2.2.32. Sewage, plumbing
+         4.2.2.33. Shops
+         4.2.2.34. Support and supervision
+         4.2.2.35. Towers and masts
+         4.2.2.36. Trances, trenches, ditches
+         4.2.2.37. Uninhabited buildings
+         4.2.2.38. Waterproofing operation
+         4.2.2.39. Welding work
+         4.2.2.40. Other
+      4.2.3. Windows, doors, stairs, railings
+   4.3. Tools and technics
+      4.3.1. Tool, machines, machinery, equipment
+         4.3.1.1. Boring machines
+         4.3.1.2. Carvers
+         4.3.1.3. Compressors
+         4.3.1.4. Construction cutters
+         4.3.1.5. Drills, hammers
+         4.3.1.6. Dryers
+         4.3.1.7. Electric saws
+         4.3.1.8. Engravers
+         4.3.1.9. Fans
+         4.3.1.10. Flex, bulgarians
+         4.3.1.11. Fret
+         4.3.1.12. Generators
+         4.3.1.13. Glass cutters
+         4.3.1.14. Grinders
+         4.3.1.15. Grinding machines
+         4.3.1.16. Lathes
+         4.3.1.17. Launchers
+         4.3.1.18. Milling tool
+         4.3.1.19. Mixers, concrete mixers
+         4.3.1.20. Nail extractors
+         4.3.1.21. Nail guns
+         4.3.1.22. Paint
+         4.3.1.23. Petrol-powered saws
+         4.3.1.24. Planers
+         4.3.1.25. Plastering machines
+         4.3.1.26. Polishers
+         4.3.1.27. Pumps
+         4.3.1.28. Putty machine
+         4.3.1.29. Riveted tool
+         4.3.1.30. Scissors
+         4.3.1.31. Screwdrivers, wrenches
+         4.3.1.32. Sets of tools
+         4.3.1.33. Staplers
+         4.3.1.34. Striker
+         4.3.1.35. Termopistolety
+         4.3.1.36. Tile
+         4.3.1.37. Vibro plate
+         4.3.1.38. Weldings electric
+         4.3.1.39. Weldings gas
+         4.3.1.40. Wrenches
+         4.3.1.41. Hand, auxiliary tools
+         4.3.1.42. Measuring instruments
+         4.3.1.43. Accumulators
+         4.3.1.44. Chargers
+         4.3.1.45. Building refuse chutes
+         4.3.1.46. Cables, cordage, ropes
+         4.3.1.47. Expendables, nails
+         4.3.1.48. Glass processing equipment
+         4.3.1.49. Machine tools and equipment
+         4.3.1.50. Masts, towers, structures
+         4.3.1.51. Metalworking, machine tools
+         4.3.1.52. Pipes, hoses, connections
+         4.3.1.53. Remedies
+         4.3.1.54. Scaffolding
+         4.3.1.55. Stairs, ladders
+         4.3.1.56. Stone processing
+         4.3.1.57. Washing equipment
+         4.3.1.58. Woodworking machinery
+         4.3.1.59. Other
+      4.3.2. Construction equipment
+      4.3.3. Other
+         4.3.3.1. Alarms, security systems
+         4.3.3.2. Automation
+         4.3.3.3. Communication
+         4.3.3.4. Electric service lines
+         4.3.3.5. Equipment for farming
+         4.3.3.6. Gas plants, gas cylinders
+         4.3.3.7. Heating boilers
+         4.3.3.8. Medical equipment and instruments
+         4.3.3.9. Meteorological equipment
+         4.3.3.10. Plastics, artificial materials
+         4.3.3.11. Robot-technology and pneumatic tools
+         4.3.3.12. Sawmills
+         4.3.3.13. Sewing equipment, fabric
+         4.3.3.14. Software
+         4.3.3.15. Stoves and thermo equipments
+         4.3.3.16. Surveillance
+   4.4. Hire of tools and technics
+      4.4.1. Hire of tools and technics
+      4.4.2. Specialial machinery services
+      4.4.3. Other
+   4.5. Plumbing
+      4.5.1. Plumbing
+         4.5.1.1. Baths
+         4.5.1.2. Bidet
+         4.5.1.3. Boilers
+         4.5.1.4. Composting toilets
+         4.5.1.5. Filters and water cleaners
+         4.5.1.6. Heaters
+         4.5.1.7. Kitchen sinks
+         4.5.1.8. Massage baths
+         4.5.1.9. Mixers
+         4.5.1.10. Pools
+         4.5.1.11. Pumps
+         4.5.1.12. Shower cabins
+         4.5.1.13. Shower panels
+         4.5.1.14. Sinks
+         4.5.1.15. Solariums
+         4.5.1.16. Steam cabins
+         4.5.1.17. Thermoregulators
+         4.5.1.18. Towel driers
+         4.5.1.19. Water counters
+         4.5.1.20. WC pans
+         4.5.1.21. Accessories
+         4.5.1.22. Tubing, hoses, belongings
+         4.5.1.23. Other
+         4.5.1.24. Plumbing work
+      4.5.2. Heating, boilers
+         4.5.2.1. Boilers electric
+         4.5.2.2. Boilers gas-fired
+         4.5.2.3. Boilers oil
+         4.5.2.4. Boilers solid fuel
+         4.5.2.5. Fireplaces
+         4.5.2.6. Floor heating systems
+         4.5.2.7. Heat pumps
+         4.5.2.8. Infrared cabins
+         4.5.2.9. Ovens for bathhouse
+         4.5.2.10. Saunas
+         4.5.2.11. Solar collectors
+         4.5.2.12. Stoves
+         4.5.2.13. Chimneys
+         4.5.2.14. Doors, hatches and accessories
+         4.5.2.15. Other
+         4.5.2.16. Firewood, briquettes, pellets
+         4.5.2.17. Heaters, conditioners
+   4.6. Garden technics
+      4.6.1. Aerators
+      4.6.2. Electric saws
+      4.6.3. Mini tractors
+      4.6.4. Motoblocks
+      4.6.5. Petrol-powered saws
+      4.6.6. Branch breakers
+      4.6.7. Hedge trimmers
+      4.6.8. Lawn-mowers
+      4.6.9. Leaf collectors
+      4.6.10. Rotary tillers
+      4.6.11. Shovels, rakes
+      4.6.12. Snow machines and equipment
+      4.6.13. Trimmers
+      4.6.14. Wheelbarrows, stretchers
+      4.6.15. Other
+      4.6.16. Film
+      4.6.17. Hothouses
+      4.6.18. Agricultural machinery
+      4.6.19. Garden furniture and accessories
+   4.7. Projects, design
+      4.7.1. Air-photofilming of district and objects
+      4.7.2. Architecture projects, plans
+      4.7.3. Geological research, land surveyor
+      4.7.4. Interior and landscape design
+      4.7.5. Other
+   4.8. Transportation and loading
+   4.9. Other
+
+======================================================================
+5. Electronics
+======================================================================
+   5.1. Phones
+      5.1.1. Mobile phones
+         5.1.1.1. Apple
+         5.1.1.2. HTC
+         5.1.1.3. Huawei
+         5.1.1.4. LG
+         5.1.1.5. Microsoft
+         5.1.1.6. Nokia
+         5.1.1.7. Samsung
+         5.1.1.8. Sony
+         5.1.1.9. Xiaomi
+         5.1.1.10. Phones with 2 sim cards
+         5.1.1.11. Smart Watch
+         5.1.1.12. Another
+      5.1.2. Fixed location phones
+      5.1.3. Radio phones
+      5.1.4. Stations and commutators
+      5.1.5. Radio stations
+      5.1.6. Satellite communications
+      5.1.7. Faxes
+      5.1.8. Accessories
+      5.1.9. Phone numbers
+      5.1.10. Spares and repair
+      5.1.11. Other
+   5.2. Home appliances
+      5.2.1. Kitchen Appliances
+         5.2.1.1. Dishwashers
+         5.2.1.2. Electric cookers
+         5.2.1.3. Extracts
+         5.2.1.4. Freezers
+         5.2.1.5. Gas-stoves
+         5.2.1.6. Oven, electric oven
+         5.2.1.7. Plates surface
+         5.2.1.8. Refrigerators
+         5.2.1.9. Wine cabinets
+         5.2.1.10. Bakery machines
+         5.2.1.11. Blenders
+         5.2.1.12. Coffee machines
+         5.2.1.13. Deep fryers
+         5.2.1.14. Devices for cutting products
+         5.2.1.15. Food processors
+         5.2.1.16. Generators ice
+         5.2.1.17. Grills
+         5.2.1.18. Grinders
+         5.2.1.19. Juice extractors
+         5.2.1.20. Kettles, cofee-pots
+         5.2.1.21. Kitchen scales
+         5.2.1.22. Meat choppers
+         5.2.1.23. Microwaves ovens
+         5.2.1.24. Mixers
+         5.2.1.25. Multipurpose ovens
+         5.2.1.26. Steamers
+         5.2.1.27. Tableware and accessories
+         5.2.1.28. Toasters
+         5.2.1.29. Other
+      5.2.2. Clean and sewing
+         5.2.2.1. Centrifuges
+         5.2.2.2. Elektroshvabry
+         5.2.2.3. Hoovers
+         5.2.2.4. Irons, ironing boards
+         5.2.2.5. Overlocks
+         5.2.2.6. Sewing machines
+         5.2.2.7. Washing-machines
+         5.2.2.8. Other
+      5.2.3. Health and Beauty
+         5.2.3.1. Electric shavers
+         5.2.3.2. Epilators
+         5.2.3.3. Hair dryers, hair straighteners
+         5.2.3.4. Watch
+         5.2.3.5. Other
+      5.2.4. Care for water and air
+         5.2.4.1. Air Ionizers
+         5.2.4.2. Air-conditioners
+         5.2.4.3. Boilers
+         5.2.4.4. Collectors moisture
+         5.2.4.5. Fans
+         5.2.4.6. Filters and water cleaners
+         5.2.4.7. Flavors air
+         5.2.4.8. Heaters
+         5.2.4.9. Humidifiers
+         5.2.4.10. IR emitters
+         5.2.4.11. Oil Coolers
+         5.2.4.12. Purifiers
+         5.2.4.13. Radiators
+         5.2.4.14. Water Softeners
+         5.2.4.15. Other
+         5.2.4.16. Plumbing
+   5.3. Computers, office equipment
+      5.3.1. Computers
+      5.3.2. Notebooks
+      5.3.3. Tablets
+      5.3.4. Game consoles
+      5.3.5. Monitors
+      5.3.6. Printers, scanners, cartridges
+         5.3.6.1. Printers
+         5.3.6.2. Scanners
+         5.3.6.3. Multifunction devices
+         5.3.6.4. Cartridges, refilling
+         5.3.6.5. Paper
+         5.3.6.6. Other
+      5.3.7. Completing parts for laptops
+         5.3.7.1. CPU
+         5.3.7.2. HDD
+         5.3.7.3. SSD
+         5.3.7.4. RAM
+         5.3.7.5. DVD, Blu-ray
+         5.3.7.6. Cases
+         5.3.7.7. Controllers
+         5.3.7.8. Displays
+         5.3.7.9. Keyboard
+         5.3.7.10. Motherboards
+         5.3.7.11. Network cards
+         5.3.7.12. Video
+         5.3.7.13. Accumulators
+         5.3.7.14. Power supplies, chargers
+         5.3.7.15. Parts for repair
+         5.3.7.16. Other
+      5.3.8. Completing pc
+         5.3.8.1. CPU
+         5.3.8.2. HDD
+         5.3.8.3. SSD
+         5.3.8.4. RAM
+         5.3.8.5. DVD, Blu-ray
+         5.3.8.6. Cases
+         5.3.8.7. Controllers
+         5.3.8.8. Motherboards
+         5.3.8.9. Network cards
+         5.3.8.10. Video
+         5.3.8.11. Accessories and cables
+         5.3.8.12. Parts for repair
+         5.3.8.13. Other
+      5.3.9. Accessories
+      5.3.10. Cash registers
+      5.3.11. Games
+      5.3.12. Multimedia
+      5.3.13. Network equipment
+      5.3.14. Other
+      5.3.15. Computer repair
+         5.3.15.1. Computer repair
+         5.3.15.2. Laptop repair
+         5.3.15.3. Tablets repair
+         5.3.15.4. Consoles repair
+         5.3.15.5. Monitors repair
+         5.3.15.6. Printer repair
+         5.3.15.7. Other
+      5.3.16. Smart house, Arduino, Raspberry PI
+      5.3.17. Software, installation, configuring
+   5.4. Audio, Video, DVD, SAT
+      5.4.1. Audio equipment
+         5.4.1.1. Auto audio
+         5.4.1.2. Amplifiers
+         5.4.1.3. Consoles, mixers
+         5.4.1.4. Dictaphone
+         5.4.1.5. Dynamics
+         5.4.1.6. Headphones
+         5.4.1.7. Loudspeakers
+         5.4.1.8. Microphones
+         5.4.1.9. Musical centers
+         5.4.1.10. Reseivers
+         5.4.1.11. Tape recorders
+         5.4.1.12. CD, MD players
+         5.4.1.13. Mp3 players
+         5.4.1.14. Vinyl records and players
+         5.4.1.15. Lighting equipment
+         5.4.1.16. Musical instruments
+         5.4.1.17. Other
+      5.4.2. Video, DVD
+      5.4.3. Satellite TV
+         5.4.3.1. Accessories
+         5.4.3.2. Installation, configuration, maintenance
+         5.4.3.3. Receivers, decoders
+         5.4.3.4. Satellite dishes
+         5.4.3.5. Satellite TV Sets
+         5.4.3.6. Other
+      5.4.4. Accessories, electronics repair
+   5.5. Batteries
+      5.5.1. Batteries
+      5.5.2. Batteries \'\'finger\'\'
+      5.5.3. Batteries for bikes
+      5.5.4. Batteries for cars
+      5.5.5. Batteries for construction tools
+      5.5.6. Batteries for electric cars
+      5.5.7. Batteries for laptops
+      5.5.8. Batteries for phones
+      5.5.9. Batteries for photo, video equipment
+      5.5.10. Batteries others
+      5.5.11. Chargers for cars
+      5.5.12. Chargers for construction tools
+      5.5.13. Chargers for laptops and Tablet PC
+      5.5.14. Chargers for phones
+      5.5.15. Chargers for photo, video equipments
+      5.5.16. Chargers others
+      5.5.17. Voltage converters, inverters
+      5.5.18. Other
+   5.6. Televisions set
+      5.6.1. Black-and-white TVs
+      5.6.2. Colour (usual) TVs
+      5.6.3. LCD TVs
+      5.6.4. LED TVs
+      5.6.5. Plasmic TVs
+      5.6.6. Projector screens
+      5.6.7. Projectors
+      5.6.8. Satellite TV
+      5.6.9. Brackets, fasteners
+      5.6.10. Cables, accessories
+      5.6.11. Remote Control
+      5.6.12. TV consoles
+      5.6.13. Other
+   5.7. Photo and optics
+      5.7.1. Digital cameras
+         5.7.1.1. BenQ
+         5.7.1.2. Canon
+         5.7.1.3. Casio
+         5.7.1.4. FujiFilm
+         5.7.1.5. HP
+         5.7.1.6. Kodak
+         5.7.1.7. Konica
+         5.7.1.8. Minolta
+         5.7.1.9. Nikon
+         5.7.1.10. Olympus
+         5.7.1.11. Panasonic
+         5.7.1.12. Pentax
+         5.7.1.13. Samsung
+         5.7.1.14. Sony
+         5.7.1.15. Another
+      5.7.2. SLR cameras
+      5.7.3. Film cameras
+      5.7.4. lenses
+      5.7.5. Accumulators
+      5.7.6. Batteries \'\'finger\'\'
+      5.7.7. Chargers
+      5.7.8. Accessories
+      5.7.9. Field-glasses, telescopes
+      5.7.10. Flashes and illumination
+      5.7.11. Memory for digital cameras
+      5.7.12. Bags
+      5.7.13. Photographic paper
+      5.7.14. Supports and the chassis
+      5.7.15. Other
+      5.7.16. Photographers services
+      5.7.17. Photographic equipment rental
+      5.7.18. Video operator services
+   5.8. GPS navigators
+      5.8.1. Navigators
+      5.8.2. GPS maps
+      5.8.3. Other
+   5.9. Other and repair
+      5.9.1. Bulbs
+      5.9.2. Adapters, drivers, controllers
+      5.9.3. LED profiles and strips
+      5.9.4. Smart house, Arduino, Raspberry PI
+      5.9.5. Cables and accessories
+      5.9.6. Remote Control
+      5.9.7. Radiation meters, dosimeters
+      5.9.8. Radio components, chips
+      5.9.9. Computer repair
+      5.9.10. Electronics repair service
+      5.9.11. Hydroelectric power stations
+      5.9.12. Solar power stations
+      5.9.13. Wind power generators
+      5.9.14. Other
+
+======================================================================
+6. Clothes, footwear
+======================================================================
+   6.1. Women\'s clothes
+      6.1.1. Bathrobe
+      6.1.2. Blouses, tunics
+      6.1.3. Capri, breeches
+      6.1.4. Coats
+      6.1.5. Collars, Cape
+      6.1.6. Corsets
+      6.1.7. Down jackets
+      6.1.8. Dresses
+      6.1.9. Evening, ball dresses
+      6.1.10. Fancy dresses and masks
+      6.1.11. Fur coats
+      6.1.12. Gloves, mittens
+      6.1.13. Hats, caps, berets
+      6.1.14. Jackets
+      6.1.15. Jeans
+      6.1.16. Jumpsuits
+      6.1.17. Knitted sweaters
+      6.1.18. Leggings
+      6.1.19. Nightgowns
+      6.1.20. Raincoats
+      6.1.21. Scarfs
+      6.1.22. Sheepskin coats
+      6.1.23. Shirts
+      6.1.24. Shorts
+      6.1.25. Skirts
+      6.1.26. Sportswear
+      6.1.27. Stockings, socks
+      6.1.28. Suit jackets
+      6.1.29. Suits
+      6.1.30. Sundresses
+      6.1.31. Sweaters
+      6.1.32. Swimsuits
+      6.1.33. T-shirts
+      6.1.34. Tops
+      6.1.35. Trousers
+      6.1.36. Turtleneck
+      6.1.37. Underwear
+      6.1.38. Waistcoats
+      6.1.39. Wedding dresses and accessories
+      6.1.40. Windbreakers
+      6.1.41. Clothes for pregnant and lactating
+      6.1.42. Accessories
+      6.1.43. Other
+      6.1.44. Footwear
+      6.1.45. Travel clothing
+   6.2. Men\'s clothes
+      6.2.1. Bathrobe
+      6.2.2. Coats
+      6.2.3. Down jackets
+      6.2.4. Fancy dresses and masks
+      6.2.5. Gloves, mittens
+      6.2.6. Hats, caps
+      6.2.7. Jackets
+      6.2.8. Jeans
+      6.2.9. Raincoats
+      6.2.10. Scarfs
+      6.2.11. Sheepskin coats
+      6.2.12. Shirts
+      6.2.13. Shorts
+      6.2.14. Sportswear
+      6.2.15. Suit jackets
+      6.2.16. Suits
+      6.2.17. Sweaters
+      6.2.18. Swimming trunks
+      6.2.19. T-shirts
+      6.2.20. Trousers
+      6.2.21. Underwear
+      6.2.22. Accessories
+      6.2.23. Other
+      6.2.24. Footwear
+      6.2.25. Travel clothing
+   6.3. Children\'s clothing, shoes
+   6.4. Footwear
+      6.4.1. Womens shoes
+         6.4.1.1. Ballerinas
+         6.4.1.2. Boots
+         6.4.1.3. Boots (high)
+         6.4.1.4. Botilions
+         6.4.1.5. Clogs
+         6.4.1.6. Hessian boots
+         6.4.1.7. Moccasins
+         6.4.1.8. Open-toe sandals
+         6.4.1.9. Sandals
+         6.4.1.10. Shoes
+         6.4.1.11. Short boots
+         6.4.1.12. Slippers
+         6.4.1.13. Uggs
+         6.4.1.14. House footwear
+         6.4.1.15. Sports footwear
+      6.4.2. Mens shoes
+         6.4.2.1. Boots
+         6.4.2.2. Boots (high)
+         6.4.2.3. Moccasins
+         6.4.2.4. Open-toe sandals
+         6.4.2.5. Sandals
+         6.4.2.6. Shoes
+         6.4.2.7. House footwear
+         6.4.2.8. Sports footwear
+      6.4.3. Childrens shoes
+         6.4.3.1. Boots
+         6.4.3.2. Boots (high)
+         6.4.3.3. Open-toe sandals
+         6.4.3.4. Sandals
+         6.4.3.5. Shoes
+         6.4.3.6. House footwear
+         6.4.3.7. Sports footwear
+      6.4.4. Other
+         6.4.4.1. Shoe sewing
+         6.4.4.2. Shoe repair
+         6.4.4.3. Travel shoes
+         6.4.4.4. Other
+   6.5. Glasses, belts, handbags, Accessories, jewelry
+      6.5.1. Backpacks
+      6.5.2. Bags for children
+      6.5.3. Belts, waistbelts
+      6.5.4. Bijouterie
+      6.5.5. Clutch bags
+      6.5.6. Glasses
+      6.5.7. Jewellery
+      6.5.8. Men\'s bags, handbags
+      6.5.9. Purses
+      6.5.10. Sports bags
+      6.5.11. Suitcases
+      6.5.12. Watch
+      6.5.13. Women\' s small bags
+      6.5.14. Other
+   6.6. Unionalls
+   6.7. Sewing services and atelier
+   6.8. Other
+
+======================================================================
+7. For home
+======================================================================
+   7.1. Furniture, interior
+      7.1.1. Armchairs, chairs
+      7.1.2. Bedroom sets
+      7.1.3. Bedside tables, dressers
+      7.1.4. Cabinets
+      7.1.5. Carpets
+      7.1.6. Dining room sets
+      7.1.7. Furniture sets
+      7.1.8. Hallways
+      7.1.9. Kitchens, kitchen sets
+      7.1.10. Lusters, sconces
+      7.1.11. Mirrors
+      7.1.12. Sections
+      7.1.13. Shelves, coasters, hangers
+      7.1.14. Sofas, beds
+      7.1.15. Tables
+      7.1.16. Blankets, pillows, sheets
+      7.1.17. Blinds, curtains
+      7.1.18. Crockery, cutlery
+      7.1.19. Children furniture
+      7.1.20. Furniture and accessories for bathroom
+      7.1.21. Garden furniture and accessories
+         7.1.21.1. Benches
+         7.1.21.2. Bowers
+         7.1.21.3. Chairs, armchairs
+         7.1.21.4. Children's towns, swings
+         7.1.21.5. Decorations
+         7.1.21.6. Grills, barbecue, accessories
+         7.1.21.7. Hammocks
+         7.1.21.8. Heaters
+         7.1.21.9. Lighting, lights
+         7.1.21.10. Pools and Accessories
+         7.1.21.11. Sofa-swing
+         7.1.21.12. Sunbeds
+         7.1.21.13. Tables
+         7.1.21.14. Trampolines
+         7.1.21.15. Umbrellas
+         7.1.21.16. Other
+      7.1.22. Office furniture and accessories
+      7.1.23. Accessories, components
+      7.1.24. Doors, windows, stairs
+      7.1.25. Plumbing
+      7.1.26. Safes
+      7.1.27. Design services
+      7.1.28. Furniture cleaning
+      7.1.29. Furniture transportation
+      7.1.30. Bulbs
+      7.1.31. Clocks
+      7.1.32. Home appliances
+      7.1.33. Other
+   7.2. Health, beauty
+      7.2.1. Beauty, appearance
+         7.2.1.1. Eyelashes
+         7.2.1.2. Eyes
+         7.2.1.3. Face
+         7.2.1.4. Hair
+         7.2.1.5. Lips
+         7.2.1.6. Nails
+         7.2.1.7. Skin
+         7.2.1.8. Beauty salon services
+         7.2.1.9. Cosmetic essentials
+         7.2.1.10. Makeup
+         7.2.1.11. Perfume
+         7.2.1.12. Other
+      7.2.2. Health
+         7.2.2.1. Electrodevices
+         7.2.2.2. Fitness, exercises
+         7.2.2.3. Glasses
+         7.2.2.4. Hygiene items
+         7.2.2.5. Plastic arts
+         7.2.2.6. Solarium, sauna
+         7.2.2.7. Vitamins, nutritional supplements
+         7.2.2.8. Weight correction
+         7.2.2.9. Other
+      7.2.3. Medical services
+      7.2.4. Massage services
+         7.2.4.1. Anticellulite massage
+         7.2.4.2. Ayurvedic massage
+         7.2.4.3. Children massage
+         7.2.4.4. Classic massage
+         7.2.4.5. Hand massage
+         7.2.4.6. Head and neck massage
+         7.2.4.7. Honey, chocolate massage
+         7.2.4.8. Losing weight massage
+         7.2.4.9. Medical massage
+         7.2.4.10. Relaxing massage
+         7.2.4.11. Sports massage
+         7.2.4.12. Stone massage
+         7.2.4.13. Thai massage
+         7.2.4.14. Vacuum massage
+         7.2.4.15. Other
+      7.2.5. Aerobika, fitnes, joga
+      7.2.6. Courses of makeup artists, stylists
+      7.2.7. Dancing
+      7.2.8. Hairdresser courses
+      7.2.9. Manicure courses
+      7.2.10. Accessories
+   7.3. Jewellery, gems
+      7.3.1. Bijouterie
+      7.3.2. Bracelets
+      7.3.3. Broochs, medallions
+      7.3.4. Chains
+      7.3.5. Ear-rings
+      7.3.6. Gems
+      7.3.7. Necklaces
+      7.3.8. Pendents
+      7.3.9. Rings and seal-rings
+      7.3.10. Watch
+         7.3.10.1. Female
+         7.3.10.2. Mens
+         7.3.10.3. Antique
+         7.3.10.4. Exclusive
+         7.3.10.5. Wall
+         7.3.10.6. Antique watches
+         7.3.10.7. Smart Watch
+         7.3.10.8. Another
+      7.3.11. Accessories
+      7.3.12. Jewelers services
+      7.3.13. Pawnshop services
+      7.3.14. Other
+      7.3.15. Coins
+   7.4. Gifts, souvenirs, Handmade products
+      7.4.1. Accessories for pets
+      7.4.2. Bags, belts, accessories
+      7.4.3. Beads
+      7.4.4. Clothes
+      7.4.5. Cosmetics
+      7.4.6. Dishes
+      7.4.7. Dolls and toys
+      7.4.8. Flowers, floristry
+      7.4.9. Footwear
+      7.4.10. For celebration
+      7.4.11. Interior decor
+      7.4.12. Jewelry
+      7.4.13. Pictures and panels
+      7.4.14. Sewing, knitting, embroidery
+      7.4.15. Souvenirs and gifts
+      7.4.16. Wedding accessories
+      7.4.17. Master classes
+      7.4.18. Consumables
+      7.4.19. Other
+   7.5. Antiques, canvas
+      7.5.1. Antiquarian furniture
+      7.5.2. Antiques
+         7.5.2.1. Books
+         7.5.2.2. Chandeliers, sconces, lamps
+         7.5.2.3. Dishes
+         7.5.2.4. Farm antiques
+         7.5.2.5. Music, photos, movies
+         7.5.2.6. Sewing machines
+         7.5.2.7. Typewriters
+         7.5.2.8. Watch
+         7.5.2.9. Household appliances, utensils
+         7.5.2.10. Figurines
+         7.5.2.11. Historical artifacts
+         7.5.2.12. Military relics
+         7.5.2.13. Other
+      7.5.3. Canvas
+      7.5.4. Other
+      7.5.5. Collecting
+   7.6. Home plants
+      7.6.1. Aloe
+      7.6.2. Begonias
+      7.6.3. Bonsai
+      7.6.4. Cactuses
+      7.6.5. Cyclamens
+      7.6.6. Difenbahia
+      7.6.7. Dracaenas
+      7.6.8. Ferns
+      7.6.9. Ficuses
+      7.6.10. Flowers
+      7.6.11. Ikebana
+      7.6.12. Palms
+      7.6.13. Spiderwert
+      7.6.14. Violets
+      7.6.15. Small plants
+      7.6.16. Middle plants
+      7.6.17. Large plants
+      7.6.18. Artificial plants
+      7.6.19. Citrus plants
+      7.6.20. Decorative plants
+      7.6.21. Fruit trees, seedlings
+      7.6.22. Garden plants
+      7.6.23. Medicative plants
+      7.6.24. Outdoor plants
+      7.6.25. Earth and fertilizers
+      7.6.26. Other
+   7.7. Other...
+      7.7.1. Detergents
+      7.7.2. Firewood, briquettes, pellets
+      7.7.3. Foodstuffs
+      7.7.4. Garden technics
+      7.7.5. Home appliances
+      7.7.6. Household work
+      7.7.7. Surveillance system
+      7.7.8. Other
+   7.8. Searches, finds
+      7.8.1. Car number plates
+      7.8.2. Search of the stolen moto and cars
+      7.8.3. Bags
+      7.8.4. Children\'s items
+      7.8.5. Keys, glasses, umbrellas, other accessories
+      7.8.6. Money
+      7.8.7. Search of the stolen items
+      7.8.8. Phones
+      7.8.9. Photo, Video cameras, other electronics
+      7.8.10. Documents and papers
+      7.8.11. Jewelry, watches
+      7.8.12. Cats
+      7.8.13. Dogs
+      7.8.14. Other pets
+      7.8.15. Searches of the person
+      7.8.16. Other
+
+======================================================================
+8. Production, work
+======================================================================
+   8.1. Equipment, Production, orders
+      8.1.1. Production
+         8.1.1.1. Cabinetmaking
+         8.1.1.2. Chemical production
+         8.1.1.3. Cosmetics production
+         8.1.1.4. Instrumentation
+         8.1.1.5. Knitting production, clothing, shoes
+         8.1.1.6. Metalworking
+         8.1.1.7. Optical production
+         8.1.1.8. Packaging production
+         8.1.1.9. Printing and printed products
+         8.1.1.10. Production measuring equipment
+         8.1.1.11. Production of building materials
+         8.1.1.12. Production of communications
+         8.1.1.13. Production of detergents and cleaning products
+         8.1.1.14. Production of electronics
+         8.1.1.15. Production of fertilizers and minerals
+         8.1.1.16. Production of garden equipment
+         8.1.1.17. Production of household appliance
+         8.1.1.18. Production of machinery and equipment
+         8.1.1.19. Production of medical equipment
+         8.1.1.20. Production of medicines
+         8.1.1.21. Production of souvenirs and gifts
+         8.1.1.22. Production of stationery
+         8.1.1.23. Raw materials and materials
+         8.1.1.24. Transport production
+         8.1.1.25. Woodworking
+         8.1.1.26. Hydroelectric power stations
+         8.1.1.27. Solar power stations
+         8.1.1.28. Wind power generators
+         8.1.1.29. Other
+      8.1.2. Food industry
+         8.1.2.1. Bakery equipment
+         8.1.2.2. Bottling equipment
+         8.1.2.3. Cafes, restaurants, vehicles and tools
+         8.1.2.4. Canning and pickles
+         8.1.2.5. Confectionery equipment
+         8.1.2.6. Fishing equipment, net
+         8.1.2.7. Freezing equipment
+         8.1.2.8. Milk production
+         8.1.2.9. Processing meat and meat products
+         8.1.2.10. Processing of vegetables
+         8.1.2.11. Smoking, drying
+         8.1.2.12. Other
+      8.1.3. Trade, promotion, presentation
+         8.1.3.1. Advertising signs, decoration
+         8.1.3.2. Cash registers
+         8.1.3.3. Concert, club equipment
+         8.1.3.4. Conveyors, lines, manufactures
+         8.1.3.5. Exchange counters, showcases
+         8.1.3.6. Furniture
+         8.1.3.7. Industrial equipment
+         8.1.3.8. Mannequins
+         8.1.3.9. Sound equipment, lighting
+         8.1.3.10. Stands, exhibitions
+         8.1.3.11. Other
+      8.1.4. Storage, packaging, accounting
+         8.1.4.1. Adhesive tapes, films, tape
+         8.1.4.2. Cans, tanks
+         8.1.4.3. Containers, platforms
+         8.1.4.4. Crates, boxes
+         8.1.4.5. Filling equipment
+         8.1.4.6. Hangars
+         8.1.4.7. Locks, seals
+         8.1.4.8. Packing equipment
+         8.1.4.9. Pallets, containers, packing
+         8.1.4.10. Safes, cabinets
+         8.1.4.11. Sorting, separators
+         8.1.4.12. Storage equipment
+         8.1.4.13. Other
+   8.2. Household work
+      8.2.1. Removal household garbage, furniture
+      8.2.2. Garbage removal ( in containers)
+      8.2.3. Removal of snows and leaves
+      8.2.4. Wastewater and sewers treatment
+      8.2.5. Area cleaning
+      8.2.6. Care for house plants
+      8.2.7. Cleaning of premises
+      8.2.8. Cleaning roofs from snow and leaves
+      8.2.9. Deforestation
+      8.2.10. Garden and lawn care
+      8.2.11. Window cleaning
+      8.2.12. Housekeeping services
+      8.2.13. Security of objects
+      8.2.14. Other
+   8.3. Construction and repair
+   8.4. Transportation and loading
+   8.5. Business contacts
+   8.6. Foodstuffs
+   8.7. Firewood, briquettes, pellets
+      8.7.1. Firewood
+      8.7.2. Chopped firewood
+      8.7.3. Briquette
+      8.7.4. Coal
+      8.7.5. Granules
+      8.7.6. Building clippings
+      8.7.7. Other
+      8.7.8. Boilers, heating systems
+   8.8. Other...
+      8.8.1. Food equipment
+      8.8.2. Industrial equipment
+      8.8.3. Market garden, farm buildings
+      8.8.4. Oils, chemicals
+      8.8.5. Film
+      8.8.6. Hothouses
+      8.8.7. Other
+
+======================================================================
+9. For children
+======================================================================
+   9.1. All for school
+      9.1.1. Briefcases, satchels, bags
+      9.1.2. Exercise books, albums, paper
+      9.1.3. Stationery
+      9.1.4. Textbooks
+      9.1.5. Other
+      9.1.6. Children\'s clothes and footwear
+      9.1.7. Writing tables and equipment
+   9.2. Children\'s clothing, shoes
+      9.2.1. Clothes
+         9.2.1.1. Bathrobe
+         9.2.1.2. Bodyocks, baby's loose jacket, sliders
+         9.2.1.3. Coats
+         9.2.1.4. Dresses
+         9.2.1.5. Evening, ball dresses
+         9.2.1.6. Fancy dresses and masks
+         9.2.1.7. Fur coats
+         9.2.1.8. Gloves, mittens
+         9.2.1.9. Hats, caps, berets
+         9.2.1.10. Jackets, sheepskin coats
+         9.2.1.11. Jeans
+         9.2.1.12. Jumpsuits
+         9.2.1.13. Knitted sweaters
+         9.2.1.14. Nightgowns
+         9.2.1.15. Raincoats
+         9.2.1.16. Scarfs
+         9.2.1.17. School uniform
+         9.2.1.18. Shirts
+         9.2.1.19. Shorts
+         9.2.1.20. Skirts
+         9.2.1.21. Sleeping bags
+         9.2.1.22. Sportswear
+         9.2.1.23. Suits
+         9.2.1.24. Sundresses
+         9.2.1.25. Sweaters
+         9.2.1.26. Swimsuits
+         9.2.1.27. T-shirts
+         9.2.1.28. Trousers
+         9.2.1.29. Underwear
+         9.2.1.30. Other
+      9.2.2. Footwear
+         9.2.2.1. Boots
+         9.2.2.2. Boots (high)
+         9.2.2.3. Open-toe sandals
+         9.2.2.4. Sandals
+         9.2.2.5. Shoes
+         9.2.2.6. House footwear
+         9.2.2.7. Sports footwear
+         9.2.2.8. Other
+      9.2.3. Accessories
+      9.2.4. Other
+   9.3. Toys, swings
+      9.3.1. Toys for tots (up to 3 years)
+      9.3.2. For girls
+      9.3.3. For boys
+      9.3.4. Active and sports games
+      9.3.5. Board games
+      9.3.6. Car models
+      9.3.7. Collective games
+      9.3.8. Constructors
+      9.3.9. Developmental toys
+      9.3.10. Doll clothes
+      9.3.11. Dolls
+      9.3.12. Electronic toys
+      9.3.13. Junior researcher
+      9.3.14. Musical toys
+      9.3.15. Puzzles
+      9.3.16. Radio controlled toys
+      9.3.17. Soft toys
+      9.3.18. Toy cars and other transport
+      9.3.19. Toy furniture
+      9.3.20. Toy kitchen and utensils
+      9.3.21. Toys for cots and prams
+      9.3.22. Trains and railroads
+      9.3.23. Transformers and robots
+      9.3.24. All for recreation on the water
+      9.3.25. Boxes and baskets for toys
+      9.3.26. Other
+      9.3.27. Bicycles for tots
+      9.3.28. Bicycles for children
+      9.3.29. Bicycles for teenagers
+      9.3.30. Accumulators and batteries
+      9.3.31. Electric cars, electric motorcycles
+      9.3.32. Pushed, towed toys
+      9.3.33. Scooters
+      9.3.34. Skateboards
+      9.3.35. Sled, skis
+      9.3.36. Sports areas
+      9.3.37. Swing
+      9.3.38. Swings electro
+      9.3.39. Walkers, jumpers
+      9.3.40. Domestic animals
+   9.4. Carriages
+   9.5. Children furniture
+      9.5.1. Bedding accessories
+      9.5.2. Beds
+      9.5.3. Chairs and tables for feeding
+      9.5.4. Chairs-rocking and chaise lounges
+      9.5.5. Lockers, bedside-tables
+      9.5.6. Mattresses
+      9.5.7. Playpens, pools, arenas
+      9.5.8. Sections
+      9.5.9. Simulators and sports sections
+      9.5.10. Sofas
+      9.5.11. Tables
+      9.5.12. Tables for swaddling
+      9.5.13. Children rooms\' equipment
+      9.5.14. Writing tables and equipment
+      9.5.15. Other
+   9.6. Car seats, bags carrying
+      9.6.1. Car seats
+         9.6.1.1. Up to 6 months (0-10 kg.)
+         9.6.1.2. Up to 1 year (0-13 kg.)
+         9.6.1.3. Up to 4 years (0-18 kg.)
+         9.6.1.4. From 1 to 4 years (9-18 kg.)
+         9.6.1.5. From 1 to 7 years (9-25 kg.)
+         9.6.1.6. From 1 to 12 years (9-36 kg.)
+         9.6.1.7. From 3 to 7 years (15-25 kg.)
+         9.6.1.8. From 3 to 12 years (15-36 kg.)
+         9.6.1.9. From 6 to 12 years (22-36 kg.)
+         9.6.1.10. Accessories for car seats
+      9.6.2. Bags-kangaroo
+      9.6.3. Bags-carrying
+      9.6.4. Slings
+      9.6.5. Other
+   9.7. Accessories and food
+      9.7.1. Accessories for feeding
+      9.7.2. Baby cosmetics
+      9.7.3. Baby food
+      9.7.4. Chairs and tables for feeding
+      9.7.5. Containers for bottles, thermal bags
+      9.7.6. Heaters and sterilizers
+      9.7.7. Milk pumps
+      9.7.8. Radio nurses, video nurses
+      9.7.9. Scales, thermometers
+      9.7.10. Tables for swaddling
+      9.7.11. Children\'s dishes
+      9.7.12. Baths, supports
+      9.7.13. Bags, back packs
+      9.7.14. Hygiene items
+      9.7.15. Accessories
+      9.7.16. Other
+      9.7.17. Medical services
+   9.8. Mugs, kindergartens, sections
+      9.8.1. Playgrounds
+      9.8.2. Season camps
+      9.8.3. Sport sections
+      9.8.4. Thematic mugs
+      9.8.5. Educators, nannies, tutors
+      9.8.6. Kindergartens
+      9.8.7. Other
+      9.8.8. Children medicine
+   9.9. Children\'s activities
+   9.10. Other
+
+======================================================================
+10. Animals
+======================================================================
+   10.1. Dogs, puppies
+      10.1.1. Affenpinscher
+      10.1.2. Afghan Hound
+      10.1.3. Airedale Terrier
+      10.1.4. Akita-inu
+      10.1.5. Alaskan Malamute
+      10.1.6. American Akita
+      10.1.7. American Bulldog
+      10.1.8. American bully
+      10.1.9. American Cocker Spaniel
+      10.1.10. American Hairless Terrier
+      10.1.11. Australian Cattle Dog
+      10.1.12. Australian Shepherd
+      10.1.13. Australian Silky Terrier
+      10.1.14. Barzaia
+      10.1.15. Basenji
+      10.1.16. Basset Fauve de Bretagne
+      10.1.17. Basset-Hound
+      10.1.18. Bayerische Gebirgsschweisshund
+      10.1.19. Beagle
+      10.1.20. Bearded Collie
+      10.1.21. Bedlington Terrier
+      10.1.22. Berger de Beauce
+      10.1.23. Berger de Brie (Briard)
+      10.1.24. Berner Sennenhund
+      10.1.25. Bichon a Poil Frise
+      10.1.26. Bichon Havanais
+      10.1.27. Bichon Maltais
+      10.1.28. Biewer yorkshire terrier
+      10.1.29. Border Collie
+      10.1.30. Boston Terrier
+      10.1.31. Bouledogue Francais
+      10.1.32. Bouvier des Flandres
+      10.1.33. Bracco Italiano
+      10.1.34. Bull Terrier (Miniature)
+      10.1.35. Bulldog
+      10.1.36. Bullmastiff
+      10.1.37. Cairn Terrier
+      10.1.38. Cane Corso
+      10.1.39. Caniche Grand
+      10.1.40. Caniche Miniature
+      10.1.41. Caniche Moyen
+      10.1.42. Caniche Nain
+      10.1.43. Cavalier King Charles Spaniel
+      10.1.44. Cheskoslovensky vlchak
+      10.1.45. Chien de Berger Belge (Malinois)
+      10.1.46. Chien de Berger Belge (Groenendaler)
+      10.1.47. Chien de Berger Belge (Tervueren)
+      10.1.48. Chien de Montagne des Pyrenees
+      10.1.49. Chien de Saint-Huberg
+      10.1.50. Chin
+      10.1.51. Chinese Crested Dog
+      10.1.52. Chow-chow
+      10.1.53. Cihua-hua
+      10.1.54. Cirneco dell\'Etna
+      10.1.55. Clumber Spaniel
+      10.1.56. Collie Rough
+      10.1.57. Collie Smooth
+      10.1.58. Curly Coated Retriever
+      10.1.59. Dachshund Kaninchen Rauhhaar
+      10.1.60. Dachshund Kaninchen Langhaar
+      10.1.61. Dachshund Kaninchen Kurzhaar
+      10.1.62. Dachshund Kurzhaar
+      10.1.63. Dachshund Langhaar
+      10.1.64. Dachshund Rauhhaar
+      10.1.65. Dachshund Zwerg Kurzhaar
+      10.1.66. Dachshund Zwerg Rauhhaar
+      10.1.67. Dachshund Zwerg Langhaar
+      10.1.68. Dalmatinac
+      10.1.69. Deerhound
+      10.1.70. Deutsche Dogge
+      10.1.71. Deutscher Boxer
+      10.1.72. Deutscher Drahthaariger Vorstehhund
+      10.1.73. Deutscher Jagdterrier
+      10.1.74. Deutscher Kleinspitz
+      10.1.75. Deutscher Kurzhaariger Vorstehhund
+      10.1.76. Deutscher Schaferhund
+      10.1.77. Do-Khyi
+      10.1.78. Dobermann
+      10.1.79. Dogo Argentino
+      10.1.80. Dogo Canario
+      10.1.81. English Cocker
+      10.1.82. English Pointer
+      10.1.83. English Setter
+      10.1.84. English Springer Spaniel
+      10.1.85. Estonian Hound
+      10.1.86. Fila Brasileiro
+      10.1.87. Finnish Lapphund
+      10.1.88. Finnish spitz
+      10.1.89. Flat Coated Retriever
+      10.1.90. Fox Terrier Smooth
+      10.1.91. Fox Terrier Wire
+      10.1.92. Golden Retriever
+      10.1.93. Gordon Setter
+      10.1.94. Grand Basset Griffon Vendeen
+      10.1.95. Greyhound
+      10.1.96. Griffon Belge
+      10.1.97. Griffon Bruxellois
+      10.1.98. Grosser Schweizer Sennehund
+      10.1.99. Hanoverian Scenthound
+      10.1.100. Hovawart
+      10.1.101. Ioujnorousskaia Ovtcharka
+      10.1.102. Irish Glen of Imaal Terrier
+      10.1.103. Irish Setter
+      10.1.104. Irish Soft Coated Wheaten Terrier
+      10.1.105. Irish Terrier
+      10.1.106. Irish Wolfhound
+      10.1.107. Jack Russell Terrier
+      10.1.108. Japanese Mastiff (Toca Inu)
+      10.1.109. Karelo-Finnish Laika
+      10.1.110. Kavkazskaia Ovtcharka
+      10.1.111. Kerry Blue Terrier
+      10.1.112. Khao Manee
+      10.1.113. Komondor
+      10.1.114. Kuvasz
+      10.1.115. Labrador Retriever
+      10.1.116. Lagotto Romagnolo
+      10.1.117. Landseer
+      10.1.118. Latvian Hound
+      10.1.119. Leonberger
+      10.1.120. Lhasa Apso
+      10.1.121. Magyar Vizsla
+      10.1.122. Manchester Terrier
+      10.1.123. Mastiff
+      10.1.124. Mastin Espanol
+      10.1.125. Mastino Napoletano
+      10.1.126. Mexican hairless dog
+      10.1.127. Mittelschnauzer
+      10.1.128. Moscow sentry
+      10.1.129. Newfoundland
+      10.1.130. Norwegian Elkhound
+      10.1.131. Norwich Terrier
+      10.1.132. Olde English Sheepdog
+      10.1.133. Papillon
+      10.1.134. Patrol
+      10.1.135. Pekingese
+      10.1.136. Perro dogo Mallorquin (Ca de Bou)
+      10.1.137. Petit Basset Griffon Vendeen
+      10.1.138. Petit Brabancon
+      10.1.139. Phalene
+      10.1.140. Pharaoh Hound
+      10.1.141. Piccolo Levriero Italiano
+      10.1.142. Pinscher
+      10.1.143. Podenco Ibicenko
+      10.1.144. Polski Owczarek Podhalanski
+      10.1.145. Pomeranian spitz
+      10.1.146. Porcelaine
+      10.1.147. Pug
+      10.1.148. Rhodesian Ridgeback
+      10.1.149. Riesenschnauzer
+      10.1.150. Rottweiler
+      10.1.151. Russian Spaniel
+      10.1.152. Russkiy Toy (dlinosh)
+      10.1.153. Russkiy Toy (gladkosh)
+      10.1.154. Russko-Evropeiskaia Laika
+      10.1.155. Saint-Bernardshund
+      10.1.156. Saluki
+      10.1.157. Samoiedskaia Sobaka
+      10.1.158. Schipperke
+      10.1.159. Scottish Terrier
+      10.1.160. Sealyham Terrier
+      10.1.161. Shar Pei
+      10.1.162. Shetland Sheepdog
+      10.1.163. Shiba Inu
+      10.1.164. Shih-Tzu
+      10.1.165. Siberian Husky
+      10.1.166. South African Boerboel
+      10.1.167. Spinone Italiano
+      10.1.168. Sredneasiatskaia Ovtcharka
+      10.1.169. Tchiorny Terrier (Black Russian Terrier)
+      10.1.170. Thai ridgeback
+      10.1.171. Tibetan Spaniel
+      10.1.172. Tsvetnaya Bolonka
+      10.1.173. Turkey kangal dog
+      10.1.174. Vostochno-Sibirskaia Laika
+      10.1.175. Vostochnoevropeiskaya Ovtcharka
+      10.1.176. Weimaraner
+      10.1.177. Welsh Corgi Cardigan
+      10.1.178. Welsh Corgi Pembroke
+      10.1.179. Welsh Springer Spaniel
+      10.1.180. Welsh Terrier
+      10.1.181. West Highland White Terrier
+      10.1.182. Whippet
+      10.1.183. White Swiss Shepherd Dog
+      10.1.184. Wolfspitz
+      10.1.185. Yorkshire Terrier
+      10.1.186. Zapadno-Sibirskaia Laika
+      10.1.187. Zwergpinscher
+      10.1.188. Zwergschnauzer
+      10.1.189. Zwergspitz
+      10.1.190. Outbred
+      10.1.191. Unknown breed
+      10.1.192. Accessories
+      10.1.193. Dog search (dog missing)
+      10.1.194. Feed
+      10.1.195. Hairdresser\'s services, washing
+      10.1.196. Pairing
+      10.1.197. Refudes and hotels
+      10.1.198. Studies, trainings
+      10.1.199. Veterinary services
+      10.1.200. Other
+   10.2. Cats, kittens
+      10.2.1. Abyssinian
+      10.2.2. American bobtail
+      10.2.3. American curl
+      10.2.4. American shorthair
+      10.2.5. American wirehair
+      10.2.6. Asian smoke
+      10.2.7. Asian tabby
+      10.2.8. Asian wirehair
+      10.2.9. Balinese
+      10.2.10. Bengal
+      10.2.11. Birman
+      10.2.12. Bombay
+      10.2.13. British longhair
+      10.2.14. British shorthair
+      10.2.15. Burmese
+      10.2.16. Burmilla
+      10.2.17. California spangled
+      10.2.18. Canadian sphynx
+      10.2.19. Ceylon
+      10.2.20. Chartreuse
+      10.2.21. Chinchilla
+      10.2.22. Colorpoint shorthair
+      10.2.23. Cornish rex
+      10.2.24. Cymric
+      10.2.25. Devon rex
+      10.2.26. Don sphynx
+      10.2.27. Egyptian mau
+      10.2.28. European black
+      10.2.29. European shorthair
+      10.2.30. European white
+      10.2.31. Exotic shorthair
+      10.2.32. German rex
+      10.2.33. Havana
+      10.2.34. Highland Fold
+      10.2.35. Himalayan
+      10.2.36. Japanese bobtail
+      10.2.37. Karelian bobtail
+      10.2.38. Khao Mani
+      10.2.39. Korat
+      10.2.40. Kurilian bobtail
+      10.2.41. Laperm
+      10.2.42. Maine coon
+      10.2.43. Manx
+      10.2.44. Mekong bobtail
+      10.2.45. Munchkin
+      10.2.46. Nebelung
+      10.2.47. Neva masquerade
+      10.2.48. Norwegian forest
+      10.2.49. Ocikat
+      10.2.50. Oriental
+      10.2.51. Oriental shorthair
+      10.2.52. Persa
+      10.2.53. Peterbald
+      10.2.54. Pixie-bob
+      10.2.55. Ragdoll
+      10.2.56. Rex
+      10.2.57. Russian blue
+      10.2.58. Russian redhead
+      10.2.59. Russian spotted
+      10.2.60. Russian striped
+      10.2.61. Scottish fold
+      10.2.62. Scottish straight
+      10.2.63. Selkirk rex
+      10.2.64. Seychellois Longhair
+      10.2.65. Seychellois Shorthair
+      10.2.66. Siamese
+      10.2.67. Siberian
+      10.2.68. Singapura
+      10.2.69. Snowshoe
+      10.2.70. Somali
+      10.2.71. Thai
+      10.2.72. Tiffanie
+      10.2.73. Tonkinese
+      10.2.74. Toy bobtail
+      10.2.75. Turkish angora
+      10.2.76. Turkish van
+      10.2.77. Ural rex
+      10.2.78. Usurian
+      10.2.79. York chocolate
+      10.2.80. Outbred
+      10.2.81. Unknown breed
+      10.2.82. Accessories
+      10.2.83. Cat search (cat missing)
+      10.2.84. Feed
+      10.2.85. Hairdresser\'s services, washing
+      10.2.86. Pairing
+      10.2.87. Refudes and hotels
+      10.2.88. Veterinary services
+      10.2.89. Other
+   10.3. Rodents
+      10.3.1. Chinchillas
+      10.3.2. Degu
+      10.3.3. Domestic rats
+      10.3.4. Ferret
+      10.3.5. Guinea-pigs
+      10.3.6. Hamsters
+      10.3.7. Rabbits
+      10.3.8. Cages and accesories
+      10.3.9. Feed
+      10.3.10. Other
+   10.4. Fish, aquariums
+      10.4.1. Fish
+      10.4.2. Aquariums and equipment
+      10.4.3. Feed
+      10.4.4. Installation and care
+      10.4.5. Water plants
+      10.4.6. Other
+   10.5. Parrots and birds
+      10.5.1. Canaries
+      10.5.2. Parrots
+      10.5.3. Cages and accesories
+      10.5.4. Feed
+      10.5.5. Other
+   10.6. Exotic animals
+   10.7. Agricultural animals
+   10.8. Veterinary medicine
+      10.8.1. Veterinarian for dogs
+      10.8.2. Veterinarian for cats
+      10.8.3. Veterinarian for a/c animals
+      10.8.4. Veterinarians and pet hospitals
+      10.8.5. Other
+   10.9. Searches, finds
+   10.10. Other
+
+======================================================================
+11. Agriculture
+======================================================================
+   11.1. Animal husbandry
+      11.1.1. Agricultural animals
+         11.1.1.1. Goats
+         11.1.1.2. Large horned livestock
+         11.1.1.3. Pigs
+         11.1.1.4. Rams, sheeps
+         11.1.1.5. Horses, donkeys, other
+         11.1.1.6. Rabbits, Nutrias
+         11.1.1.7. Other
+      11.1.2. Apiary\'s equipment
+      11.1.3. Dressing pelts
+      11.1.4. Equipment for cowsheds
+      11.1.5. Equipment for dairy farming
+      11.1.6. Equipment for pastures
+      11.1.7. Equipment for pig farms
+      11.1.8. Feed
+      11.1.9. Fur animal breeding
+      11.1.10. Hunt farming, rearing of wild animals
+      11.1.11. Rabbit-breeding
+      11.1.12. Services of veterinaries and medicines
+      11.1.13. Dairy produce
+      11.1.14. Foodstuffs
+      11.1.15. Other
+   11.2. Aviculture
+      11.2.1. Ducks
+      11.2.2. Geese
+      11.2.3. Hens
+      11.2.4. Ostriches
+      11.2.5. Turkey-cocks
+      11.2.6. Eggs
+      11.2.7. Poultry
+      11.2.8. Feed
+      11.2.9. Equipment for poultry farms
+      11.2.10. Services of veterinaries and medicines
+      11.2.11. Other
+   11.3. Fish industry
+      11.3.1. Fish, fry
+      11.3.2. Equipment for fish
+      11.3.3. Fish food
+      11.3.4. Services of veterinaries and medicines
+      11.3.5. Tackle, fishing rods, fishing equipment
+      11.3.6. Fish and fish products
+      11.3.7. Other
+   11.4. Agricultural works
+   11.5. Agricultural machinery
+      11.5.1. Tractors
+         11.5.1.1. Tractors wheeled
+         11.5.1.2. Tractors crawler
+         11.5.1.3. Mini tractors
+         11.5.1.4. Other
+      11.5.2. Harvesters and harvesting equipment
+         11.5.2.1. Beet harvesters
+         11.5.2.2. Combine harvesters
+         11.5.2.3. Forage harvesters
+         11.5.2.4. Potato harvesters
+         11.5.2.5. Silo harvesters
+         11.5.2.6. Reapers
+         11.5.2.7. Other harvesters
+         11.5.2.8. Other
+      11.5.3. Tillage equipment
+         11.5.3.1. Cultivators
+         11.5.3.2. Furrows
+         11.5.3.3. Ploughs
+         11.5.3.4. Hillers
+         11.5.3.5. Hoeing plough
+         11.5.3.6. Rollers
+         11.5.3.7. Universal appliances
+         11.5.3.8. Other
+      11.5.4. Forage equipment
+         11.5.4.1. Feed mixers
+         11.5.4.2. Feed splitters
+         11.5.4.3. Manufacturer of mulch
+         11.5.4.4. Mowers
+         11.5.4.5. Packers rolls
+         11.5.4.6. Rake
+         11.5.4.7. Round balers
+         11.5.4.8. Square balers
+         11.5.4.9. Tedder
+         11.5.4.10. Windrow maker
+         11.5.4.11. Stacks throwers
+         11.5.4.12. Other
+      11.5.5. Sowing equipment
+         11.5.5.1. Grain drills
+         11.5.5.2. Mechanical drills
+         11.5.5.3. Pneumatic drills
+         11.5.5.4. Potato planters
+         11.5.5.5. Precision sowing
+         11.5.5.6. Seed drills
+         11.5.5.7. Seedling planting machines
+         11.5.5.8. Other drills
+         11.5.5.9. Other
+      11.5.6. Fertilizer application technique
+         11.5.6.1. For granular fertilizer
+         11.5.6.2. For liquid fertilizers
+         11.5.6.3. For organic fertilizers
+         11.5.6.4. For powdered fertilizers
+         11.5.6.5. Combined units
+         11.5.6.6. Other
+      11.5.7. Loaders front
+      11.5.8. Mini loaders
+      11.5.9. Shredders, crushers, mills
+         11.5.9.1. Crushers
+         11.5.9.2. Equipment for mills
+         11.5.9.3. Shredders
+         11.5.9.4. Other
+      11.5.10. Trailers
+         11.5.10.1. Platforms, rolls carriers
+         11.5.10.2. Sealed trailers
+         11.5.10.3. Semitrailers
+         11.5.10.4. Tipper trailers
+         11.5.10.5. Universal trailers
+         11.5.10.6. Barrel trailers
+         11.5.10.7. For transportation of animals
+         11.5.10.8. Other
+      11.5.11. Lifting equipment
+      11.5.12. Electric equipment
+      11.5.13. Hoppers, tankers, silos
+         11.5.13.1. Dryers
+         11.5.13.2. Elevators
+         11.5.13.3. Tankers
+         11.5.13.4. Tanks, drums
+         11.5.13.5. Other
+      11.5.14. Sorting machines and equipment
+         11.5.14.1. Conveyors
+         11.5.14.2. Grain-cleaning machines
+         11.5.14.3. Potato sorters
+         11.5.14.4. Separators
+         11.5.14.5. Sorting lines
+         11.5.14.6. Other
+      11.5.15. Garden technics
+      11.5.16. A/c equipment
+         11.5.16.1. Feeders, waterers
+         11.5.16.2. Flushing equipment
+         11.5.16.3. Incubators
+         11.5.16.4. Measuring equipment
+         11.5.16.5. Milking machines
+         11.5.16.6. Packing equipment
+         11.5.16.7. Other equipment
+         11.5.16.8. Other
+      11.5.17. Spare parts
+      11.5.18. Farm antiques
+      11.5.19. Other
+   11.6. Fertilizer and chemicals
+   11.7. Vegetable growing, gardening
+      11.7.1. Film
+      11.7.2. Glass
+      11.7.3. Hothouses
+      11.7.4. Boxes, packing, containers
+      11.7.5. Fertilizer, earth
+      11.7.6. Garden plants
+      11.7.7. Seedings, seeds
+      11.7.8. Seedlings, fruit trees
+      11.7.9. Technique for garden, shovels, rakes
+      11.7.10. Wheelbarrows, stretchers
+      11.7.11. Garden furniture and accessories
+      11.7.12. Market garden, garden
+      11.7.13. Building material
+      11.7.14. Garden and lawn care
+      11.7.15. Landscape design services
+      11.7.16. Processing equipment
+      11.7.17. Services surveyors, geology
+      11.7.18. Tools, construction equipment
+      11.7.19. Transport services
+      11.7.20. Other
+      11.7.21. Fruits
+      11.7.22. Vegetables
+      11.7.23. Foodstuffs
+   11.8. Seeds and seedings
+   11.9. Foodstuffs
+      11.9.1. Bakery goods
+      11.9.2. Berries
+      11.9.3. Confectionary
+      11.9.4. Culinary products
+      11.9.5. Fish and fish products
+      11.9.6. Food equipment
+      11.9.7. Fresh meat
+      11.9.8. Fruits
+      11.9.9. Grain and flour
+      11.9.10. Honey
+      11.9.11. Juice
+      11.9.12. Milk production
+      11.9.13. Mushrooms
+      11.9.14. Pickles
+      11.9.15. Poultry
+      11.9.16. Sausages
+      11.9.17. Semi-prepared foods
+      11.9.18. Smoked foods
+      11.9.19. Tinned foods
+      11.9.20. Tinned production
+      11.9.21. Vegetables
+         11.9.21.1. Artichokes
+         11.9.21.2. Asparagus
+         11.9.21.3. Basil
+         11.9.21.4. Bean
+         11.9.21.5. Beet
+         11.9.21.6. Broccoli
+         11.9.21.7. Cabbage
+         11.9.21.8. Carrots
+         11.9.21.9. Celery
+         11.9.21.10. Coriander
+         11.9.21.11. Cucumbers
+         11.9.21.12. Dill
+         11.9.21.13. Eggplants
+         11.9.21.14. Garlic
+         11.9.21.15. Haricot bean
+         11.9.21.16. Horseradish
+         11.9.21.17. Jerusalem artichoke
+         11.9.21.18. Kohlrabi
+         11.9.21.19. Onion
+         11.9.21.20. Paprika, pepper
+         11.9.21.21. Parsley
+         11.9.21.22. Patisony
+         11.9.21.23. Peas
+         11.9.21.24. Potatoes
+         11.9.21.25. Pumpkins
+         11.9.21.26. Radish
+         11.9.21.27. Radishes
+         11.9.21.28. Rhubarb
+         11.9.21.29. Rutabaga
+         11.9.21.30. Salad
+         11.9.21.31. Sorrel
+         11.9.21.32. Spinach
+         11.9.21.33. Tarragon
+         11.9.21.34. Tomatoes
+         11.9.21.35. Turnip
+         11.9.21.36. Zucchini
+         11.9.21.37. Other
+      11.9.22. Eggs
+      11.9.23. Spices
+      11.9.24. Other meat products
+      11.9.25. Other food
+      11.9.26. Home appliances
+   11.10. Other
+
+======================================================================
+12. Rest, hobbies
+======================================================================
+   12.1. Hobby
+      12.1.1. Art
+      12.1.2. Astronomy
+      12.1.3. Cinema
+         12.1.3.1. Film distribution
+         12.1.3.2. Film selling
+         12.1.3.3. Actor technique courses
+         12.1.3.4. Amateur cinema, theatrical productions
+         12.1.3.5. Amateur theatre
+         12.1.3.6. Props, lighting, equipment
+         12.1.3.7. Theatre performances
+         12.1.3.8. Video recording studios
+         12.1.3.9. Video operator services
+         12.1.3.10. Other
+      12.1.4. Floristics
+      12.1.5. Handmade products
+      12.1.6. Metaldetectors and treasure finding
+      12.1.7. Needlework, beads
+      12.1.8. Painting, drawing
+      12.1.9. Radio-controlled models
+         12.1.9.1. Helicopters
+         12.1.9.2. Models aircraft
+         12.1.9.3. Multicopters
+         12.1.9.4. Car models
+         12.1.9.5. Ship models
+         12.1.9.6. Collectible models
+         12.1.9.7. Engines, motors
+         12.1.9.8. ESC, Speed controllers
+         12.1.9.9. FPV equipment
+         12.1.9.10. Onboard equipment and electronics
+         12.1.9.11. Radiocontrol equipment
+         12.1.9.12. Servos
+         12.1.9.13. Batteries and chargers
+         12.1.9.14. Spare parts and materials
+         12.1.9.15. Tools, machinery, equipment
+         12.1.9.16. Processing, production
+         12.1.9.17. Other
+      12.1.10. Sewing, knitting, embroidery
+      12.1.11. Smart house, Arduino, Raspberry PI
+      12.1.12. Other
+   12.2. Collecting
+      12.2.1. Coins, notes
+         12.2.1.1. Coins
+         12.2.1.2. Bank-notes
+         12.2.1.3. Investment Coins
+         12.2.1.4. Investment Gold (ingot)
+         12.2.1.5. Others and accessories
+      12.2.2. Badges, buttons
+      12.2.3. Figurines
+      12.2.4. Historical artifacts
+      12.2.5. Military relics
+      12.2.6. Modelling, collectible models
+      12.2.7. Post cards, booklets
+      12.2.8. Rewards, orders
+      12.2.9. Stamps and envelopes
+      12.2.10. Cans, corks
+      12.2.11. Antiques
+      12.2.12. Other
+   12.3. Tickets, concerts, where to go
+      12.3.1. Tickets for concerts
+      12.3.2. Tickets, ballet, opera, symphonic concerts
+      12.3.3. Tickets, show programs
+      12.3.4. Tickets, sport events
+      12.3.5. Tickets, theatre
+      12.3.6. Announcements
+      12.3.7. Bars, Cafe
+      12.3.8. Children\'s activities
+      12.3.9. Exhibitions
+      12.3.10. Hotels
+      12.3.11. Night clubs
+      12.3.12. Organization of holidays, actions
+      12.3.13. Restaurants
+      12.3.14. Sports actions
+      12.3.15. Other
+      12.3.16. Bus tickets
+      12.3.17. Train tickets
+      12.3.18. Ferry tickets
+   12.4. Music, instrument, education
+      12.4.1. Musical instruments
+         12.4.1.1. Accordions, bayans
+         12.4.1.2. Bowed
+         12.4.1.3. Keyboard
+         12.4.1.4. Percussion
+         12.4.1.5. Strings
+         12.4.1.6. Synthesizers
+         12.4.1.7. Wind
+         12.4.1.8. El. guitars
+         12.4.1.9. Guitars
+         12.4.1.10. Adjustment and repair
+         12.4.1.11. Antique musical instruments
+         12.4.1.12. Other
+      12.4.2. Accessories
+      12.4.3. Acoustics, electronics
+      12.4.4. CD, cassettes
+      12.4.5. Music, vocal education
+      12.4.6. Musicians\' services
+      12.4.7. Photographers services
+      12.4.8. Recording studios
+      12.4.9. Other
+   12.5. Books
+      12.5.1. Children\'s literature
+      12.5.2. Foreign classics
+      12.5.3. Foreign languages
+      12.5.4. Geography
+      12.5.5. Handbooks
+      12.5.6. History
+      12.5.7. Imaginative literature
+      12.5.8. Latvian literature
+      12.5.9. Medical literature
+      12.5.10. Modern foreign literature
+      12.5.11. Modern russian literature
+      12.5.12. Philosophy
+      12.5.13. Religious literature
+      12.5.14. Russian classics
+      12.5.15. Textbooks
+      12.5.16. Periodicals
+      12.5.17. Popular scientific literature
+      12.5.18. Antiquarian books
+      12.5.19. Other
+   12.6. Sport, recreation
+      12.6.1. Airsoft
+      12.6.2. Artistic gymnastics
+      12.6.3. Autosport
+      12.6.4. Aviation
+         12.6.4.1. Gliders
+         12.6.4.2. Helicopters
+         12.6.4.3. Moto hang-gliders
+         12.6.4.4. Paraplanes
+         12.6.4.5. Planes
+         12.6.4.6. Custom flights and charters
+         12.6.4.7. Joy flights
+         12.6.4.8. Teaching
+      12.6.5. Basketball
+      12.6.6. Billiards
+      12.6.7. Board games
+      12.6.8. Chess, backgammon
+      12.6.9. Dancing
+      12.6.10. Diving
+      12.6.11. Figure-skating
+         12.6.11.1. Dresses, suits
+         12.6.11.2. Skates
+         12.6.11.3. Section figure skating
+         12.6.11.4. Other
+      12.6.12. Fitness
+      12.6.13. Floorball
+      12.6.14. Football
+      12.6.15. Golf
+      12.6.16. Hockey
+         12.6.16.1. Equipment, hockey sticks
+         12.6.16.2. Skates
+         12.6.16.3. Hockey clubs, sections
+         12.6.16.4. Other
+      12.6.17. Jogging skiing
+      12.6.18. Kaitserfing
+      12.6.19. Martial arts
+      12.6.20. Motosport
+      12.6.21. Mountain skiing
+         12.6.21.1. Boots
+         12.6.21.2. Clothes
+         12.6.21.3. Ski-bindings
+         12.6.21.4. Skiing
+         12.6.21.5. Other
+      12.6.22. Mountaineering
+      12.6.23. Novus
+      12.6.24. Paintball
+      12.6.25. Parachuting
+      12.6.26. Paraplanes, hang-gliders
+      12.6.27. Powerlifting
+      12.6.28. Rollers
+      12.6.29. Rugby
+      12.6.30. Running and athletics
+      12.6.31. Scuba diving
+      12.6.32. Skateboarding
+      12.6.33. Sport walking
+      12.6.34. Sports shooting
+      12.6.35. Squash
+      12.6.36. Swimming
+      12.6.37. Tennis
+      12.6.38. Trainers
+         12.6.38.1. Elliptical simulators
+         12.6.38.2. Exercise bikes
+         12.6.38.3. Power simulators
+         12.6.38.4. Steppers
+         12.6.38.5. Treadmills
+         12.6.38.6. Accessories
+         12.6.38.7. Other
+      12.6.39. Volleyball
+      12.6.40. Wakeboard, Water skiing
+      12.6.41. Weightlifting
+      12.6.42. Windsurfing
+      12.6.43. Yachts, Cutters, Rest on water
+         12.6.43.1. Amphibias
+         12.6.43.2. Barges
+         12.6.43.3. Boats for rest
+         12.6.43.4. Canoes
+         12.6.43.5. Catamarans
+         12.6.43.6. Cutters
+         12.6.43.7. Engines
+         12.6.43.8. Fishing boats
+         12.6.43.9. Fishing transport
+         12.6.43.10. Kayaks
+         12.6.43.11. Motorboats
+         12.6.43.12. Motorjachts
+         12.6.43.13. Oars
+         12.6.43.14. On air-bag
+         12.6.43.15. Rubber boats
+         12.6.43.16. Sailing yachts
+         12.6.43.17. Sea transport
+         12.6.43.18. Tourism boats
+         12.6.43.19. Water motorcycles
+         12.6.43.20. Other water transport
+         12.6.43.21. Equipment and accessories
+         12.6.43.22. Teaching and specification
+         12.6.43.23. Transportation trailers
+         12.6.43.24. Berth equipment
+         12.6.43.25. Repair, service
+         12.6.43.26. Other
+      12.6.44. Yoga
+      12.6.45. Snowboard
+         12.6.45.1. Boards
+         12.6.45.2. Boots
+         12.6.45.3. Clothes
+         12.6.45.4. Ski-bindings
+         12.6.45.5. Other
+      12.6.46. SUP surf
+      12.6.47. Equipment
+      12.6.48. Food
+      12.6.49. Tourist equipment
+      12.6.50. Other
+   12.7. Hunting, fishing
+      12.7.1. Clothes for hunting and fishings
+      12.7.2. Fishing tackles and tackles
+         12.7.2.1. Fishing rods
+         12.7.2.2. Spools
+         12.7.2.3. Line, braid, cord
+         12.7.2.4. Baits, spoon baits
+         12.7.2.5. Tackle, floats, hooks
+         12.7.2.6. Feed, bait
+         12.7.2.7. Accessories
+         12.7.2.8. Other
+      12.7.3. Footwear for hunting and fishings
+      12.7.4. Tourism inventory
+      12.7.5. Underwater hunting
+      12.7.6. Weapon
+      12.7.7. Echo-sounders
+      12.7.8. Fishing plases
+      12.7.9. Knifes
+      12.7.10. Other
+      12.7.11. Boats, sailing-charter
+   12.8. Tourism
+      12.8.1. Bathhouses
+      12.8.2. Campings and tourist parking
+      12.8.3. Foreign tours
+      12.8.4. Hotels and hostels
+      12.8.5. Registration of visas and documents
+      12.8.6. Rent of tourist transport, charters
+      12.8.7. Rest houses
+      12.8.8. Rural tourism
+      12.8.9. Tourism inventory
+      12.8.10. Search of travel companion
+      12.8.11. Other
+   12.9. Acquaintanc
+   12.10. Other...
