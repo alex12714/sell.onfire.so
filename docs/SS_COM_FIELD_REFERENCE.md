@@ -130,13 +130,112 @@ Every SS.COM listing follows this layout:
 
 **Detail Fields**: Brand, Year, Condition, Price *(minimal — 4 fields)*
 
-### Spare Parts
+### Spare Parts — Overview
 
-**Table Columns**: Date, Year, Engine (cc), Condition, Price
+10 generic accessory subcategories + 80+ brand-specific subcategories, each with model drill-downs into 169 part types organized into 4 sections.
 
-**Detail Fields**: Vehicle Make/Model, Year, Engine, Transmission, Condition
+**Generic Accessories**: Tires, Batteries, Audio/Video, Chargers, Rear-view cameras, Alarms, Spark plugs, Dash cameras, Crankcase protection, Radar detectors
 
-**Unique**: Categorized parts pricing table with sections (Engine, Body, Suspension) — individual part names with per-item prices
+**Brand-Model Parts** (169 types in 4 sections):
+- Engine/Transmission/Aggregates (48 types): engines, gearboxes, turbines, radiators, fuel pumps, starters, generators, catalysts, etc.
+- Electrical/Lighting (33 types): headlights, fog lights, ECUs, dashboards, A/C, navigation, parking sensors, wiring, etc.
+- Body/Interior (54 types): bumpers, doors, fenders, seats, mirrors, windshields, hoods, trunk lids, airbags, steering wheels, etc.
+- Running Gear/Suspension (33 types): shock absorbers, brake discs/pads, wheels/rims, CV joints, control arms, calipers, springs, etc.
+
+### Spare Parts — Tires (Riepas)
+
+**Table Columns**: Date, Manufacturer, Size (width/profile), Load/Speed Index, Condition, Price
+
+**Detail Fields**:
+
+| Field | Type | Example |
+|-------|------|---------|
+| Manufacturer (Ražotājs) | text | Good Year |
+| Model (Modelis) | text | Ultragrip Ice |
+| Diameter (R-size) | enum | R12–R22.5 |
+| Width/Profile (Platums/Profils) | text | 215/65 |
+| Load/Speed Index | text | 99T |
+| Season (Sezona) | enum | Summer, Winter, Studded Winter, All-season |
+| Condition (Stāvoklis) | enum | new / used |
+| Tread Depth (Protektora atlikums) | number+unit | 5 mm |
+| Manufacturing Date | text | August 2021 (3221) |
+| Application (Pielietojums) | text | Passenger cars and minivans |
+| Quantity (Daudzums) | number+unit | 2 pcs |
+
+**Filters**: Manufacturer (40+ brands), Season, Diameter (R12–R22.5), Width/Profile, Load/Speed index, Condition, Price range
+
+### Spare Parts — Batteries (Akumulatori)
+
+**Table Columns**: Date, Brand, Ah (capacity), Current (A), Dimensions (WxHxD), Condition, Price
+
+**Detail Fields**:
+
+| Field | Type | Example |
+|-------|------|---------|
+| Brand (Marka) | text | A-Mega 5 |
+| Capacity (Ah) | number+unit | 100 Ah |
+| Starting Current (Strāva) | number+unit | 950 A |
+| Voltage (Spriegums) | text | 12V |
+| Dimensions (GxAxD) | text | 353x190x175 mm |
+| Polarity (Polaritāte) | text | -/+ |
+| Condition | enum | new / used |
+| Warranty (Garantija) | text | 2 years |
+
+### Spare Parts — Dash Cameras (Videoregistratori)
+
+**Table Columns**: Date, Brand, Model, Price
+
+**Detail Fields**:
+
+| Field | Type | Example |
+|-------|------|---------|
+| Brand | text | Retoo |
+| Model | text | M011 |
+| Video Resolution | text | 1080P |
+| Video Format | text | M-JPEG |
+| Front Camera Angle | text | up to 170° |
+| Rear Camera Angle | text | 120° |
+| Display Size (Displeja diagonāle) | text | 4.3 inches |
+| Photo Resolution | text | 500M |
+| Memory Card | text | TF up to 32G |
+| Power Source | text | 12-24 V/2A |
+| Battery | text | built-in 450 mAh |
+| Motion Detection | boolean | Yes |
+| Night Recording | boolean | Yes |
+| Loop Recording | boolean | Yes |
+| G-Sensor | boolean | Yes |
+| Package Contents | text | listed items |
+
+### Spare Parts — Brand-Model Parts (single item)
+
+**Table Columns**: Listing, Year, Engine (cc), Condition, Price
+
+**Detail Fields**: Make, Model, Year, Engine, Transmission, Condition, Price, Part Number (filter only)
+
+**Filters**: Year range, Engine type (Petrol/Diesel/Hybrid/Electric), Part number (text), Condition
+
+### Spare Parts — Vehicle Parting Out (Categorized Catalog)
+
+When a seller is dismantling an entire vehicle, the detail page shows:
+
+**Header fields**: Make, Model, Year, Engine (code + kW), Transmission, Condition, Color Code
+
+**Then a structured parts catalog with 4 sections, each listing individual parts with separate prices**:
+
+| Section | English | Example Parts |
+|---------|---------|---------------|
+| Dzinējs, transmisija, agregāti | Engine, Transmission, Aggregates | Engine €1500, Gearbox €1000, Turbo €250, Starter €120, Generator €120, Catalyst €500, Radiator €50-200, Clutch €300 |
+| Elektrika un apgaismojums | Electrical & Lighting | ECU €350, Dashboard €300, A/C €200, Headlight €200, Navigation €700, Heater €120 |
+| Virsbūve un salons | Body & Interior | Bumper €250, Door €300, Seat €400, Fender €200-300, Steering wheel €200, Windshield €250, Full interior €600 |
+| Ritošā daļa | Running Gear / Suspension | Shock absorber €15-55, Brake disc €25-30, Drive shaft €200, Half-axle €150, Axle €250-300 |
+
+**Key pattern**: Each part has its own price. The listing's headline price is typically the most expensive single part. Buyers specify which part they need + their VIN for compatibility.
+
+### Spare Parts — Other Accessories
+
+**Alarms/Chargers/Cameras/Radar**: Table Columns: Date, Brand, Model, Price. Minimal detail fields (Brand, Model, Type, Price).
+
+**Crankcase Protection**: Most minimal — just Date and Price columns
 
 ---
 
