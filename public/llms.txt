@@ -1,0 +1,47 @@
+# OnFire Marketplace
+
+> OnFire Marketplace (sell.onfire.so) is a classifieds and marketplace platform for buying, selling, renting, and exchanging products and services. Available at 82 multilingual subdomains including market.onfire.so, mercado.onfire.so, bazaar.onfire.so, and more.
+
+## Overview
+
+OnFire Marketplace connects buyers and sellers locally and globally. The platform supports:
+- **Products**: Electronics, fashion, home goods, automotive, sports equipment, toys, and more
+- **Services**: Home repair, tutoring, professional services, beauty, automotive
+- **Real Estate**: Apartments, houses, land, offices, commercial premises
+- **Jobs**: Vacancies, freelance gigs, courses and education
+- **Vehicles**: Cars (155+ manufacturers), motorcycles, boats, spare parts
+- **Animals & Pets**: Dogs (424 breeds), cats (103 breeds), birds, exotic animals
+- **Agriculture**: Livestock, machinery, crops, food products
+
+Listings include photos, structured specifications, pricing, seller contact info, and location. Buyers can filter by category, condition (new/used), transaction type (sell/buy/rent/exchange/give), price range, and category-specific attributes.
+
+## Categories
+
+- [Electronics](https://sell.onfire.so/#/category/2): Smartphones, computers, TVs, gaming, cameras, audio
+- [Vehicles & Transport](https://sell.onfire.so/#/category/3): Cars, motorcycles, trucks, boats, spare parts
+- [Home & Garden](https://sell.onfire.so/#/category/4): Furniture, appliances, decor, garden, tools
+- [Fashion & Accessories](https://sell.onfire.so/#/category/5): Women's, men's, kids' clothing, shoes, jewelry
+- [Baby & Kids](https://sell.onfire.so/#/category/6): Toys, baby gear, children's furniture, clothing
+- [Sports & Recreation](https://sell.onfire.so/#/category/7): Fitness, bikes, outdoor, team sports, water sports
+- [Hobbies & Crafts](https://sell.onfire.so/#/category/8): Musical instruments, books, collectibles, board games
+- [Pet Supplies](https://sell.onfire.so/#/category/9): Dogs, cats, birds, fish, exotic animals, vet services
+- [Health & Beauty](https://sell.onfire.so/#/category/10): Skincare, cosmetics, fragrances, wellness
+- [Business & Industrial](https://sell.onfire.so/#/category/11): Office, industrial tools, restaurant, medical equipment
+- [Services](https://sell.onfire.so/#/category/12): Home, professional, automotive, tutoring, events
+- [Jobs & Work](https://sell.onfire.so/#/category/88): Vacancies, job seekers, gigs, courses, business contacts
+- [Real Estate](https://sell.onfire.so/#/category/89): Apartments, houses, land, offices, garages
+- [Agriculture & Farming](https://sell.onfire.so/#/category/90): Livestock, poultry, machinery, seeds, produce
+- [Free & Community](https://sell.onfire.so/#/category/91): Free stuff, barter, lost & found, volunteers, rideshare
+
+## API
+
+The marketplace data is accessible via PostgREST API at https://api2.onfire.so:
+- Products: `GET /products?status=eq.active&select=*,product_images(*)`
+- Categories: `GET /product_categories`
+- Field definitions: `GET /category_field_definitions?category_id=eq.{id}`
+- Search: `GET /products?or=(name.ilike.*query*,description.ilike.*query*)&status=eq.active`
+
+## Links
+
+- [OnFire Main Platform](https://onfire.so)
+- [Contact Support](mailto:support@onfire.so)

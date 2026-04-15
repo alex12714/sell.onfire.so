@@ -1,0 +1,169 @@
+# OnFire Marketplace - Complete Reference
+
+> OnFire Marketplace (sell.onfire.so) is a full-featured classifieds and marketplace platform for buying, selling, renting, and exchanging products and services. The platform serves users globally through 82 multilingual subdomains and provides a rich, structured listing experience with category-specific fields, image galleries, and seller contact information.
+
+## Platform Overview
+
+OnFire Marketplace is part of the OnFire ecosystem, a communication and productivity platform. The marketplace component allows individuals and businesses to list products and services for sale, rent, exchange, or giveaway. Listings are organized into a deep category hierarchy with over 110 subcategories, each with tailored field definitions for structured data entry.
+
+The platform is accessible at:
+- **Primary**: https://sell.onfire.so
+- **Multilingual subdomains**: market.onfire.so, mercado.onfire.so, bazaar.onfire.so, marche.onfire.so, markt.onfire.so, and 77+ more localized domains
+
+## How It Works
+
+### For Sellers
+1. Create an account or log in via the OnFire app or admin panel
+2. Choose a category and subcategory for the listing
+3. Fill in structured fields specific to the category (e.g., brand, model, year for vehicles; size, material for clothing)
+4. Upload up to 10 photos per listing
+5. Set price, condition, and transaction type
+6. Publish — the listing appears immediately on the marketplace
+
+### For Buyers
+1. Browse categories or use search with text queries
+2. Filter results by category, subcategory, condition, transaction type, and price range
+3. View listing details including photos, specifications, description, and seller info
+4. Contact the seller directly through the platform
+
+## Transaction Types
+
+Every listing has a transaction type that describes the seller's intent:
+- **Sell**: Standard sale at a listed price
+- **Buy (Wanted)**: Buyer is looking for a specific item and willing to pay
+- **Rent**: Item available for temporary use at a rental price
+- **Exchange**: Owner willing to trade for another item
+- **Give Away**: Item offered for free
+- **Repair**: Service listing for repair work (available in automotive and service categories)
+
+## Condition Options
+
+Physical product listings include a condition field:
+- **New**: Unused, in original packaging
+- **Like New**: Barely used, excellent condition
+- **Good**: Normal wear and tear, fully functional
+- **Fair**: Visible wear, still functional
+- **For Parts**: Not fully functional, useful for components
+
+## Categories - Complete Hierarchy
+
+### Electronics (ID: 2)
+Subcategories: Smartphones & Mobile Phones, Computers & Laptops, Tablets, TVs & Monitors, Audio & Headphones, Cameras & Photography, Video Games & Consoles, Smart Home Devices, Wearable Technology, Computer Components & Parts, Printers & Scanners, Networking & WiFi Equipment, Drones, Other Electronics
+
+### Vehicles & Transport (ID: 3)
+Subcategories: Cars, Motorcycles & Scooters, Trucks & Commercial Vehicles, Boats & Watercraft, Bicycles, Electric Vehicles & Scooters, Caravans & Motorhomes, Trailers, Car Parts & Accessories, Motorcycle Parts, Tires & Wheels, Other Vehicles
+
+The vehicles category features an extensive manufacturer database with 155+ car manufacturers (from Acura to Volvo), motorcycle brands, and boat manufacturers. Vehicle listings include structured fields for year, mileage, engine type, transmission, fuel type, drive type, color, and VIN.
+
+### Home & Garden (ID: 4)
+Subcategories: Furniture, Appliances, Kitchen & Dining, Bedding & Bath, Home Decor, Lighting, Garden & Outdoor, Tools & Hardware, Storage & Organization, Cleaning Supplies, Smart Home, Other Home & Garden
+
+### Fashion & Accessories (ID: 5)
+Subcategories: Women's Clothing, Men's Clothing, Children's Clothing, Shoes & Footwear, Bags & Luggage, Jewelry & Watches, Sunglasses & Eyewear, Accessories, Activewear, Vintage & Secondhand, Other Fashion
+
+Fashion listings include size, material, brand, color, and gender-specific sizing charts.
+
+### Baby & Kids (ID: 6)
+Subcategories: Baby Clothing, Toys & Games, Baby Gear & Equipment, Children's Furniture, Strollers & Car Seats, Feeding & Nursing, Diapers & Potty Training, Children's Books & Media, Other Baby & Kids
+
+### Sports & Recreation (ID: 7)
+Subcategories: Fitness Equipment, Bicycles & Cycling, Outdoor & Camping, Team Sports, Water Sports, Winter Sports, Running & Athletics, Martial Arts & Combat Sports, Yoga & Pilates, Fishing & Hunting, Other Sports
+
+### Hobbies & Crafts (ID: 8)
+Subcategories: Musical Instruments, Books & Magazines, Art & Craft Supplies, Board Games & Puzzles, Collectibles & Antiques, Model Kits & RC, Photography Equipment, Sewing & Knitting, Other Hobbies
+
+### Pet Supplies (ID: 9)
+Subcategories: Dogs, Cats, Birds, Fish & Aquariums, Small Animals, Reptiles & Amphibians, Exotic Pets, Pet Food & Treats, Pet Accessories, Veterinary Services, Other Pets
+
+The pet category includes an extensive breed database: 424 dog breeds (from Affenpinscher to Yorkshire Terrier) and 103 cat breeds (from Abyssinian to Turkish Van). Pet listings include structured fields for breed, age, gender, vaccination status, and health information.
+
+### Health & Beauty (ID: 10)
+Subcategories: Skincare, Makeup & Cosmetics, Hair Care, Fragrances, Personal Care & Hygiene, Health & Wellness, Medical Supplies, Vitamins & Supplements, Other Health & Beauty
+
+### Business & Industrial (ID: 11)
+Subcategories: Office Furniture & Equipment, Industrial Tools & Machinery, Restaurant & Food Service Equipment, Medical & Lab Equipment, Construction Equipment, Retail & POS Equipment, Safety & Security Equipment, Janitorial & Cleaning, Other Business & Industrial
+
+### Services (ID: 12)
+Subcategories: Home Services (Plumbing, Electrical, Cleaning), Professional Services (Legal, Accounting, IT), Automotive Services (Repair, Detailing, Towing), Tutoring & Education, Beauty & Wellness Services, Event Services (Photography, Catering, DJ), Moving & Delivery, Pet Services (Grooming, Boarding, Training), Other Services
+
+### Jobs & Work (ID: 88)
+Subcategories: Job Vacancies, Job Seekers / Resumes, Freelance & Gig Work, Courses & Education, Internships, Business Contacts & Partnerships
+
+### Real Estate (ID: 89)
+Subcategories: Apartments for Sale, Apartments for Rent, Houses for Sale, Houses for Rent, Land & Plots, Commercial Real Estate, Offices, Garages & Parking, Rooms for Rent, Vacation Rentals
+
+Real estate listings include structured fields for area (sq ft/m), number of rooms, floor, building type, amenities, and location details.
+
+### Agriculture & Farming (ID: 90)
+Subcategories: Livestock (Cattle, Goats, Sheep, Pigs), Poultry (Chickens, Turkeys, Ducks, Geese), Farm Machinery & Equipment, Seeds & Plants, Animal Feed, Fertilizers & Chemicals, Crops & Produce, Dairy Products, Honey & Bee Products, Other Agriculture
+
+### Free & Community (ID: 91)
+Subcategories: Free Items, Barter & Trade, Lost & Found, Volunteers & Charity, Rideshare & Carpooling, Community Events, Other Community
+
+## Category Field Definitions
+
+Each category and subcategory has tailored field definitions that structure the listing data. These are stored in the `category_field_definitions` database table and define:
+- **Field name**: The attribute name (e.g., "brand", "year", "engine_type")
+- **Field type**: text, number, select (dropdown), multiselect, boolean
+- **Options**: For select/multiselect fields, predefined option lists (e.g., fuel types: Gasoline, Diesel, Electric, Hybrid, LPG)
+- **Required**: Whether the field is mandatory for listing creation
+- **Display order**: How fields are ordered in the listing form and detail view
+
+This structured approach ensures consistent, searchable data across all listings within a category.
+
+## API Access
+
+The marketplace data is served by a PostgREST API at https://api2.onfire.so. Key endpoints:
+
+### Products
+- `GET /products?status=eq.active&select=*,product_images(*)` — List active products with images
+- `GET /products?id=eq.{id}&select=*,product_images(*)` — Single product detail
+- `GET /products?or=(name.ilike.*query*,description.ilike.*query*)&status=eq.active` — Text search
+- `GET /products?category_id=eq.{id}&status=eq.active` — Filter by category
+- `GET /products?transaction_type=eq.sell&status=eq.active` — Filter by transaction type
+- `GET /products?condition=eq.new&status=eq.active` — Filter by condition
+- Supports pagination via `limit` and `offset` query parameters
+- Supports ordering via `order=created_at.desc` (newest first)
+
+### Categories
+- `GET /product_categories` — All categories with parent-child hierarchy
+- `GET /product_categories?parent_id=is.null` — Top-level categories only
+- `GET /product_categories?parent_id=eq.{id}` — Subcategories of a parent
+
+### Field Definitions
+- `GET /category_field_definitions?category_id=eq.{id}` — Field definitions for a category
+- Fields include: field_name, field_type, field_label, options (JSON), is_required, display_order
+
+### Product Fields
+- `GET /product_field_values?product_id=eq.{id}` — Custom field values for a product
+
+## Multilingual Subdomains
+
+The marketplace is accessible through 82 localized subdomains, each presenting the same marketplace with culturally appropriate naming:
+- **English**: sell.onfire.so, market.onfire.so, shop.onfire.so, deals.onfire.so
+- **Spanish**: mercado.onfire.so, venta.onfire.so, compra.onfire.so
+- **French**: marche.onfire.so, vente.onfire.so, acheter.onfire.so
+- **German**: markt.onfire.so, verkaufen.onfire.so, kaufen.onfire.so
+- **Arabic**: souq.onfire.so, bazaar.onfire.so
+- **Russian**: rynok.onfire.so, prodazha.onfire.so
+- **Japanese**: ichiba.onfire.so
+- **Chinese**: shichang.onfire.so, maimai.onfire.so
+- **Portuguese**: mercado-pt.onfire.so, feira.onfire.so
+- **And many more** covering Hindi, Turkish, Korean, Vietnamese, Swahili, Thai, Hebrew, Polish, Dutch, and other languages
+
+All subdomains serve the same product catalog and user base, enabling cross-cultural commerce.
+
+## Technical Architecture
+
+- **Frontend**: Single Page Application (SPA) built with vanilla JavaScript
+- **Backend API**: PostgREST serving PostgreSQL database via REST
+- **Image Storage**: Cloudflare R2 (via storage1.onfire.so) for product images
+- **Hosting**: Docker container with nginx reverse proxy
+- **Authentication**: JWT-based authentication with the OnFire platform
+- **Real-time**: WebSocket updates via Centrifugo for live listing notifications
+
+## Contact & Support
+
+- **Website**: https://onfire.so
+- **Email**: support@onfire.so
+- **Admin Panel**: https://admin.onfire.so (for sellers and administrators)

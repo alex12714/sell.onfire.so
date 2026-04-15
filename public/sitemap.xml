@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url><loc>https://sell.onfire.so/</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <!-- Search -->
+  <url><loc>https://sell.onfire.so/#/search</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+
+  <!-- ===== Top-Level Categories ===== -->
+
+  <!-- Electronics -->
+  <url><loc>https://sell.onfire.so/#/category/2</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <!-- Vehicles & Transport -->
+  <url><loc>https://sell.onfire.so/#/category/3</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <!-- Home & Garden -->
+  <url><loc>https://sell.onfire.so/#/category/4</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <!-- Fashion & Accessories -->
+  <url><loc>https://sell.onfire.so/#/category/5</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <!-- Baby & Kids -->
+  <url><loc>https://sell.onfire.so/#/category/6</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <!-- Sports & Recreation -->
+  <url><loc>https://sell.onfire.so/#/category/7</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <!-- Hobbies & Crafts -->
+  <url><loc>https://sell.onfire.so/#/category/8</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <!-- Pet Supplies -->
+  <url><loc>https://sell.onfire.so/#/category/9</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <!-- Health & Beauty -->
+  <url><loc>https://sell.onfire.so/#/category/10</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <!-- Business & Industrial -->
+  <url><loc>https://sell.onfire.so/#/category/11</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <!-- Services -->
+  <url><loc>https://sell.onfire.so/#/category/12</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <!-- Jobs & Work -->
+  <url><loc>https://sell.onfire.so/#/category/88</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <!-- Real Estate -->
+  <url><loc>https://sell.onfire.so/#/category/89</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <!-- Agriculture & Farming -->
+  <url><loc>https://sell.onfire.so/#/category/90</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <!-- Free & Community -->
+  <url><loc>https://sell.onfire.so/#/category/91</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+
+  <!-- ===== Subcategories: Electronics (parent: 2) ===== -->
+  <url><loc>https://sell.onfire.so/#/category/13</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Smartphones & Mobile Phones -->
+  <url><loc>https://sell.onfire.so/#/category/14</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Computers & Laptops -->
+  <url><loc>https://sell.onfire.so/#/category/15</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Tablets -->
+  <url><loc>https://sell.onfire.so/#/category/16</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- TVs & Monitors -->
+  <url><loc>https://sell.onfire.so/#/category/17</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Audio & Headphones -->
+  <url><loc>https://sell.onfire.so/#/category/18</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Cameras & Photography -->
+  <url><loc>https://sell.onfire.so/#/category/19</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Video Games & Consoles -->
+  <url><loc>https://sell.onfire.so/#/category/20</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Smart Home Devices -->
+  <url><loc>https://sell.onfire.so/#/category/21</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Wearable Technology -->
+  <url><loc>https://sell.onfire.so/#/category/22</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Computer Components & Parts -->
+  <url><loc>https://sell.onfire.so/#/category/23</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Printers & Scanners -->
+  <url><loc>https://sell.onfire.so/#/category/24</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Networking & WiFi -->
+  <url><loc>https://sell.onfire.so/#/category/25</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Drones -->
+
+  <!-- ===== Subcategories: Vehicles & Transport (parent: 3) ===== -->
+  <url><loc>https://sell.onfire.so/#/category/26</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Cars -->
+  <url><loc>https://sell.onfire.so/#/category/27</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Motorcycles & Scooters -->
+  <url><loc>https://sell.onfire.so/#/category/28</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Trucks & Commercial -->
+  <url><loc>https://sell.onfire.so/#/category/29</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Boats & Watercraft -->
+  <url><loc>https://sell.onfire.so/#/category/30</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Bicycles -->
+  <url><loc>https://sell.onfire.so/#/category/31</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Electric Vehicles -->
+  <url><loc>https://sell.onfire.so/#/category/32</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Caravans & Motorhomes -->
+  <url><loc>https://sell.onfire.so/#/category/33</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Trailers -->
+  <url><loc>https://sell.onfire.so/#/category/34</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Car Parts & Accessories -->
+  <url><loc>https://sell.onfire.so/#/category/35</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Tires & Wheels -->
+
+  <!-- ===== Subcategories: Home & Garden (parent: 4) ===== -->
+  <url><loc>https://sell.onfire.so/#/category/36</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Furniture -->
+  <url><loc>https://sell.onfire.so/#/category/37</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Appliances -->
+  <url><loc>https://sell.onfire.so/#/category/38</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Kitchen & Dining -->
+  <url><loc>https://sell.onfire.so/#/category/39</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Home Decor -->
+  <url><loc>https://sell.onfire.so/#/category/40</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Garden & Outdoor -->
+  <url><loc>https://sell.onfire.so/#/category/41</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Tools & Hardware -->
+  <url><loc>https://sell.onfire.so/#/category/42</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Lighting -->
+
+  <!-- ===== Subcategories: Fashion & Accessories (parent: 5) ===== -->
+  <url><loc>https://sell.onfire.so/#/category/43</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Women's Clothing -->
+  <url><loc>https://sell.onfire.so/#/category/44</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Men's Clothing -->
+  <url><loc>https://sell.onfire.so/#/category/45</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Children's Clothing -->
+  <url><loc>https://sell.onfire.so/#/category/46</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Shoes & Footwear -->
+  <url><loc>https://sell.onfire.so/#/category/47</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Bags & Luggage -->
+  <url><loc>https://sell.onfire.so/#/category/48</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Jewelry & Watches -->
+  <url><loc>https://sell.onfire.so/#/category/49</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Accessories -->
+
+  <!-- ===== Subcategories: Baby & Kids (parent: 6) ===== -->
+  <url><loc>https://sell.onfire.so/#/category/50</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Baby Clothing -->
+  <url><loc>https://sell.onfire.so/#/category/51</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Toys & Games -->
+  <url><loc>https://sell.onfire.so/#/category/52</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Baby Gear & Equipment -->
+  <url><loc>https://sell.onfire.so/#/category/53</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Children's Furniture -->
+  <url><loc>https://sell.onfire.so/#/category/54</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Strollers & Car Seats -->
+
+  <!-- ===== Subcategories: Sports & Recreation (parent: 7) ===== -->
+  <url><loc>https://sell.onfire.so/#/category/55</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Fitness Equipment -->
+  <url><loc>https://sell.onfire.so/#/category/56</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Outdoor & Camping -->
+  <url><loc>https://sell.onfire.so/#/category/57</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Team Sports -->
+  <url><loc>https://sell.onfire.so/#/category/58</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Water Sports -->
+  <url><loc>https://sell.onfire.so/#/category/59</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Winter Sports -->
+  <url><loc>https://sell.onfire.so/#/category/60</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Running & Athletics -->
+
+  <!-- ===== Subcategories: Hobbies & Crafts (parent: 8) ===== -->
+  <url><loc>https://sell.onfire.so/#/category/61</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Musical Instruments -->
+  <url><loc>https://sell.onfire.so/#/category/62</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Books & Magazines -->
+  <url><loc>https://sell.onfire.so/#/category/63</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Art & Craft Supplies -->
+  <url><loc>https://sell.onfire.so/#/category/64</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Board Games & Puzzles -->
+  <url><loc>https://sell.onfire.so/#/category/65</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Collectibles & Antiques -->
+
+  <!-- ===== Subcategories: Pet Supplies (parent: 9) ===== -->
+  <url><loc>https://sell.onfire.so/#/category/66</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Dogs -->
+  <url><loc>https://sell.onfire.so/#/category/67</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Cats -->
+  <url><loc>https://sell.onfire.so/#/category/68</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Birds -->
+  <url><loc>https://sell.onfire.so/#/category/69</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Fish & Aquariums -->
+  <url><loc>https://sell.onfire.so/#/category/70</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Exotic Pets -->
+  <url><loc>https://sell.onfire.so/#/category/71</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Pet Accessories -->
+
+  <!-- ===== Subcategories: Health & Beauty (parent: 10) ===== -->
+  <url><loc>https://sell.onfire.so/#/category/72</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Skincare -->
+  <url><loc>https://sell.onfire.so/#/category/73</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Makeup & Cosmetics -->
+  <url><loc>https://sell.onfire.so/#/category/74</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Fragrances -->
+  <url><loc>https://sell.onfire.so/#/category/75</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Health & Wellness -->
+
+  <!-- ===== Subcategories: Business & Industrial (parent: 11) ===== -->
+  <url><loc>https://sell.onfire.so/#/category/76</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Office Equipment -->
+  <url><loc>https://sell.onfire.so/#/category/77</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Industrial Tools -->
+  <url><loc>https://sell.onfire.so/#/category/78</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Restaurant Equipment -->
+  <url><loc>https://sell.onfire.so/#/category/79</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Medical Equipment -->
+
+  <!-- ===== Subcategories: Services (parent: 12) ===== -->
+  <url><loc>https://sell.onfire.so/#/category/80</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Home Services -->
+  <url><loc>https://sell.onfire.so/#/category/81</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Professional Services -->
+  <url><loc>https://sell.onfire.so/#/category/82</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Automotive Services -->
+  <url><loc>https://sell.onfire.so/#/category/83</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Tutoring & Education -->
+  <url><loc>https://sell.onfire.so/#/category/84</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Beauty & Wellness Services -->
+  <url><loc>https://sell.onfire.so/#/category/85</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Event Services -->
+  <url><loc>https://sell.onfire.so/#/category/86</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Moving & Delivery -->
+  <url><loc>https://sell.onfire.so/#/category/87</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Pet Services -->
+
+  <!-- ===== Subcategories: Jobs & Work (parent: 88) ===== -->
+  <url><loc>https://sell.onfire.so/#/category/92</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Job Vacancies -->
+  <url><loc>https://sell.onfire.so/#/category/93</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Job Seekers -->
+  <url><loc>https://sell.onfire.so/#/category/94</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Freelance & Gig Work -->
+  <url><loc>https://sell.onfire.so/#/category/95</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Courses & Education -->
+
+  <!-- ===== Subcategories: Real Estate (parent: 89) ===== -->
+  <url><loc>https://sell.onfire.so/#/category/96</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Apartments for Sale -->
+  <url><loc>https://sell.onfire.so/#/category/97</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Apartments for Rent -->
+  <url><loc>https://sell.onfire.so/#/category/98</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Houses for Sale -->
+  <url><loc>https://sell.onfire.so/#/category/99</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Houses for Rent -->
+  <url><loc>https://sell.onfire.so/#/category/100</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Land & Plots -->
+  <url><loc>https://sell.onfire.so/#/category/101</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Commercial Real Estate -->
+  <url><loc>https://sell.onfire.so/#/category/102</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Offices -->
+  <url><loc>https://sell.onfire.so/#/category/103</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Garages & Parking -->
+  <url><loc>https://sell.onfire.so/#/category/104</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Rooms for Rent -->
+
+  <!-- ===== Subcategories: Agriculture & Farming (parent: 90) ===== -->
+  <url><loc>https://sell.onfire.so/#/category/105</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Livestock -->
+  <url><loc>https://sell.onfire.so/#/category/106</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Poultry -->
+  <url><loc>https://sell.onfire.so/#/category/107</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Farm Machinery -->
+  <url><loc>https://sell.onfire.so/#/category/108</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Seeds & Plants -->
+  <url><loc>https://sell.onfire.so/#/category/109</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Crops & Produce -->
+
+  <!-- ===== Subcategories: Free & Community (parent: 91) ===== -->
+  <url><loc>https://sell.onfire.so/#/category/110</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Free Items -->
+  <url><loc>https://sell.onfire.so/#/category/111</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Barter & Trade -->
+  <url><loc>https://sell.onfire.so/#/category/112</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Lost & Found -->
+  <url><loc>https://sell.onfire.so/#/category/113</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Volunteers & Charity -->
+  <url><loc>https://sell.onfire.so/#/category/114</loc><lastmod>2026-04-15</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url> <!-- Rideshare & Carpooling -->
+</urlset>
