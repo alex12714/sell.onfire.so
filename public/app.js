@@ -793,37 +793,21 @@
           return;
         }
         nearMeBtn.textContent = 'Locating...';
-        let resolved = false;
-
-        function onLocationFound(lat, lng) {
-          if (resolved) return;
-          resolved = true;
-          locationState.lat = lat;
-          locationState.lng = lng;
-          locationState.source = 'gps';
-          locationState.cityName = null;
-          reloadFn();
-        }
-
-        // Fire IP geolocation immediately (no permissions needed, fast)
         fetch('https://ipinfo.io/json')
           .then(r => r.json())
           .then(data => {
-            if (data.loc && !resolved) {
+            if (data.loc) {
               const [lat, lng] = data.loc.split(',').map(Number);
-              onLocationFound(lat, lng);
+              locationState.lat = lat;
+              locationState.lng = lng;
+              locationState.source = 'gps';
+              locationState.cityName = data.city || null;
+              reloadFn();
+            } else {
+              nearMeBtn.textContent = 'Location unavailable';
             }
           })
-          .catch(() => {});
-
-        // Also try browser geolocation (may be more precise, but needs permission)
-        if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(
-            (pos) => onLocationFound(pos.coords.latitude, pos.coords.longitude),
-            () => { if (!resolved) nearMeBtn.textContent = 'Location unavailable'; },
-            { enableHighAccuracy: false, timeout: 3000 }
-          );
-        }
+          .catch(() => { nearMeBtn.textContent = 'Location unavailable'; });
       });
     }
 
