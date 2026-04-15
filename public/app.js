@@ -793,7 +793,7 @@
           return;
         }
         nearMeBtn.textContent = 'Locating...';
-        fetch('https://ipinfo.io/json')
+        fetch('/api/geoip')
           .then(r => r.json())
           .then(data => {
             if (data.loc) {
