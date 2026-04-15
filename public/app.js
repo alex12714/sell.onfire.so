@@ -803,11 +803,12 @@
         }
 
         function fallbackToIP() {
-          fetch('https://ipapi.co/json/')
+          fetch('https://ipinfo.io/json')
             .then(r => r.json())
             .then(data => {
-              if (data.latitude && data.longitude) {
-                onLocationFound(data.latitude, data.longitude, 'gps');
+              if (data.loc) {
+                const [lat, lng] = data.loc.split(',').map(Number);
+                onLocationFound(lat, lng, 'gps');
               } else {
                 nearMeBtn.textContent = 'Location unavailable';
               }
