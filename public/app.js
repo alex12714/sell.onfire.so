@@ -793,37 +793,36 @@
           return;
         }
         nearMeBtn.textContent = 'Locating...';
+        let resolved = false;
 
-        function onLocationFound(lat, lng, source) {
+        function onLocationFound(lat, lng) {
+          if (resolved) return;
+          resolved = true;
           locationState.lat = lat;
           locationState.lng = lng;
-          locationState.source = source;
+          locationState.source = 'gps';
           locationState.cityName = null;
           reloadFn();
         }
 
-        function fallbackToIP() {
-          fetch('https://ipinfo.io/json')
-            .then(r => r.json())
-            .then(data => {
-              if (data.loc) {
-                const [lat, lng] = data.loc.split(',').map(Number);
-                onLocationFound(lat, lng, 'gps');
-              } else {
-                nearMeBtn.textContent = 'Location unavailable';
-              }
-            })
-            .catch(() => { nearMeBtn.textContent = 'Location unavailable'; });
-        }
+        // Fire IP geolocation immediately (no permissions needed, fast)
+        fetch('https://ipinfo.io/json')
+          .then(r => r.json())
+          .then(data => {
+            if (data.loc && !resolved) {
+              const [lat, lng] = data.loc.split(',').map(Number);
+              onLocationFound(lat, lng);
+            }
+          })
+          .catch(() => {});
 
+        // Also try browser geolocation (may be more precise, but needs permission)
         if (navigator.geolocation) {
           navigator.geolocation.getCurrentPosition(
-            (pos) => onLocationFound(pos.coords.latitude, pos.coords.longitude, 'gps'),
-            () => fallbackToIP(),
-            { enableHighAccuracy: false, timeout: 5000 }
+            (pos) => onLocationFound(pos.coords.latitude, pos.coords.longitude),
+            () => { if (!resolved) nearMeBtn.textContent = 'Location unavailable'; },
+            { enableHighAccuracy: false, timeout: 3000 }
           );
-        } else {
-          fallbackToIP();
         }
       });
     }
