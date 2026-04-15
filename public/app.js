@@ -217,6 +217,24 @@
     fieldDefinitions(categoryId) {
       return this.get(`/category_field_definitions?category_id=eq.${categoryId}&order=display_order`);
     },
+
+    async postRpc(name, params) {
+      const res = await fetch(`${API_BASE}/rpc/${name}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(params)
+      });
+      if (!res.ok) throw new Error(`RPC ${res.status}`);
+      return res.json();
+    },
+
+    serviceDetail(uuid) {
+      return this.postRpc('get_public_service_detail', { p_uuid: uuid });
+    },
+
+    serviceSlots(serviceUuid, date) {
+      return this.postRpc('get_public_service_availability', { p_service_uuid: serviceUuid, p_date: date });
+    },
   };
 
   // ============================================================
@@ -449,18 +467,39 @@
     return `https://api.qrserver.com/v1/create-qr-code/?size=${size}x${size}&data=${encodeURIComponent(data)}`;
   }
 
-  function showQRModal(sellerId, productId, productName, isService = false) {
-    const deepLink = `https://onf.to/chat/${sellerId || 'seller'}?product=${productId}&msg=Is+this+still+available%3F`;
+  function showQRModal(sellerId, productId, productName, isService = false, bookingOpts = {}) {
+    let deepLink = `https://onf.to/chat/${sellerId || 'seller'}?product=${productId}`;
+    if (isService) {
+      deepLink += `&type=service`;
+      if (bookingOpts.date) deepLink += `&booking_date=${bookingOpts.date}`;
+      if (bookingOpts.time) deepLink += `&booking_time=${encodeURIComponent(bookingOpts.time)}`;
+      const msg = `I'd like to book this service`;
+      deepLink += `&msg=${encodeURIComponent(msg)}`;
+    } else {
+      deepLink += `&msg=Is+this+still+available%3F`;
+    }
     const qrSrc = qrCodeURL(deepLink);
     const ctaLabel = isService ? 'Book Now' : 'Contact Seller';
+
+    let bookingInfoHTML = '';
+    if (isService && bookingOpts.date && bookingOpts.time) {
+      const d = new Date(bookingOpts.date + 'T00:00:00');
+      const dateStr = d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+      bookingInfoHTML = `
+        <div class="qr-modal__booking-info">
+          <div class="qr-modal__booking-detail"><strong>${escapeHtml(productName)}</strong></div>
+          <div class="qr-modal__booking-detail">${dateStr} at ${escapeHtml(bookingOpts.time)}</div>
+        </div>`;
+    }
 
     const overlay = document.createElement('div');
     overlay.className = 'qr-modal-overlay';
     overlay.innerHTML = `
       <div class="qr-modal">
         <button class="qr-modal__close" aria-label="Close">&times;</button>
-        <div class="qr-modal__title">Scan with OnFire App</div>
+        <div class="qr-modal__title">${isService ? 'Scan with OnFire App to confirm booking' : 'Scan with OnFire App'}</div>
         <div class="qr-modal__subtitle">Chat with the ${isService ? 'provider' : 'seller'} about "${escapeHtml(productName)}"</div>
+        ${bookingInfoHTML}
         <div class="qr-modal__code"><img src="${qrSrc}" alt="QR Code" width="250" height="250"></div>
         <div class="qr-modal__hint">Open OnFire app and scan this code to start a chat with the ${isService ? 'provider' : 'seller'}</div>
         <div style="font-size:13px;color:var(--color-text-secondary);margin-bottom:12px;font-weight:500;">Don't have the app?</div>
@@ -1497,10 +1536,31 @@
       // Build service layout vs product layout
       let detailHTML;
       if (isService) {
-        // Service booking-style layout
+        // Service booking-style layout with date/time selection
         const heroImage = images.length > 0
           ? `<img class="service-hero__image" src="${images[0]}" alt="${title}" onerror="this.outerHTML='<div class=\\'service-hero__placeholder\\'>${catEmoji}</div>'">`
           : `<div class="service-hero__placeholder">${catEmoji}</div>`;
+
+        // Generate next 14 days as date pills
+        const datePillsHTML = (() => {
+          const pills = [];
+          const today = new Date();
+          const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+          for (let i = 0; i < 14; i++) {
+            const d = new Date(today);
+            d.setDate(today.getDate() + i);
+            const yyyy = d.getFullYear();
+            const mm = String(d.getMonth() + 1).padStart(2, '0');
+            const dd = String(d.getDate()).padStart(2, '0');
+            const dateStr = `${yyyy}-${mm}-${dd}`;
+            const isToday = i === 0;
+            pills.push(`<button class="date-pill${isToday ? ' date-pill--today' : ''}" data-date="${dateStr}">
+              <div class="date-pill__day">${isToday ? 'Today' : dayNames[d.getDay()]}</div>
+              <div class="date-pill__num">${d.getDate()}</div>
+            </button>`);
+          }
+          return pills.join('');
+        })();
 
         detailHTML = `
         <div class="page-enter">
@@ -1529,7 +1589,22 @@
 
                 ${serviceBadgesHTML ? `<div class="service-badges">${serviceBadgesHTML}</div>` : ''}
 
-                <div class="product-info__meta">${metaHTML}</div>
+                <!-- Date Selection -->
+                <div class="booking-section">
+                  <h3 class="booking-section__title">Select a Date</h3>
+                  <div class="date-selector" id="service-date-selector">${datePillsHTML}</div>
+                </div>
+
+                <!-- Time Slots (appears after date selected) -->
+                <div class="booking-section" id="service-time-section" style="display:none;">
+                  <h3 class="booking-section__title">Select a Time</h3>
+                  <div id="service-time-slots"></div>
+                </div>
+
+                <!-- Book Now button -->
+                <button class="btn--cta" id="service-book-btn" disabled style="margin-top:var(--space-md);opacity:0.5;cursor:not-allowed;">Book Now</button>
+
+                <div class="product-info__meta" style="margin-top:var(--space-lg);">${metaHTML}</div>
                 ${tagsHTML}
 
                 ${desc ? `
@@ -1544,7 +1619,10 @@
               <div>
                 <div class="seller-card">
                   <div class="seller-card__title">Ready to book?</div>
-                  <button class="btn--cta" id="contact-seller-btn">${ctaLabel}</button>
+                  <div class="seller-card__booking-summary" id="booking-summary" style="display:none;">
+                    <div id="booking-summary-text" style="font-size:var(--font-size-sm);color:var(--color-text-secondary);margin-bottom:var(--space-md);text-align:center;"></div>
+                  </div>
+                  <button class="btn--cta" id="contact-seller-btn" disabled style="opacity:0.5;cursor:not-allowed;">${ctaLabel}</button>
                   <div style="text-align:center;margin-top:var(--space-md);">
                     <button class="btn btn--ghost" id="post-ad-btn">Post Your Own Ad</button>
                   </div>
@@ -1628,13 +1706,109 @@
         }
       }
 
-      // QR modal for Contact Seller / Book Now
-      const contactBtn = document.getElementById('contact-seller-btn');
-      if (contactBtn) {
-        contactBtn.addEventListener('click', () => {
-          showQRModal(sellerId, product.id, product.name || product.title || 'Untitled', isService);
-        });
+      // Service booking flow: date/time selection + QR modal
+      let selectedDate = null;
+      let selectedTime = null;
+
+      if (isService) {
+        const dateSelector = document.getElementById('service-date-selector');
+        const timeSection = document.getElementById('service-time-section');
+        const timeSlotsContainer = document.getElementById('service-time-slots');
+        const bookBtn = document.getElementById('service-book-btn');
+        const sidebarBookBtn = document.getElementById('contact-seller-btn');
+        const bookingSummary = document.getElementById('booking-summary');
+        const bookingSummaryText = document.getElementById('booking-summary-text');
+
+        function updateBookButton() {
+          const enabled = selectedDate && selectedTime;
+          [bookBtn, sidebarBookBtn].forEach(btn => {
+            if (btn) {
+              btn.disabled = !enabled;
+              btn.style.opacity = enabled ? '1' : '0.5';
+              btn.style.cursor = enabled ? 'pointer' : 'not-allowed';
+            }
+          });
+          if (bookingSummary && bookingSummaryText) {
+            if (selectedDate && selectedTime) {
+              const d = new Date(selectedDate + 'T00:00:00');
+              const dateStr = d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+              bookingSummaryText.textContent = `${dateStr} at ${selectedTime}`;
+              bookingSummary.style.display = 'block';
+            } else {
+              bookingSummary.style.display = 'none';
+            }
+          }
+        }
+
+        if (dateSelector) {
+          dateSelector.addEventListener('click', async (e) => {
+            const pill = e.target.closest('.date-pill');
+            if (!pill) return;
+            selectedDate = pill.dataset.date;
+            selectedTime = null;
+            dateSelector.querySelectorAll('.date-pill').forEach(p => p.classList.remove('date-pill--selected'));
+            pill.classList.add('date-pill--selected');
+            updateBookButton();
+
+            // Show time section and load slots
+            timeSection.style.display = 'block';
+            timeSlotsContainer.innerHTML = '<div class="time-slots-loading">Loading available times...</div>';
+
+            try {
+              const productUuid = product.uuid || product.id;
+              const slots = await api.serviceSlots(productUuid, selectedDate);
+              if (!slots || slots.length === 0) {
+                timeSlotsContainer.innerHTML = '<div class="time-slots-loading">No time slots available for this date</div>';
+                return;
+              }
+              timeSlotsContainer.innerHTML = `<div class="time-slots">${slots.map(slot => {
+                const time = slot.start_time || slot.time || '';
+                const booked = slot.is_booked === true;
+                return `<button class="time-slot${booked ? ' time-slot--booked' : ''}" data-time="${escapeHtml(time)}" ${booked ? 'disabled' : ''}>${escapeHtml(time)}</button>`;
+              }).join('')}</div>`;
+            } catch (err) {
+              // Fallback: show generic time slots if RPC is not available
+              const fallbackSlots = ['09:00', '09:30', '10:00', '10:30', '11:00', '11:30',
+                '12:00', '12:30', '13:00', '13:30', '14:00', '14:30',
+                '15:00', '15:30', '16:00', '16:30', '17:00', '17:30'];
+              timeSlotsContainer.innerHTML = `<div class="time-slots">${fallbackSlots.map(time =>
+                `<button class="time-slot" data-time="${time}">${time}</button>`
+              ).join('')}</div>`;
+            }
+
+            // Attach time slot click handler
+            timeSlotsContainer.addEventListener('click', (te) => {
+              const slot = te.target.closest('.time-slot');
+              if (!slot || slot.disabled) return;
+              selectedTime = slot.dataset.time;
+              timeSlotsContainer.querySelectorAll('.time-slot').forEach(s => s.classList.remove('time-slot--selected'));
+              slot.classList.add('time-slot--selected');
+              updateBookButton();
+            });
+          });
+        }
+
+        function openBookingQR() {
+          if (!selectedDate || !selectedTime) return;
+          showQRModal(sellerId, product.id, product.name || product.title || 'Untitled', true, {
+            date: selectedDate,
+            time: selectedTime,
+          });
+        }
+
+        if (bookBtn) bookBtn.addEventListener('click', openBookingQR);
+        const contactBtn = document.getElementById('contact-seller-btn');
+        if (contactBtn) contactBtn.addEventListener('click', openBookingQR);
+      } else {
+        // Standard product: QR modal for Contact Seller
+        const contactBtn = document.getElementById('contact-seller-btn');
+        if (contactBtn) {
+          contactBtn.addEventListener('click', () => {
+            showQRModal(sellerId, product.id, product.name || product.title || 'Untitled', false);
+          });
+        }
       }
+
       const postAdBtn = document.getElementById('post-ad-btn');
       if (postAdBtn) {
         postAdBtn.addEventListener('click', () => {
