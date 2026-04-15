@@ -20,16 +20,61 @@
   // ============================================================
 
   const CATEGORIES = [
-    { id: 1, name: 'Electronics', emoji: '💻', subs: ['Smartphones', 'Computers & Tablets', 'TVs', 'Audio', 'Cameras', 'Video Games', 'Smart Home', 'Other'] },
-    { id: 2, name: 'Fashion & Apparel', emoji: '👗', subs: ["Women's", "Men's", "Children's", 'Shoes', 'Bags', 'Jewelry', 'Activewear', 'Vintage'] },
-    { id: 3, name: 'Home & Garden', emoji: '🏠', subs: ['Furniture'] },
-    { id: 4, name: 'Beauty & Personal Care', emoji: '💄', subs: ['Skincare'] },
-    { id: 5, name: 'Sports & Outdoors', emoji: '⚽', subs: ['Fitness Equipment'] },
-    { id: 6, name: 'Toys & Hobbies', emoji: '🧸', subs: ['Toys & Games'] },
-    { id: 7, name: 'Automotive', emoji: '🚗', subs: ['Car Parts & Accessories'] },
-    { id: 8, name: 'Baby & Kids', emoji: '👶', subs: ['Baby Clothing'] },
-    { id: 9, name: 'Pet Supplies', emoji: '🐾', subs: ['Dog Supplies'] },
-    { id: 10, name: 'Services', emoji: '🔧', subs: ['Home Services'] },
+    { id: 2, name: 'Electronics & Technology', emoji: '💻', subs: [
+      {id:14,name:'Smartphones'},{id:13,name:'Computers & Laptops'},{id:19,name:'Tablets'},{id:15,name:'TVs & Home Theater'},
+      {id:16,name:'Gaming'},{id:17,name:'Cameras'},{id:18,name:'Audio'},{id:20,name:'Smart Home'},{id:21,name:'Computer Accessories'},{id:22,name:'Phone Accessories'}
+    ]},
+    { id: 3, name: 'Vehicles & Transport', emoji: '🚗', subs: [
+      {id:23,name:'Cars & Trucks'},{id:24,name:'Motorcycles'},{id:26,name:'Boats & Marine'},{id:25,name:'Auto Parts'},
+      {id:28,name:'Tires & Wheels'},{id:27,name:'RVs & Campers'},{id:118,name:'ATVs & Snowmobiles'},{id:119,name:'Vehicle Rental'},{id:120,name:'Transport Services'}
+    ]},
+    { id: 89, name: 'Real Estate', emoji: '🏠', subs: [
+      {id:97,name:'Apartments & Flats'},{id:98,name:'Houses & Cottages'},{id:99,name:'Land & Plots'},{id:100,name:'Offices'},
+      {id:101,name:'Commercial Premises'},{id:102,name:'Garages & Parking'},{id:103,name:'Vacation Rentals'},{id:104,name:'Rooms & Shared'}
+    ]},
+    { id: 4, name: 'Home & Garden', emoji: '🏡', subs: [
+      {id:29,name:'Furniture'},{id:37,name:'Appliances'},{id:31,name:'Kitchen & Dining'},{id:30,name:'Home Decor'},
+      {id:32,name:'Garden & Outdoor'},{id:36,name:'Tools & Hardware'},{id:34,name:'Lighting'},{id:33,name:'Bedding & Bath'},{id:35,name:'Storage'},{id:38,name:'Building Materials'}
+    ]},
+    { id: 5, name: 'Fashion & Accessories', emoji: '👗', subs: [
+      {id:39,name:"Women's Clothing"},{id:40,name:"Men's Clothing"},{id:45,name:"Kids' Clothing"},{id:41,name:'Shoes'},
+      {id:42,name:'Bags & Purses'},{id:43,name:'Jewelry & Watches'},{id:44,name:'Accessories'}
+    ]},
+    { id: 88, name: 'Jobs & Work', emoji: '💼', subs: [
+      {id:92,name:'Job Vacancies'},{id:93,name:'Job Seekers'},{id:94,name:'Gigs & Freelance'},{id:95,name:'Courses & Education'},{id:96,name:'Business Contacts'}
+    ]},
+    { id: 6, name: 'Baby & Kids', emoji: '👶', subs: [
+      {id:47,name:'Toys & Games'},{id:48,name:'Baby Gear'},{id:46,name:'Baby Clothing'},{id:49,name:"Children's Furniture"},{id:50,name:'Baby Feeding & Care'},{id:51,name:'Maternity'}
+    ]},
+    { id: 9, name: 'Pet Supplies', emoji: '🐾', subs: [
+      {id:121,name:'Dogs'},{id:122,name:'Cats'},{id:123,name:'Birds & Parrots'},{id:124,name:'Fish & Aquariums'},
+      {id:125,name:'Rodents'},{id:126,name:'Exotic Animals'},{id:127,name:'Vet Services'},{id:128,name:'Lost & Found Pets'}
+    ]},
+    { id: 7, name: 'Sports & Recreation', emoji: '⚽', subs: [
+      {id:52,name:'Exercise Equipment'},{id:54,name:'Bikes'},{id:53,name:'Outdoor Sports'},{id:55,name:'Team Sports'},
+      {id:56,name:'Water Sports'},{id:57,name:'Camping & Hiking'},{id:58,name:'Hunting & Fishing'}
+    ]},
+    { id: 8, name: 'Hobbies & Crafts', emoji: '🎨', subs: [
+      {id:60,name:'Musical Instruments'},{id:61,name:'Books & Magazines'},{id:62,name:'Collectibles'},
+      {id:63,name:'Board Games & Puzzles'},{id:59,name:'Arts & Crafts'},{id:64,name:'Model Kits & Hobbies'}
+    ]},
+    { id: 10, name: 'Health & Beauty', emoji: '💄', subs: [
+      {id:71,name:'Skincare & Cosmetics'},{id:73,name:'Hair Care'},{id:74,name:'Fragrances'},{id:72,name:'Health & Wellness'},{id:75,name:'Personal Care'}
+    ]},
+    { id: 11, name: 'Business & Industrial', emoji: '🏭', subs: [
+      {id:76,name:'Office Supplies'},{id:77,name:'Industrial Tools'},{id:78,name:'Business Equipment'},{id:79,name:'Restaurant Equipment'},{id:80,name:'Medical Equipment'}
+    ]},
+    { id: 12, name: 'Services', emoji: '🔧', subs: [
+      {id:81,name:'Home Services'},{id:82,name:'Professional Services'},{id:83,name:'Automotive Services'},
+      {id:84,name:'Tutoring & Classes'},{id:85,name:'Event Services'},{id:87,name:'Rides'}
+    ]},
+    { id: 90, name: 'Agriculture & Farming', emoji: '🌾', subs: [
+      {id:105,name:'Livestock'},{id:106,name:'Poultry'},{id:107,name:'Agricultural Machinery'},
+      {id:108,name:'Seeds & Seedlings'},{id:109,name:'Crops & Produce'},{id:110,name:'Food Products'},{id:111,name:'Farm Equipment'}
+    ]},
+    { id: 91, name: 'Free & Community', emoji: '🤝', subs: [
+      {id:112,name:'Free Stuff'},{id:113,name:'Barter & Exchange'},{id:114,name:'Lost & Found'},{id:115,name:'Volunteers'},{id:116,name:'Rideshare'}
+    ]},
   ];
 
   // ============================================================
@@ -254,12 +299,28 @@
   }
 
   function getCategoryEmoji(categoryId) {
-    const cat = CATEGORIES.find(c => c.id === categoryId);
-    return cat ? cat.emoji : '\uD83D\uDCE6';
+    const cid = parseInt(categoryId, 10);
+    // Check top-level
+    const top = CATEGORIES.find(c => c.id === cid);
+    if (top) return top.emoji;
+    // Check subcategories — return parent emoji
+    for (const cat of CATEGORIES) {
+      if (cat.subs.some(s => s.id === cid)) return cat.emoji;
+    }
+    return '\uD83D\uDCE6';
   }
 
   function getCategoryById(id) {
-    return CATEGORIES.find(c => c.id === parseInt(id, 10)) || null;
+    const cid = parseInt(id, 10);
+    // Check top-level
+    const top = CATEGORIES.find(c => c.id === cid);
+    if (top) return top;
+    // Check subcategories — return a virtual category object
+    for (const cat of CATEGORIES) {
+      const sub = cat.subs.find(s => s.id === cid);
+      if (sub) return { id: sub.id, name: sub.name, emoji: cat.emoji, subs: [], parent: cat };
+    }
+    return null;
   }
 
   function escapeHtml(str) {
@@ -850,7 +911,7 @@
         <div class="category-card__icon">${cat.emoji}</div>
         <div class="category-card__name">${cat.name}</div>
         <div class="category-card__subs">
-          ${cat.subs.map(s => `<span class="category-card__sub">${s}</span>`).join('')}
+          ${cat.subs.map(s => `<a href="#/category/${s.id}" class="category-card__sub">${s.name}</a>`).join('')}
         </div>
       </a>`).join('');
 
@@ -866,7 +927,7 @@
         </div>
         <div class="categories-mobile__subs" data-cat-subs="${cat.id}">
           <a href="#/category/${cat.id}" class="categories-mobile__sub" style="font-weight:600;">All ${cat.name}</a>
-          ${cat.subs.map(s => `<a href="#/category/${cat.id}" class="categories-mobile__sub">${s}</a>`).join('')}
+          ${cat.subs.map(s => `<a href="#/category/${s.id}" class="categories-mobile__sub">${s.name}</a>`).join('')}
         </div>`).join('');
 
       catMobile.addEventListener('click', (e) => {
@@ -974,7 +1035,7 @@
               <span>${catName}</span>
             </div>
             <h1 class="page-header__title">${catEmoji} ${catName} <span class="page-header__count" id="cat-count"></span></h1>
-            ${cat ? `<div class="subcategory-pills">${cat.subs.map(s => `<span class="pill">${s}</span>`).join('')}</div>` : ''}
+            ${cat ? `<div class="subcategory-pills">${cat.subs.map(s => `<a href="#/category/${s.id}" class="pill">${s.name}</a>`).join('')}</div>` : ''}
           </div>
         </div>
 
