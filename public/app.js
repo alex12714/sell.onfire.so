@@ -381,6 +381,197 @@
   }
 
   // ============================================================
+  // QR Code Helper
+  // ============================================================
+
+  function qrCodeURL(data, size = 250) {
+    return `https://api.qrserver.com/v1/create-qr-code/?size=${size}x${size}&data=${encodeURIComponent(data)}`;
+  }
+
+  function showQRModal(sellerId, productId, productName, isService = false) {
+    const deepLink = `https://onf.to/chat/${sellerId || 'seller'}?product=${productId}&msg=Is+this+still+available%3F`;
+    const qrSrc = qrCodeURL(deepLink);
+    const ctaLabel = isService ? 'Book Now' : 'Contact Seller';
+
+    const overlay = document.createElement('div');
+    overlay.className = 'qr-modal-overlay';
+    overlay.innerHTML = `
+      <div class="qr-modal">
+        <button class="qr-modal__close" aria-label="Close">&times;</button>
+        <div class="qr-modal__title">Scan with OnFire App</div>
+        <div class="qr-modal__subtitle">Chat with the ${isService ? 'provider' : 'seller'} about "${escapeHtml(productName)}"</div>
+        <div class="qr-modal__code"><img src="${qrSrc}" alt="QR Code" width="250" height="250"></div>
+        <div class="qr-modal__hint">Open OnFire app and scan this code to start a chat with the ${isService ? 'provider' : 'seller'}</div>
+        <div style="font-size:13px;color:var(--color-text-secondary);margin-bottom:12px;font-weight:500;">Don't have the app?</div>
+        <div class="qr-modal__apps">
+          <a href="#" class="qr-modal__app-link">App Store</a>
+          <a href="#" class="qr-modal__app-link">Google Play</a>
+        </div>
+      </div>`;
+
+    document.body.appendChild(overlay);
+
+    const close = () => { overlay.remove(); };
+    overlay.querySelector('.qr-modal__close').addEventListener('click', close);
+    overlay.addEventListener('click', (e) => { if (e.target === overlay) close(); });
+    document.addEventListener('keydown', function handler(e) {
+      if (e.key === 'Escape') { close(); document.removeEventListener('keydown', handler); }
+    });
+  }
+
+  // ============================================================
+  // Category Filter Helpers
+  // ============================================================
+
+  function buildFilterControls(fieldDefs, currentFilters = {}, maxInitial = 6) {
+    const searchable = fieldDefs
+      .filter(d => d.searchable && d.field_type !== 'grouped_multi_enum')
+      .sort((a, b) => (a.display_order || 0) - (b.display_order || 0));
+
+    if (searchable.length === 0) return '';
+
+    const initial = searchable.slice(0, maxInitial);
+    const extra = searchable.slice(maxInitial);
+
+    let html = `<div class="filters-panel" id="filters-panel">
+      <div class="filters-panel__header">
+        <span class="filters-panel__title">Filters</span>
+        <div class="filters-actions">
+          <button class="filters-toggle" id="filters-reset-btn" type="button">Reset filters</button>
+        </div>
+      </div>
+      <div class="filters-grid">`;
+
+    html += initial.map(d => filterControlHTML(d, currentFilters)).join('');
+
+    if (extra.length > 0) {
+      html += extra.map(d => `<div class="filter-group filters-hidden filters-extra">${filterControlInnerHTML(d, currentFilters)}</div>`).join('');
+    }
+
+    html += `</div>`;
+
+    if (extra.length > 0) {
+      html += `<div style="margin-top:12px;"><button class="filters-toggle" id="filters-more-btn" type="button">More filters (${extra.length})</button></div>`;
+    }
+
+    html += `</div>`;
+    return html;
+  }
+
+  function filterControlHTML(def, currentFilters) {
+    return `<div class="filter-group">${filterControlInnerHTML(def, currentFilters)}</div>`;
+  }
+
+  function filterControlInnerHTML(def, currentFilters) {
+    const key = def.field_key;
+    switch (def.field_type) {
+      case 'enum':
+      case 'multi_enum': {
+        const values = def.options?.values || [];
+        const current = currentFilters[key] || '';
+        let html = `<label>${escapeHtml(def.field_label)}</label><select data-filter-key="${key}" data-filter-type="${def.field_type}">`;
+        html += `<option value="">All</option>`;
+        for (const v of values) {
+          html += `<option value="${escapeHtml(v.key)}" ${current === v.key ? 'selected' : ''}>${escapeHtml(v.label)}</option>`;
+        }
+        html += `</select>`;
+        return html;
+      }
+      case 'number':
+      case 'decimal':
+      case 'range': {
+        const unit = def.options?.unit || '';
+        const minVal = currentFilters[key + '_min'] || '';
+        const maxVal = currentFilters[key + '_max'] || '';
+        return `<label>${escapeHtml(def.field_label)}${unit ? ' (' + escapeHtml(unit) + ')' : ''}</label>
+          <div class="filter-range">
+            <input type="number" data-filter-key="${key}_min" data-filter-type="number_min" placeholder="Min" value="${escapeHtml(minVal)}">
+            <span class="filter-range__sep">&ndash;</span>
+            <input type="number" data-filter-key="${key}_max" data-filter-type="number_max" placeholder="Max" value="${escapeHtml(maxVal)}">
+          </div>`;
+      }
+      case 'boolean': {
+        const checked = currentFilters[key] === 'true' ? 'checked' : '';
+        return `<div class="filter-group--checkbox">
+          <input type="checkbox" id="filter-${key}" data-filter-key="${key}" data-filter-type="boolean" ${checked}>
+          <label for="filter-${key}">${escapeHtml(def.field_label)}</label>
+        </div>`;
+      }
+      case 'string':
+      default: {
+        const current = currentFilters[key] || '';
+        return `<label>${escapeHtml(def.field_label)}</label>
+          <input type="text" data-filter-key="${key}" data-filter-type="string" placeholder="Search..." value="${escapeHtml(current)}">`;
+      }
+    }
+  }
+
+  function parseFiltersFromQuery(query) {
+    const filters = {};
+    for (const [key, value] of query.entries()) {
+      if (['page', 'sort', 'tx', 'condition', 'q'].includes(key)) continue;
+      if (value) filters[key] = value;
+    }
+    return filters;
+  }
+
+  function collectFiltersFromDOM() {
+    const filters = {};
+    document.querySelectorAll('#filters-panel [data-filter-key]').forEach(el => {
+      const key = el.dataset.filterKey;
+      const type = el.dataset.filterType;
+      if (type === 'boolean') {
+        if (el.checked) filters[key] = 'true';
+      } else {
+        const val = el.value.trim();
+        if (val) filters[key] = val;
+      }
+    });
+    return filters;
+  }
+
+  function buildFilterAPIParams(filters) {
+    let params = '';
+    // Top-level product columns that should not use properties->> JSONB operator
+    const topLevelColumns = ['price'];
+    for (const [key, value] of Object.entries(filters)) {
+      if (key.endsWith('_min')) {
+        const realKey = key.replace(/_min$/, '');
+        if (topLevelColumns.includes(realKey)) {
+          params += `&${realKey}=gte.${value}`;
+        } else {
+          params += `&properties->>${realKey}=gte.${value}`;
+        }
+      } else if (key.endsWith('_max')) {
+        const realKey = key.replace(/_max$/, '');
+        if (topLevelColumns.includes(realKey)) {
+          params += `&${realKey}=lte.${value}`;
+        } else {
+          params += `&properties->>${realKey}=lte.${value}`;
+        }
+      } else if (value === 'true') {
+        params += `&properties->>${key}=eq.true`;
+      } else if (key.match(/^[a-z_]+$/) && !['page', 'sort', 'tx', 'condition'].includes(key)) {
+        // Determine if this is a string search or exact match by checking if it's a known enum
+        const cachedDefs = Object.values(fieldDefCache).flat();
+        const def = cachedDefs.find(d => d.field_key === key);
+        if (def && (def.field_type === 'enum' || def.field_type === 'multi_enum')) {
+          params += `&properties->>${key}=eq.${value}`;
+        } else if (def && def.field_type === 'string') {
+          params += `&properties->>${key}=ilike.*${encodeURIComponent(value)}*`;
+        } else {
+          params += `&properties->>${key}=eq.${value}`;
+        }
+      }
+    }
+    return params;
+  }
+
+  function filtersToQueryString(filters) {
+    return Object.entries(filters).map(([k, v]) => `${k}=${encodeURIComponent(v)}`).join('&');
+  }
+
+  // ============================================================
   // SEO: Dynamic Meta Tags & Structured Data
   // ============================================================
 
@@ -603,6 +794,7 @@
               <h2 class="section__title">Browse Categories</h2>
             </div>
             <div class="categories-grid" id="home-categories"></div>
+            <div class="categories-mobile" id="home-categories-mobile"></div>
           </div>
         </section>
 
@@ -651,7 +843,7 @@
       }
     });
 
-    // Categories grid
+    // Categories grid (desktop)
     const catGrid = document.getElementById('home-categories');
     catGrid.innerHTML = CATEGORIES.map(cat => `
       <a href="#/category/${cat.id}" class="category-card">
@@ -661,6 +853,32 @@
           ${cat.subs.map(s => `<span class="category-card__sub">${s}</span>`).join('')}
         </div>
       </a>`).join('');
+
+    // Categories mobile (SS.COM style accordion)
+    const catMobile = document.getElementById('home-categories-mobile');
+    if (catMobile) {
+      catMobile.innerHTML = CATEGORIES.map(cat => `
+        <div class="categories-mobile__item" data-cat-id="${cat.id}">
+          <span class="categories-mobile__icon">${cat.emoji}</span>
+          <span class="categories-mobile__name">${cat.name}</span>
+          <span class="categories-mobile__count">${cat.subs.length}</span>
+          <svg class="categories-mobile__chevron" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="categories-mobile__subs" data-cat-subs="${cat.id}">
+          <a href="#/category/${cat.id}" class="categories-mobile__sub" style="font-weight:600;">All ${cat.name}</a>
+          ${cat.subs.map(s => `<a href="#/category/${cat.id}" class="categories-mobile__sub">${s}</a>`).join('')}
+        </div>`).join('');
+
+      catMobile.addEventListener('click', (e) => {
+        const item = e.target.closest('.categories-mobile__item');
+        if (!item) return;
+        const wasOpen = item.classList.contains('categories-mobile__item--open');
+        // Close all
+        catMobile.querySelectorAll('.categories-mobile__item--open').forEach(el => el.classList.remove('categories-mobile__item--open'));
+        // Toggle current
+        if (!wasOpen) item.classList.add('categories-mobile__item--open');
+      });
+    }
 
     // Fetch data
     const [featured, latest, services] = await Promise.allSettled([
@@ -727,6 +945,7 @@
     const txType = query.get('tx') || '';
     const condition = query.get('condition') || '';
     const offset = (page - 1) * PAGE_SIZE;
+    const currentFilters = parseFiltersFromQuery(query);
 
     const availableTxTypes = getTransactionTypesForCategory(catId);
     const txTabsHTML = availableTxTypes.map(key => {
@@ -739,6 +958,10 @@
       const isActive = (c.value === null && !condition) || (c.value === condition);
       return `<button class="condition-chip${isActive ? ' condition-chip--active' : ''}" data-condition="${c.value || ''}">${c.label}</button>`;
     }).join('');
+
+    // Fetch field definitions for filters
+    const fieldDefs = await getFieldDefs(catId);
+    const filtersHTML = buildFilterControls(fieldDefs, currentFilters);
 
     const app = document.getElementById('app');
     app.innerHTML = `
@@ -759,6 +982,8 @@
           <div class="transaction-tabs" id="cat-tx-tabs">${txTabsHTML}</div>
           <div class="condition-filters" id="cat-condition-filters">${conditionChipsHTML}</div>
 
+          ${filtersHTML}
+
           <div class="filter-bar">
             <div class="filter-bar__sort">
               <span class="filter-bar__label">Sort by:</span>
@@ -776,16 +1001,59 @@
         </div>
       </div>`;
 
-    // Build query string helper
+    // Build query string helper (includes property filters)
     function catQueryString(overrides = {}) {
       const s = overrides.sort !== undefined ? overrides.sort : sort;
       const t = overrides.tx !== undefined ? overrides.tx : txType;
       const c = overrides.condition !== undefined ? overrides.condition : condition;
       const p = overrides.page !== undefined ? overrides.page : 1;
+      const f = overrides.filters !== undefined ? overrides.filters : currentFilters;
       let qs = `sort=${s}&page=${p}`;
       if (t) qs += `&tx=${t}`;
       if (c) qs += `&condition=${c}`;
+      const fqs = filtersToQueryString(f);
+      if (fqs) qs += `&${fqs}`;
       return qs;
+    }
+
+    // Filter panel event handlers
+    const filtersPanel = document.getElementById('filters-panel');
+    if (filtersPanel) {
+      // "More filters" toggle
+      const moreBtn = document.getElementById('filters-more-btn');
+      if (moreBtn) {
+        moreBtn.addEventListener('click', () => {
+          const extras = filtersPanel.querySelectorAll('.filters-extra');
+          const hidden = extras[0]?.classList.contains('filters-hidden');
+          extras.forEach(el => el.classList.toggle('filters-hidden'));
+          moreBtn.textContent = hidden ? 'Fewer filters' : `More filters (${extras.length})`;
+        });
+      }
+
+      // Reset filters
+      const resetBtn = document.getElementById('filters-reset-btn');
+      if (resetBtn) {
+        resetBtn.addEventListener('click', () => {
+          router.navigate(`#/category/${catId}?${catQueryString({ filters: {}, page: 1 })}`);
+        });
+      }
+
+      // Filter change handler (debounced)
+      const applyFilters = debounce(() => {
+        const newFilters = collectFiltersFromDOM();
+        router.navigate(`#/category/${catId}?${catQueryString({ filters: newFilters, page: 1 })}`);
+      }, 400);
+
+      filtersPanel.querySelectorAll('select[data-filter-key]').forEach(el => {
+        el.addEventListener('change', applyFilters);
+      });
+      filtersPanel.querySelectorAll('input[data-filter-key]').forEach(el => {
+        if (el.type === 'checkbox') {
+          el.addEventListener('change', applyFilters);
+        } else {
+          el.addEventListener('input', applyFilters);
+        }
+      });
     }
 
     // Sort handler
@@ -827,6 +1095,7 @@
       let apiParams = `&order=${sort}&limit=${PAGE_SIZE}&offset=${offset}`;
       if (txType) apiParams += `&transaction_type=eq.${txType}`;
       if (condition) apiParams += `&condition=eq.${condition}`;
+      apiParams += buildFilterAPIParams(currentFilters);
 
       const { data, total } = await api.byCategory(catId, apiParams);
       const totalPages = total != null ? Math.ceil(total / PAGE_SIZE) : 1;
@@ -934,7 +1203,11 @@
     if (!q) return;
 
     try {
-      const { data, total } = await api.search(q, `&order=${sort}&limit=${PAGE_SIZE}&offset=${offset}`);
+      const searchFilters = parseFiltersFromQuery(query);
+      let searchApiParams = `&order=${sort}&limit=${PAGE_SIZE}&offset=${offset}`;
+      searchApiParams += buildFilterAPIParams(searchFilters);
+
+      const { data, total } = await api.search(q, searchApiParams);
       const totalPages = total != null ? Math.ceil(total / PAGE_SIZE) : 1;
 
       const countEl = document.getElementById('search-count');
@@ -945,7 +1218,75 @@
         container.innerHTML = emptyStateHTML('\uD83D\uDD0D', 'No results found', `We couldn't find anything matching "${escapeHtml(q)}". Try different keywords.`,
           `<a href="#/" class="btn btn--primary">Browse Categories</a>`);
       } else {
-        container.innerHTML = `<div class="products-grid">${data.map(productCardHTML).join('')}</div>`;
+        // Determine if results are in a single category
+        const categoryIds = [...new Set(data.map(p => p.category_id).filter(Boolean))];
+        let searchFiltersHTML = '';
+
+        if (categoryIds.length === 1) {
+          // Single category - show category-specific filters
+          const searchFieldDefs = await getFieldDefs(categoryIds[0]);
+          searchFiltersHTML = buildFilterControls(searchFieldDefs, searchFilters);
+        } else if (categoryIds.length > 1) {
+          // Multiple categories - show universal price filter
+          const priceMin = searchFilters.price_min || '';
+          const priceMax = searchFilters.price_max || '';
+          searchFiltersHTML = `<div class="filters-panel" id="filters-panel">
+            <div class="filters-panel__header">
+              <span class="filters-panel__title">Filters</span>
+              <div class="filters-actions">
+                <button class="filters-toggle" id="filters-reset-btn" type="button">Reset filters</button>
+              </div>
+            </div>
+            <div class="filters-grid">
+              <div class="filter-group">
+                <label>Price</label>
+                <div class="filter-range">
+                  <input type="number" data-filter-key="price_min" data-filter-type="number_min" placeholder="Min" value="${escapeHtml(priceMin)}">
+                  <span class="filter-range__sep">&ndash;</span>
+                  <input type="number" data-filter-key="price_max" data-filter-type="number_max" placeholder="Max" value="${escapeHtml(priceMax)}">
+                </div>
+              </div>
+            </div>
+          </div>`;
+        }
+
+        // Insert filters before the products grid
+        container.innerHTML = searchFiltersHTML + `<div class="products-grid">${data.map(productCardHTML).join('')}</div>`;
+
+        // Wire up search filter events
+        const searchFiltersPanel = container.querySelector('#filters-panel');
+        if (searchFiltersPanel) {
+          const resetBtn = searchFiltersPanel.querySelector('#filters-reset-btn');
+          if (resetBtn) {
+            resetBtn.addEventListener('click', () => {
+              router.navigate(`#/search?q=${encodeURIComponent(q)}&sort=${sort}&page=1`);
+            });
+          }
+
+          const moreBtn = searchFiltersPanel.querySelector('#filters-more-btn');
+          if (moreBtn) {
+            moreBtn.addEventListener('click', () => {
+              const extras = searchFiltersPanel.querySelectorAll('.filters-extra');
+              const hidden = extras[0]?.classList.contains('filters-hidden');
+              extras.forEach(el => el.classList.toggle('filters-hidden'));
+              moreBtn.textContent = hidden ? 'Fewer filters' : `More filters (${extras.length})`;
+            });
+          }
+
+          const applySearchFilters = debounce(() => {
+            const newFilters = collectFiltersFromDOM();
+            const fqs = filtersToQueryString(newFilters);
+            let navUrl = `#/search?q=${encodeURIComponent(q)}&sort=${sort}&page=1`;
+            if (fqs) navUrl += `&${fqs}`;
+            router.navigate(navUrl);
+          }, 400);
+
+          searchFiltersPanel.querySelectorAll('select[data-filter-key]').forEach(el => el.addEventListener('change', applySearchFilters));
+          searchFiltersPanel.querySelectorAll('input[data-filter-key]').forEach(el => {
+            if (el.type === 'checkbox') el.addEventListener('change', applySearchFilters);
+            else el.addEventListener('input', applySearchFilters);
+          });
+        }
       }
 
       const pagEl = document.getElementById('search-pagination');
@@ -953,7 +1294,10 @@
       pagEl.addEventListener('click', (e) => {
         const b = e.target.closest('[data-page]');
         if (b && !b.disabled) {
-          router.navigate(`#/search?q=${encodeURIComponent(q)}&sort=${sort}&page=${b.dataset.page}`);
+          const fqs = filtersToQueryString(searchFilters);
+          let navUrl = `#/search?q=${encodeURIComponent(q)}&sort=${sort}&page=${b.dataset.page}`;
+          if (fqs) navUrl += `&${fqs}`;
+          router.navigate(navUrl);
         }
       });
     } catch (err) {
@@ -1062,7 +1406,97 @@
         </div>`;
       }
 
-      app.innerHTML = `
+      const isService = product.type === 'service';
+      const ctaLabel = isService ? 'Book Now' : 'Contact Seller';
+      const sellerId = product.seller_id || product.user_id || '';
+
+      // Service-specific badges
+      let serviceBadgesHTML = '';
+      if (isService) {
+        const props = product.properties || {};
+        const deliveryMode = props.delivery_mode || props.service_mode || '';
+        if (deliveryMode) {
+          const modeMap = {
+            online: { cls: 'service-badge--online', label: 'Online' },
+            in_person: { cls: 'service-badge--in-person', label: 'In Person' },
+            both: { cls: 'service-badge--both', label: 'Online & In Person' },
+          };
+          const mode = modeMap[deliveryMode] || { cls: 'service-badge--both', label: deliveryMode };
+          serviceBadgesHTML += `<span class="service-badge ${mode.cls}">${mode.label}</span>`;
+        }
+        if (props.duration) {
+          serviceBadgesHTML += `<span class="service-badge service-badge--duration">${escapeHtml(String(props.duration))}</span>`;
+        }
+        if (props.availability) {
+          const avail = Array.isArray(props.availability) ? props.availability.join(', ') : String(props.availability);
+          serviceBadgesHTML += `<span class="service-badge service-badge--availability">${escapeHtml(avail)}</span>`;
+        }
+      }
+
+      // Build service layout vs product layout
+      let detailHTML;
+      if (isService) {
+        // Service booking-style layout
+        const heroImage = images.length > 0
+          ? `<img class="service-hero__image" src="${images[0]}" alt="${title}" onerror="this.outerHTML='<div class=\\'service-hero__placeholder\\'>${catEmoji}</div>'">`
+          : `<div class="service-hero__placeholder">${catEmoji}</div>`;
+
+        detailHTML = `
+        <div class="page-enter">
+          <div class="page-header">
+            <div class="container">
+              <div class="breadcrumb">
+                <a href="#/">Home</a>
+                <span class="breadcrumb__sep">/</span>
+                <a href="#/category/${product.category_id}">${catName}</a>
+                <span class="breadcrumb__sep">/</span>
+                <span>${title}</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="container product-detail">
+            <div class="service-hero">${heroImage}</div>
+
+            <div class="product-detail__layout">
+              <div class="product-info">
+                ${transactionTypeDetailLabel(product.transaction_type)}
+                <h1 class="product-info__title">${title}</h1>
+                ${product.brand ? `<div class="service-provider">by ${escapeHtml(product.brand)}</div>` : ''}
+                ${ratingHTML}
+                <div class="product-info__price-row">${priceRow}</div>
+
+                ${serviceBadgesHTML ? `<div class="service-badges">${serviceBadgesHTML}</div>` : ''}
+
+                <div class="product-info__meta">${metaHTML}</div>
+                ${tagsHTML}
+
+                ${desc ? `
+                <div class="product-info__description">
+                  <h3>About this Service</h3>
+                  <div class="product-info__description-text">${desc}</div>
+                </div>` : ''}
+
+                ${propertiesHTML ? `<div class="product-info__properties">${propertiesHTML}</div>` : ''}
+              </div>
+
+              <div>
+                <div class="seller-card">
+                  <div class="seller-card__title">Ready to book?</div>
+                  <button class="btn--cta" id="contact-seller-btn">${ctaLabel}</button>
+                  <div style="text-align:center;margin-top:var(--space-md);">
+                    <button class="btn btn--ghost" id="post-ad-btn">Post Your Own Ad</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="product-reviews"></div>
+          </div>
+        </div>`;
+      } else {
+        // Standard product layout
+        detailHTML = `
         <div class="page-enter">
           <div class="page-header">
             <div class="container">
@@ -1102,9 +1536,9 @@
 
                 <div class="seller-card">
                   <div class="seller-card__title">Interested?</div>
-                  <a href="${ADMIN_URL}" class="btn btn--primary btn--block" target="_blank" rel="noopener">Contact Seller</a>
+                  <button class="btn--cta" id="contact-seller-btn">${ctaLabel}</button>
                   <div style="text-align:center;margin-top:var(--space-sm);">
-                    <a href="${ADMIN_URL}" class="btn btn--ghost" target="_blank" rel="noopener">Post Your Own Ad</a>
+                    <button class="btn btn--ghost" id="post-ad-btn">Post Your Own Ad</button>
                   </div>
                 </div>
               </div>
@@ -1113,6 +1547,9 @@
             <div id="product-reviews"></div>
           </div>
         </div>`;
+      }
+
+      app.innerHTML = detailHTML;
 
       // Gallery interactivity
       if (images.length > 1) {
@@ -1128,6 +1565,20 @@
             thumb.classList.add('is-active');
           });
         }
+      }
+
+      // QR modal for Contact Seller / Book Now
+      const contactBtn = document.getElementById('contact-seller-btn');
+      if (contactBtn) {
+        contactBtn.addEventListener('click', () => {
+          showQRModal(sellerId, product.id, product.name || product.title || 'Untitled', isService);
+        });
+      }
+      const postAdBtn = document.getElementById('post-ad-btn');
+      if (postAdBtn) {
+        postAdBtn.addEventListener('click', () => {
+          showQRModal(sellerId, product.id, product.name || product.title || 'Untitled', isService);
+        });
       }
 
       // Fetch reviews
