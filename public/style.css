@@ -909,6 +909,157 @@ input, select {
   background: rgba(255,107,31,0.05);
 }
 
+/* Transaction Type Tabs */
+.transaction-tabs {
+  display: flex;
+  gap: var(--space-xs);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding: var(--space-md) 0 0;
+}
+.transaction-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.transaction-tab {
+  padding: 10px 18px;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.transaction-tab:hover {
+  color: var(--color-text);
+}
+.transaction-tab--active {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+}
+
+/* Condition Filter Chips */
+.condition-filters {
+  display: flex;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+  padding: var(--space-sm) 0;
+}
+
+.condition-chip {
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  border: 1px solid var(--color-border);
+  background: #fff;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+.condition-chip:hover {
+  border-color: var(--color-primary-lighter);
+  color: var(--color-text);
+}
+.condition-chip--active {
+  background: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+}
+
+/* Transaction type badges */
+.badge--buying {
+  background: var(--color-blue);
+  color: #fff;
+}
+.badge--renting {
+  background: #7C3AED;
+  color: #fff;
+}
+.badge--exchanging {
+  background: #0D9488;
+  color: #fff;
+}
+.badge--giving {
+  background: var(--color-green);
+  color: #fff;
+}
+
+/* Condition badges */
+.condition-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+}
+.condition-badge--new {
+  background: rgba(39, 174, 96, 0.12);
+  color: #1B7A43;
+}
+.condition-badge--like_new {
+  background: rgba(45, 113, 236, 0.12);
+  color: #1D5BC0;
+}
+.condition-badge--good {
+  background: rgba(156, 163, 175, 0.15);
+  color: #4B5563;
+}
+.condition-badge--fair {
+  background: rgba(249, 115, 22, 0.12);
+  color: #C2410C;
+}
+.condition-badge--for_parts {
+  background: rgba(255, 59, 48, 0.12);
+  color: #CC2F26;
+}
+
+/* Transaction type label (detail page) */
+.transaction-type-label {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: var(--space-sm);
+}
+.transaction-type-label--sell {
+  background: rgba(249, 115, 22, 0.1);
+  color: var(--color-primary-darker);
+}
+.transaction-type-label--buy {
+  background: rgba(45, 113, 236, 0.1);
+  color: #1D5BC0;
+}
+.transaction-type-label--rent {
+  background: rgba(124, 58, 237, 0.1);
+  color: #5B21B6;
+}
+.transaction-type-label--exchange {
+  background: rgba(13, 148, 136, 0.1);
+  color: #0F766E;
+}
+.transaction-type-label--give {
+  background: rgba(39, 174, 96, 0.1);
+  color: #1B7A43;
+}
+.transaction-type-label--repair {
+  background: rgba(156, 163, 175, 0.15);
+  color: #4B5563;
+}
+
 /* Filter bar */
 .filter-bar {
   display: flex;
@@ -1238,6 +1389,81 @@ input, select {
   font-size: var(--font-size-sm);
   color: var(--color-text-secondary);
   line-height: 1.6;
+}
+
+/* ============================================================
+   Product Properties (Category Field Definitions)
+   ============================================================ */
+
+.product-info__properties {
+  margin-bottom: var(--space-lg);
+}
+
+.props-group {
+  margin-bottom: 24px;
+}
+
+.props-group__title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--color-dark);
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 8px;
+}
+
+.props-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.props-table tr {
+  border-bottom: 1px solid var(--color-surface);
+}
+
+.props-table__label {
+  padding: 8px 12px 8px 0;
+  color: var(--color-text-secondary);
+  font-size: 14px;
+  width: 40%;
+  vertical-align: top;
+}
+
+.props-table__value {
+  padding: 8px 0;
+  font-size: 14px;
+  color: var(--color-dark);
+}
+
+.props-chip {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  background: var(--color-surface);
+  margin: 2px 4px 2px 0;
+}
+
+.props-chip--feature {
+  background: rgba(39, 174, 96, 0.1);
+  color: #27AE60;
+}
+
+.equipment-group {
+  margin-bottom: 16px;
+}
+
+.equipment-group__title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--color-text-secondary);
+}
+
+.equipment-group__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
 }
 
 /* ============================================================

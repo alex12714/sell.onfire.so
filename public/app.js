@@ -33,6 +33,80 @@
   ];
 
   // ============================================================
+  // Transaction Types & Conditions per Category
+  // ============================================================
+
+  const TRANSACTION_TYPES = {
+    all: { label: 'All', value: null },
+    sell: { label: 'Sell', value: 'sell' },
+    buy: { label: 'Buy Wanted', value: 'buy' },
+    rent: { label: 'Rent', value: 'rent' },
+    exchange: { label: 'Exchange', value: 'exchange' },
+    give: { label: 'Give Away', value: 'give' },
+    repair: { label: 'Repair', value: 'repair' },
+  };
+
+  const CATEGORY_TRANSACTION_TYPES = {
+    7: ['all', 'sell', 'buy', 'exchange', 'repair'],   // Automotive
+    // Real Estate would be id 11+ if added; for now use default
+  };
+  const DEFAULT_TRANSACTION_TYPES = ['all', 'sell', 'buy', 'give'];
+
+  const CONDITION_OPTIONS = [
+    { label: 'All', value: null },
+    { label: 'New', value: 'new' },
+    { label: 'Like New', value: 'like_new' },
+    { label: 'Good', value: 'good' },
+    { label: 'Fair', value: 'fair' },
+  ];
+
+  function getTransactionTypesForCategory(catId) {
+    return CATEGORY_TRANSACTION_TYPES[catId] || DEFAULT_TRANSACTION_TYPES;
+  }
+
+  function transactionTypeBadgeHTML(transactionType) {
+    if (!transactionType || transactionType === 'sell') return '';
+    const map = {
+      buy: { cls: 'badge--buying', label: 'Buying' },
+      rent: { cls: 'badge--renting', label: 'Renting' },
+      exchange: { cls: 'badge--exchanging', label: 'Exchanging' },
+      give: { cls: 'badge--giving', label: 'Giving Away' },
+      repair: { cls: 'badge--service', label: 'Repair' },
+    };
+    const info = map[transactionType];
+    if (!info) return '';
+    return `<span class="badge ${info.cls}">${info.label}</span>`;
+  }
+
+  function conditionBadgeHTML(condition) {
+    if (!condition) return '';
+    const map = {
+      new: 'New',
+      like_new: 'Like New',
+      good: 'Good',
+      fair: 'Fair',
+      for_parts: 'For Parts',
+    };
+    const label = map[condition];
+    if (!label) return '';
+    return `<span class="condition-badge condition-badge--${condition}">${label}</span>`;
+  }
+
+  function transactionTypeDetailLabel(transactionType) {
+    const map = {
+      sell: { cls: 'transaction-type-label--sell', label: 'FOR SALE' },
+      buy: { cls: 'transaction-type-label--buy', label: 'WANTED TO BUY' },
+      rent: { cls: 'transaction-type-label--rent', label: 'FOR RENT' },
+      exchange: { cls: 'transaction-type-label--exchange', label: 'FOR EXCHANGE' },
+      give: { cls: 'transaction-type-label--give', label: 'GIVING AWAY' },
+      repair: { cls: 'transaction-type-label--repair', label: 'REPAIR SERVICE' },
+    };
+    const info = map[transactionType || 'sell'];
+    if (!info) return '';
+    return `<span class="transaction-type-label ${info.cls}">${info.label}</span>`;
+  }
+
+  // ============================================================
   // API Client
   // ============================================================
 
@@ -93,6 +167,10 @@
 
     byCategory(catId, params = '') {
       return this.productsWithCount(`&category_id=eq.${catId}${params}`);
+    },
+
+    fieldDefinitions(categoryId) {
+      return this.get(`/category_field_definitions?category_id=eq.${categoryId}&order=display_order`);
     },
   };
 
@@ -200,6 +278,109 @@
   }
 
   // ============================================================
+  // Category Field Definitions (cached)
+  // ============================================================
+
+  const fieldDefCache = {};
+  async function getFieldDefs(categoryId) {
+    if (!categoryId) return [];
+    if (fieldDefCache[categoryId]) return fieldDefCache[categoryId];
+    try {
+      const defs = await api.fieldDefinitions(categoryId);
+      fieldDefCache[categoryId] = defs;
+      return defs;
+    } catch (e) { return []; }
+  }
+
+  function formatPropertyValue(def, val) {
+    switch (def.field_type) {
+      case 'boolean': return val ? '&#x2713; Yes' : '&#x2717; No';
+      case 'enum': {
+        const opt = def.options?.values?.find(v => v.key === val);
+        return escapeHtml(opt ? opt.label : String(val));
+      }
+      case 'multi_enum': {
+        if (!Array.isArray(val)) return escapeHtml(String(val));
+        return val.map(v => {
+          const opt = def.options?.values?.find(o => o.key === v);
+          return `<span class="props-chip">${escapeHtml(opt ? opt.label : v)}</span>`;
+        }).join(' ');
+      }
+      case 'number': case 'decimal': {
+        const unit = def.options?.unit || '';
+        return escapeHtml(`${val}${unit ? ' ' + unit : ''}`);
+      }
+      default: return escapeHtml(String(val));
+    }
+  }
+
+  function renderEquipmentHTML(equipment, fieldDefs) {
+    const equipDef = fieldDefs.find(d => d.field_key === 'equipment');
+    const groups = equipDef?.options?.groups || [];
+    let html = '<div class="props-group"><h3 class="props-group__title">Equipment &amp; Features</h3>';
+    for (const [groupKey, items] of Object.entries(equipment)) {
+      if (!Array.isArray(items) || !items.length) continue;
+      const groupDef = groups.find(g => g.key === groupKey);
+      const groupLabel = groupDef?.label || groupKey.replace(/_/g, ' ');
+      html += `<div class="equipment-group"><h4 class="equipment-group__title">${escapeHtml(groupLabel)}</h4><div class="equipment-group__items">`;
+      for (const itemKey of items) {
+        const itemDef = groupDef?.items?.find(i => i.key === itemKey);
+        const label = itemDef?.label || itemKey.replace(/_/g, ' ');
+        html += `<span class="props-chip props-chip--feature">&#x2713; ${escapeHtml(label)}</span>`;
+      }
+      html += '</div></div>';
+    }
+    html += '</div>';
+    return html;
+  }
+
+  function renderPropertiesHTML(product, fieldDefs) {
+    if (!fieldDefs.length && !product.properties) return '';
+
+    // Group by display_group
+    const groups = {};
+    for (const def of fieldDefs) {
+      const val = product.properties?.[def.field_key];
+      if (val === undefined || val === null || val === '') continue;
+      const group = def.display_group || 'details';
+      if (!groups[group]) groups[group] = [];
+      groups[group].push({ def, val });
+    }
+
+    // Render each group as a section
+    let html = '';
+    for (const [group, fields] of Object.entries(groups)) {
+      const groupLabel = { specs: 'Specifications', features: 'Features', vehicle_info: 'Vehicle Details', property_info: 'Property Details' }[group] || 'Details';
+      html += `<div class="props-group"><h3 class="props-group__title">${groupLabel}</h3><table class="props-table">`;
+      for (const { def, val } of fields) {
+        html += `<tr><td class="props-table__label">${escapeHtml(def.field_label)}</td><td class="props-table__value">${formatPropertyValue(def, val)}</td></tr>`;
+      }
+      html += '</table></div>';
+    }
+
+    // Also render any properties NOT covered by definitions (raw fallback)
+    if (product.properties) {
+      const definedKeys = new Set(fieldDefs.map(d => d.field_key));
+      const extraProps = Object.entries(product.properties).filter(([k, v]) => !definedKeys.has(k) && v !== null && v !== '' && k !== 'equipment');
+      if (extraProps.length) {
+        html += '<div class="props-group"><h3 class="props-group__title">Additional Details</h3><table class="props-table">';
+        for (const [key, val] of extraProps) {
+          const label = key.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+          html += `<tr><td class="props-table__label">${escapeHtml(label)}</td><td class="props-table__value">${escapeHtml(String(val))}</td></tr>`;
+        }
+        html += '</table></div>';
+      }
+    }
+
+    // Equipment (grouped_multi_enum) — render as grouped chip lists
+    if (product.properties?.equipment) {
+      html += renderEquipmentHTML(product.properties.equipment, fieldDefs);
+    }
+
+    return html;
+  }
+
+  // ============================================================
   // SEO: Dynamic Meta Tags & Structured Data
   // ============================================================
 
@@ -265,6 +446,7 @@
     if (product.is_on_sale && product.discount_percentage) badges += `<span class="badge badge--sale">-${product.discount_percentage}%</span>`;
     if (product.type === 'service') badges += '<span class="badge badge--service">Service</span>';
     if (product.is_luxury) badges += '<span class="badge badge--luxury">Luxury</span>';
+    badges += transactionTypeBadgeHTML(product.transaction_type);
 
     let priceHTML = `<span class="product-card__price">${price}</span>`;
     if (product.compare_at_price && product.compare_at_price > product.price) {
@@ -289,7 +471,8 @@
           <div>${priceHTML}</div>
           <div class="product-card__meta">
             ${ratingHTML}
-            <span>${time}</span>
+            <span>${conditionBadgeHTML(product.condition) || time}</span>
+            ${product.condition ? `<span>${time}</span>` : ''}
           </div>
         </div>
       </a>`;
@@ -541,7 +724,21 @@
     const catEmoji = cat ? cat.emoji : '\uD83D\uDCE6';
     const page = parseInt(query.get('page')) || 1;
     const sort = query.get('sort') || 'created_at.desc';
+    const txType = query.get('tx') || '';
+    const condition = query.get('condition') || '';
     const offset = (page - 1) * PAGE_SIZE;
+
+    const availableTxTypes = getTransactionTypesForCategory(catId);
+    const txTabsHTML = availableTxTypes.map(key => {
+      const t = TRANSACTION_TYPES[key];
+      const isActive = (key === 'all' && !txType) || (t.value === txType);
+      return `<button class="transaction-tab${isActive ? ' transaction-tab--active' : ''}" data-tx="${t.value || ''}">${t.label}</button>`;
+    }).join('');
+
+    const conditionChipsHTML = CONDITION_OPTIONS.map(c => {
+      const isActive = (c.value === null && !condition) || (c.value === condition);
+      return `<button class="condition-chip${isActive ? ' condition-chip--active' : ''}" data-condition="${c.value || ''}">${c.label}</button>`;
+    }).join('');
 
     const app = document.getElementById('app');
     app.innerHTML = `
@@ -559,6 +756,9 @@
         </div>
 
         <div class="container">
+          <div class="transaction-tabs" id="cat-tx-tabs">${txTabsHTML}</div>
+          <div class="condition-filters" id="cat-condition-filters">${conditionChipsHTML}</div>
+
           <div class="filter-bar">
             <div class="filter-bar__sort">
               <span class="filter-bar__label">Sort by:</span>
@@ -576,9 +776,37 @@
         </div>
       </div>`;
 
+    // Build query string helper
+    function catQueryString(overrides = {}) {
+      const s = overrides.sort !== undefined ? overrides.sort : sort;
+      const t = overrides.tx !== undefined ? overrides.tx : txType;
+      const c = overrides.condition !== undefined ? overrides.condition : condition;
+      const p = overrides.page !== undefined ? overrides.page : 1;
+      let qs = `sort=${s}&page=${p}`;
+      if (t) qs += `&tx=${t}`;
+      if (c) qs += `&condition=${c}`;
+      return qs;
+    }
+
     // Sort handler
     document.getElementById('cat-sort').addEventListener('change', (e) => {
-      router.navigate(`#/category/${catId}?sort=${e.target.value}&page=1`);
+      router.navigate(`#/category/${catId}?${catQueryString({ sort: e.target.value, page: 1 })}`);
+    });
+
+    // Transaction type tab handler
+    document.getElementById('cat-tx-tabs').addEventListener('click', (e) => {
+      const tab = e.target.closest('.transaction-tab');
+      if (!tab) return;
+      const newTx = tab.dataset.tx || '';
+      router.navigate(`#/category/${catId}?${catQueryString({ tx: newTx, page: 1 })}`);
+    });
+
+    // Condition chip handler
+    document.getElementById('cat-condition-filters').addEventListener('click', (e) => {
+      const chip = e.target.closest('.condition-chip');
+      if (!chip) return;
+      const newCondition = chip.dataset.condition || '';
+      router.navigate(`#/category/${catId}?${catQueryString({ condition: newCondition, page: 1 })}`);
     });
 
     updateMeta({
@@ -596,7 +824,11 @@
     });
 
     try {
-      const { data, total } = await api.byCategory(catId, `&order=${sort}&limit=${PAGE_SIZE}&offset=${offset}`);
+      let apiParams = `&order=${sort}&limit=${PAGE_SIZE}&offset=${offset}`;
+      if (txType) apiParams += `&transaction_type=eq.${txType}`;
+      if (condition) apiParams += `&condition=eq.${condition}`;
+
+      const { data, total } = await api.byCategory(catId, apiParams);
       const totalPages = total != null ? Math.ceil(total / PAGE_SIZE) : 1;
 
       const countEl = document.getElementById('cat-count');
@@ -615,7 +847,7 @@
       pagEl.addEventListener('click', (e) => {
         const btn = e.target.closest('[data-page]');
         if (btn && !btn.disabled) {
-          router.navigate(`#/category/${catId}?sort=${sort}&page=${btn.dataset.page}`);
+          router.navigate(`#/category/${catId}?${catQueryString({ page: btn.dataset.page })}`);
         }
       });
     } catch (err) {
@@ -772,6 +1004,8 @@
       }
 
       const product = products[0];
+      const fieldDefs = await getFieldDefs(product.category_id);
+      const propertiesHTML = renderPropertiesHTML(product, fieldDefs);
       const images = getAllProductImages(product);
       const cat = getCategoryById(product.category_id);
       const catName = cat ? cat.name : 'Products';
@@ -805,6 +1039,7 @@
 
       // Meta rows
       let metaHTML = '';
+      if (product.condition) metaHTML += `<div class="product-info__meta-row"><span class="product-info__meta-label">Condition</span><span class="product-info__meta-value">${conditionBadgeHTML(product.condition)}</span></div>`;
       if (product.brand) metaHTML += `<div class="product-info__meta-row"><span class="product-info__meta-label">Brand</span><span class="product-info__meta-value">${escapeHtml(product.brand)}</span></div>`;
       if (product.sku) metaHTML += `<div class="product-info__meta-row"><span class="product-info__meta-label">SKU</span><span class="product-info__meta-value">${escapeHtml(product.sku)}</span></div>`;
       if (product.type) metaHTML += `<div class="product-info__meta-row"><span class="product-info__meta-label">Type</span><span class="product-info__meta-value" style="text-transform:capitalize">${product.type}</span></div>`;
@@ -849,6 +1084,7 @@
               </div>
 
               <div class="product-info">
+                ${transactionTypeDetailLabel(product.transaction_type)}
                 <h1 class="product-info__title">${title}</h1>
                 ${ratingHTML}
                 <div class="product-info__price-row">${priceRow}</div>
@@ -861,6 +1097,8 @@
                   <h3>Description</h3>
                   <div class="product-info__description-text">${desc}</div>
                 </div>` : ''}
+
+                ${propertiesHTML ? `<div class="product-info__properties">${propertiesHTML}</div>` : ''}
 
                 <div class="seller-card">
                   <div class="seller-card__title">Interested?</div>
