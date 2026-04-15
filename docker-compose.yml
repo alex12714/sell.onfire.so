@@ -12,10 +12,10 @@ services:
       - coolify
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.sell-onfire-http.rule=Host(`sell.onfire.so`)"
+      - "traefik.http.routers.sell-onfire-http.rule=Host(`sell.onfire.so`) || Host(`market.onfire.so`) || Host(`mercado.onfire.so`) || Host(`marche.onfire.so`) || Host(`markt.onfire.so`) || Host(`mercato.onfire.so`) || Host(`rynok.onfire.so`) || Host(`tirgus.onfire.so`) || Host(`rynek.onfire.so`) || Host(`pazar.onfire.so`) || Host(`souq.onfire.so`) || Host(`bazaar.onfire.so`) || Host(`ichiba.onfire.so`) || Host(`shichang.onfire.so`) || Host(`sijang.onfire.so`) || Host(`marknad.onfire.so`) || Host(`trh.onfire.so`) || Host(`piata.onfire.so`) || Host(`agora.onfire.so`) || Host(`shuk.onfire.so`) || Host(`soko.onfire.so`) || Host(`pasar.onfire.so`) || Host(`cho.onfire.so`) || Host(`turg.onfire.so`) || Host(`turgus.onfire.so`) || Host(`tori.onfire.so`) || Host(`bazar.onfire.so`)"
       - "traefik.http.routers.sell-onfire-http.entrypoints=http"
       - "traefik.http.routers.sell-onfire-http.middlewares=redirect-to-https"
-      - "traefik.http.routers.sell-onfire.rule=Host(`sell.onfire.so`)"
+      - "traefik.http.routers.sell-onfire.rule=Host(`sell.onfire.so`) || Host(`market.onfire.so`) || Host(`mercado.onfire.so`) || Host(`marche.onfire.so`) || Host(`markt.onfire.so`) || Host(`mercato.onfire.so`) || Host(`rynok.onfire.so`) || Host(`tirgus.onfire.so`) || Host(`rynek.onfire.so`) || Host(`pazar.onfire.so`) || Host(`souq.onfire.so`) || Host(`bazaar.onfire.so`) || Host(`ichiba.onfire.so`) || Host(`shichang.onfire.so`) || Host(`sijang.onfire.so`) || Host(`marknad.onfire.so`) || Host(`trh.onfire.so`) || Host(`piata.onfire.so`) || Host(`agora.onfire.so`) || Host(`shuk.onfire.so`) || Host(`soko.onfire.so`) || Host(`pasar.onfire.so`) || Host(`cho.onfire.so`) || Host(`turg.onfire.so`) || Host(`turgus.onfire.so`) || Host(`tori.onfire.so`) || Host(`bazar.onfire.so`)"
       - "traefik.http.routers.sell-onfire.entrypoints=https"
       - "traefik.http.routers.sell-onfire.tls=true"
       - "traefik.http.routers.sell-onfire.tls.certresolver=letsencrypt"
