@@ -235,6 +235,33 @@
     serviceSlots(serviceUuid, date) {
       return this.postRpc('get_public_service_availability', { p_service_uuid: serviceUuid, p_date: date });
     },
+
+    countries() {
+      return this.get('/countries?select=id,name,iso2&order=name');
+    },
+
+    states(countryId) {
+      return this.get(`/states?country_id=eq.${countryId}&select=id,name&order=name`);
+    },
+
+    citiesSearch(query, countryId) {
+      let url = `/cities?name=ilike.*${encodeURIComponent(query)}*&select=id,name,state_id,country_id,latitude,longitude&limit=20&order=name`;
+      if (countryId) url += `&country_id=eq.${countryId}`;
+      return this.get(url);
+    },
+
+    nearbyProducts(lat, lng, radiusKm, categoryId, query, sort, limit, offset) {
+      return this.postRpc('search_nearby_products', {
+        p_latitude: lat,
+        p_longitude: lng,
+        p_radius_km: radiusKm || 25,
+        p_category_id: categoryId || null,
+        p_query: query || null,
+        p_sort: sort || 'distance',
+        p_limit: limit || 20,
+        p_offset: offset || 0,
+      });
+    },
   };
 
   // ============================================================
@@ -254,6 +281,10 @@
         if (url.startsWith('http')) return url;
         return STORAGE_BASE + url;
       }
+    }
+    if (product.cover_image) {
+      if (product.cover_image.startsWith('http')) return product.cover_image;
+      return STORAGE_BASE + product.cover_image;
     }
     return null;
   }
@@ -672,6 +703,173 @@
   }
 
   // ============================================================
+  // Location Filter State & Helpers
+  // ============================================================
+
+  const locationState = {
+    lat: null,
+    lng: null,
+    radiusKm: 25,
+    cityName: null,
+    countryId: null,
+    source: null, // 'gps' | 'city'
+  };
+
+  let countriesCache = null;
+
+  function locationFilterHTML() {
+    const isActive = locationState.source != null;
+    const nearMeActive = locationState.source === 'gps';
+    const cityActive = locationState.source === 'city';
+
+    return `
+      <div class="location-filter" id="location-filter">
+        <div class="location-filter__title">Location</div>
+        <button class="location-nearme${nearMeActive ? ' location-nearme--active' : ''}" id="loc-nearme-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v4m0 12v4m10-10h-4M6 12H2"/></svg>
+          ${nearMeActive ? 'Using your location' : 'Near me'}
+        </button>
+        <div class="filter-group" style="margin-bottom:8px;">
+          <label>Country</label>
+          <select id="loc-country-select">
+            <option value="">All countries</option>
+          </select>
+        </div>
+        <div class="filter-group city-autocomplete" style="margin-bottom:8px;">
+          <label>City</label>
+          <input type="text" id="loc-city-input" placeholder="Type city name..." value="${cityActive ? escapeHtml(locationState.cityName || '') : ''}" autocomplete="off">
+          <div class="city-autocomplete__results" id="loc-city-results" style="display:none;"></div>
+        </div>
+        <div class="filter-group">
+          <label>Distance</label>
+          <select class="distance-select" id="loc-radius-select" ${!isActive ? 'disabled' : ''}>
+            <option value="5" ${locationState.radiusKm === 5 ? 'selected' : ''}>5 km</option>
+            <option value="10" ${locationState.radiusKm === 10 ? 'selected' : ''}>10 km</option>
+            <option value="25" ${locationState.radiusKm === 25 ? 'selected' : ''}>25 km</option>
+            <option value="50" ${locationState.radiusKm === 50 ? 'selected' : ''}>50 km</option>
+            <option value="100" ${locationState.radiusKm === 100 ? 'selected' : ''}>100 km</option>
+            <option value="500" ${locationState.radiusKm === 500 ? 'selected' : ''}>Any distance</option>
+          </select>
+        </div>
+        ${isActive ? '<button class="filters-toggle" id="loc-clear-btn" style="margin-top:8px;">Clear location</button>' : ''}
+      </div>`;
+  }
+
+  async function loadCountriesDropdown() {
+    const select = document.getElementById('loc-country-select');
+    if (!select) return;
+    if (!countriesCache) {
+      try {
+        countriesCache = await api.countries();
+      } catch { countriesCache = []; }
+    }
+    let opts = '<option value="">All countries</option>';
+    for (const c of countriesCache) {
+      const sel = locationState.countryId === c.id ? ' selected' : '';
+      opts += `<option value="${c.id}"${sel}>${escapeHtml(c.name)}</option>`;
+    }
+    select.innerHTML = opts;
+  }
+
+  function wireLocationFilter(reloadFn) {
+    const nearMeBtn = document.getElementById('loc-nearme-btn');
+    const countrySelect = document.getElementById('loc-country-select');
+    const cityInput = document.getElementById('loc-city-input');
+    const cityResults = document.getElementById('loc-city-results');
+    const radiusSelect = document.getElementById('loc-radius-select');
+    const clearBtn = document.getElementById('loc-clear-btn');
+
+    loadCountriesDropdown();
+
+    if (nearMeBtn) {
+      nearMeBtn.addEventListener('click', () => {
+        if (locationState.source === 'gps') {
+          // Toggle off
+          locationState.lat = null;
+          locationState.lng = null;
+          locationState.source = null;
+          locationState.cityName = null;
+          reloadFn();
+          return;
+        }
+        if (!navigator.geolocation) return;
+        nearMeBtn.textContent = 'Locating...';
+        navigator.geolocation.getCurrentPosition(
+          (pos) => {
+            locationState.lat = pos.coords.latitude;
+            locationState.lng = pos.coords.longitude;
+            locationState.source = 'gps';
+            locationState.cityName = null;
+            reloadFn();
+          },
+          () => { nearMeBtn.textContent = 'Location denied'; },
+          { enableHighAccuracy: false, timeout: 10000 }
+        );
+      });
+    }
+
+    if (countrySelect) {
+      countrySelect.addEventListener('change', () => {
+        locationState.countryId = countrySelect.value ? parseInt(countrySelect.value) : null;
+      });
+    }
+
+    if (cityInput && cityResults) {
+      const searchCities = debounce(async () => {
+        const q = cityInput.value.trim();
+        if (q.length < 2) { cityResults.style.display = 'none'; return; }
+        try {
+          const results = await api.citiesSearch(q, locationState.countryId);
+          if (!results || results.length === 0) {
+            cityResults.style.display = 'none';
+            return;
+          }
+          cityResults.innerHTML = results.map(c =>
+            `<div class="city-autocomplete__item" data-lat="${c.latitude}" data-lng="${c.longitude}" data-name="${escapeHtml(c.name)}">${escapeHtml(c.name)}</div>`
+          ).join('');
+          cityResults.style.display = 'block';
+        } catch { cityResults.style.display = 'none'; }
+      }, 300);
+
+      cityInput.addEventListener('input', searchCities);
+      cityInput.addEventListener('focus', searchCities);
+
+      cityResults.addEventListener('click', (e) => {
+        const item = e.target.closest('.city-autocomplete__item');
+        if (!item) return;
+        locationState.lat = parseFloat(item.dataset.lat);
+        locationState.lng = parseFloat(item.dataset.lng);
+        locationState.cityName = item.dataset.name;
+        locationState.source = 'city';
+        cityInput.value = item.dataset.name;
+        cityResults.style.display = 'none';
+        reloadFn();
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!e.target.closest('.city-autocomplete')) cityResults.style.display = 'none';
+      });
+    }
+
+    if (radiusSelect) {
+      radiusSelect.addEventListener('change', () => {
+        locationState.radiusKm = parseInt(radiusSelect.value);
+        if (locationState.source) reloadFn();
+      });
+    }
+
+    if (clearBtn) {
+      clearBtn.addEventListener('click', () => {
+        locationState.lat = null;
+        locationState.lng = null;
+        locationState.source = null;
+        locationState.cityName = null;
+        reloadFn();
+      });
+    }
+  }
+
+  // ============================================================
   // SEO: Dynamic Meta Tags & Structured Data
   // ============================================================
 
@@ -765,6 +963,7 @@
             <span>${conditionBadgeHTML(product.condition) || time}</span>
             ${product.condition ? `<span>${time}</span>` : ''}
           </div>
+          ${(product.city || product.distance_km != null) ? `<div class="product-card__location">${product.city ? escapeHtml(product.city) : ''}${product.distance_km != null ? (product.city ? ' &middot; ' : '') + product.distance_km + ' km' : ''}</div>` : ''}
         </div>
       </a>`;
   }
@@ -1084,6 +1283,8 @@
 
           ${filtersHTML}
 
+          ${locationFilterHTML()}
+
           <div class="filter-bar">
             <div class="filter-bar__sort">
               <span class="filter-bar__label">Sort by:</span>
@@ -1177,6 +1378,11 @@
       router.navigate(`#/category/${catId}?${catQueryString({ condition: newCondition, page: 1 })}`);
     });
 
+    // Location filter
+    wireLocationFilter(() => {
+      router.navigate(`#/category/${catId}?${catQueryString({ page: 1 })}`);
+    });
+
     updateMeta({
       title: catName + ' - OnFire Marketplace',
       description: 'Browse ' + catName + ' listings on OnFire Marketplace.',
@@ -1192,12 +1398,29 @@
     });
 
     try {
-      let apiParams = `&order=${sort}&limit=${PAGE_SIZE}&offset=${offset}`;
-      if (txType) apiParams += `&transaction_type=eq.${txType}`;
-      if (condition) apiParams += `&condition=eq.${condition}`;
-      apiParams += buildFilterAPIParams(currentFilters);
+      let data, total;
 
-      const { data, total } = await api.byCategory(catId, apiParams);
+      if (locationState.source && locationState.lat != null && locationState.lng != null) {
+        // Location-based search via RPC
+        const sortMap = { 'created_at.desc': 'newest', 'price.asc': 'price_asc', 'price.desc': 'price_desc', 'rating.desc': 'distance' };
+        const rpcSort = sortMap[sort] || 'distance';
+        const result = await api.nearbyProducts(
+          locationState.lat, locationState.lng, locationState.radiusKm,
+          catId, null, rpcSort, PAGE_SIZE, offset
+        );
+        data = result.products || [];
+        total = result.total || 0;
+      } else {
+        // Standard category query
+        let apiParams = `&order=${sort}&limit=${PAGE_SIZE}&offset=${offset}`;
+        if (txType) apiParams += `&transaction_type=eq.${txType}`;
+        if (condition) apiParams += `&condition=eq.${condition}`;
+        apiParams += buildFilterAPIParams(currentFilters);
+        const result = await api.byCategory(catId, apiParams);
+        data = result.data;
+        total = result.total;
+      }
+
       const totalPages = total != null ? Math.ceil(total / PAGE_SIZE) : 1;
 
       const countEl = document.getElementById('cat-count');
@@ -1205,7 +1428,7 @@
 
       const container = document.getElementById('cat-products');
       if (!data || data.length === 0) {
-        container.innerHTML = emptyStateHTML('\uD83D\uDCE6', 'No products found', `No active listings in ${catName} yet.`,
+        container.innerHTML = emptyStateHTML('\uD83D\uDCE6', 'No products found', `No active listings in ${catName}${locationState.source ? ' near this location' : ''}.`,
           `<a href="#/" class="btn btn--primary">Browse All</a>`);
       } else {
         container.innerHTML = `<div class="products-grid">${data.map(productCardHTML).join('')}</div>`;
@@ -1265,6 +1488,8 @@
             </div>
           </div>` : ''}
 
+          ${locationFilterHTML()}
+
           <div id="search-products">${q ? skeletonGridHTML(8) : ''}</div>
           <div id="search-pagination"></div>
         </div>
@@ -1294,20 +1519,39 @@
       });
     }
 
+    // Location filter
+    wireLocationFilter(() => {
+      if (q) router.navigate(`#/search?q=${encodeURIComponent(q)}&sort=${sort}&page=1`);
+    });
+
     updateMeta({
       title: q ? 'Search: ' + q + ' - OnFire Marketplace' : 'Search - OnFire Marketplace',
       description: q ? 'Search results for ' + q + ' on OnFire Marketplace.' : 'Search products and services on OnFire Marketplace.',
       url: SITE_URL + '/#/search' + (q ? '?q=' + encodeURIComponent(q) : ''),
     });
 
-    if (!q) return;
+    if (!q && !locationState.source) return;
 
     try {
+      let data, total;
       const searchFilters = parseFiltersFromQuery(query);
-      let searchApiParams = `&order=${sort}&limit=${PAGE_SIZE}&offset=${offset}`;
-      searchApiParams += buildFilterAPIParams(searchFilters);
 
-      const { data, total } = await api.search(q, searchApiParams);
+      if (locationState.source && locationState.lat != null && locationState.lng != null) {
+        const sortMap = { 'created_at.desc': 'newest', 'price.asc': 'price_asc', 'price.desc': 'price_desc', 'rating.desc': 'distance' };
+        const rpcSort = sortMap[sort] || 'distance';
+        const result = await api.nearbyProducts(
+          locationState.lat, locationState.lng, locationState.radiusKm,
+          null, q || null, rpcSort, PAGE_SIZE, offset
+        );
+        data = result.products || [];
+        total = result.total || 0;
+      } else {
+        let searchApiParams = `&order=${sort}&limit=${PAGE_SIZE}&offset=${offset}`;
+        searchApiParams += buildFilterAPIParams(searchFilters);
+        const result = await api.search(q, searchApiParams);
+        data = result.data;
+        total = result.total;
+      }
       const totalPages = total != null ? Math.ceil(total / PAGE_SIZE) : 1;
 
       const countEl = document.getElementById('search-count');

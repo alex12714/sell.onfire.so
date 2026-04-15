@@ -1783,6 +1783,101 @@ input, select {
 }
 
 /* ============================================================
+   Location Filter
+   ============================================================ */
+
+.location-filter {
+  border-top: 1px solid var(--color-border);
+  padding-top: 12px;
+  margin-top: 12px;
+  margin-bottom: 16px;
+  background: var(--color-surface);
+  padding: 16px;
+  border-radius: var(--radius-md);
+}
+
+.location-filter__title {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-text-tertiary);
+  margin-bottom: 8px;
+}
+
+.location-nearme {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 1px solid var(--color-primary);
+  border-radius: var(--radius-md);
+  color: var(--color-primary);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  background: none;
+  width: 100%;
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.location-nearme:hover {
+  background: rgba(249, 115, 22, 0.05);
+}
+
+.location-nearme--active {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.location-nearme--active:hover {
+  background: var(--color-primary-dark, #ea580c);
+  color: #fff;
+}
+
+.city-autocomplete {
+  position: relative;
+}
+
+.city-autocomplete__results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 10;
+  box-shadow: var(--shadow-md, 0 4px 12px rgba(0,0,0,.1));
+}
+
+.city-autocomplete__item {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.city-autocomplete__item:hover {
+  background: var(--color-surface);
+}
+
+.distance-select {
+  width: 100%;
+}
+
+.product-card__location {
+  font-size: 12px;
+  color: var(--color-text-tertiary, #999);
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ============================================================
    Mobile Categories (SS.COM style)
    ============================================================ */
 
