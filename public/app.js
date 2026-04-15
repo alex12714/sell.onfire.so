@@ -792,19 +792,38 @@
           reloadFn();
           return;
         }
-        if (!navigator.geolocation) return;
         nearMeBtn.textContent = 'Locating...';
-        navigator.geolocation.getCurrentPosition(
-          (pos) => {
-            locationState.lat = pos.coords.latitude;
-            locationState.lng = pos.coords.longitude;
-            locationState.source = 'gps';
-            locationState.cityName = null;
-            reloadFn();
-          },
-          () => { nearMeBtn.textContent = 'Location denied'; },
-          { enableHighAccuracy: false, timeout: 10000 }
-        );
+
+        function onLocationFound(lat, lng, source) {
+          locationState.lat = lat;
+          locationState.lng = lng;
+          locationState.source = source;
+          locationState.cityName = null;
+          reloadFn();
+        }
+
+        function fallbackToIP() {
+          fetch('http://ip-api.com/json/?fields=status,lat,lon,city,country,countryCode')
+            .then(r => r.json())
+            .then(data => {
+              if (data.status === 'success') {
+                onLocationFound(data.lat, data.lon, 'gps');
+              } else {
+                nearMeBtn.textContent = 'Location unavailable';
+              }
+            })
+            .catch(() => { nearMeBtn.textContent = 'Location unavailable'; });
+        }
+
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(
+            (pos) => onLocationFound(pos.coords.latitude, pos.coords.longitude, 'gps'),
+            () => fallbackToIP(),
+            { enableHighAccuracy: false, timeout: 5000 }
+          );
+        } else {
+          fallbackToIP();
+        }
       });
     }
 
